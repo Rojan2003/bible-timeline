@@ -1,0 +1,664 @@
+{
+ "id": "paul",
+ "title": "Paul and the first-century congregation",
+ "short": "Paul",
+ "span": "33 – 70 C.E.",
+ "min": {
+  "y": 32,
+  "f": 0.5
+ },
+ "max": {
+  "y": 71,
+  "f": 0.5
+ },
+ "maxScale": 500,
+ "intro": "Paul’s journeys and imprisonments, the events around them, and when each of his letters was written.",
+ "lanes": [
+  {
+   "id": "travel",
+   "label": "Journeys",
+   "rows": 3,
+   "tone": "accent"
+  },
+  {
+   "id": "events",
+   "label": "Events",
+   "rows": 4,
+   "tone": "key"
+  },
+  {
+   "id": "letters",
+   "label": "Letters",
+   "rows": 3,
+   "tone": "israel"
+  }
+ ],
+ "items": [
+  {
+   "id": "tour-1",
+   "lane": "travel",
+   "y": 47,
+   "f": 0,
+   "name": "First missionary tour",
+   "when": "c. 47–48 C.E.",
+   "rank": 3,
+   "y2": 48,
+   "f2": 0.9,
+   "text": "With Barnabas, and John Mark as far as Perga: Cyprus, Pisidian Antioch, Iconium, Lystra and Derbe, then back to Syrian Antioch.",
+   "refs": "Ac 13:1–14:28",
+   "sources": "it “Paul”; si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "Christianity Spreads to Many Nations",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/14/spread-of-christianity-to-many-nations/"
+    }
+   ]
+  },
+  {
+   "id": "tour-2",
+   "lane": "travel",
+   "y": 49,
+   "f": 0.3,
+   "name": "Second missionary tour",
+   "when": "c. 49–52 C.E.",
+   "rank": 3,
+   "y2": 52,
+   "f2": 0.3,
+   "text": "With Silas, joined by Timothy at Lystra and Luke at Troas: into Macedonia (Philippi, Thessalonica, Beroea), then Athens and eighteen months in Corinth.",
+   "refs": "Ac 15:36–18:22",
+   "sources": "it “Paul”; si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "A Jailer Learns the Truth",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/14/jailer-learns-the-truth/"
+    },
+    {
+     "title": "Paul and Timothy",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/14/paul-and-timothy/"
+    }
+   ]
+  },
+  {
+   "id": "tour-3",
+   "lane": "travel",
+   "y": 52,
+   "f": 0.5,
+   "name": "Third missionary tour",
+   "when": "c. 52–56 C.E.",
+   "rank": 3,
+   "y2": 56,
+   "f2": 0.45,
+   "text": "About three years in Ephesus, then Macedonia and Corinth, and back by way of Troas and Miletus toward Jerusalem.",
+   "refs": "Ac 18:23–21:19",
+   "sources": "it “Paul”; si Study 3, chart of dates"
+  },
+  {
+   "id": "caesarea",
+   "lane": "travel",
+   "y": 56,
+   "f": 0.6,
+   "name": "Held at Caesarea",
+   "when": "c. 56–58 C.E.",
+   "rank": 2,
+   "y2": 58,
+   "f2": 0.6,
+   "text": "After his arrest Paul is kept in custody for two years under Felix, then appears before Festus and appeals to Caesar.",
+   "refs": "Ac 23:12–26:32",
+   "sources": "it “Paul”"
+  },
+  {
+   "id": "voyage",
+   "lane": "travel",
+   "y": 58,
+   "f": 0.6,
+   "name": "Voyage to Rome",
+   "when": "c. 58–59 C.E.",
+   "rank": 1,
+   "y2": 59,
+   "f2": 0.2,
+   "text": "Sent to Rome as a prisoner. The ship is wrecked on Malta, and he reaches Rome afterward.",
+   "refs": "Ac 27:1–28:16",
+   "sources": "it “Paul”",
+   "pictures": [
+    {
+     "title": "Paul Is Sent to Rome",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/14/apostle-paul-shipwreck-rome/"
+    }
+   ]
+  },
+  {
+   "id": "rome-1",
+   "lane": "travel",
+   "y": 59,
+   "f": 0.2,
+   "name": "First imprisonment in Rome",
+   "when": "c. 59–61 C.E.",
+   "rank": 2,
+   "y2": 61,
+   "f2": 0.3,
+   "text": "Two years in his own hired house under guard, preaching to all who come to him.",
+   "refs": "Ac 28:16-31; Eph 6:20; Php 1:7, 12-14",
+   "sources": "it “Paul”"
+  },
+  {
+   "id": "released",
+   "lane": "travel",
+   "y": 61,
+   "f": 0.3,
+   "name": "Released; further travels",
+   "when": "c. 61–65 C.E.",
+   "rank": 1,
+   "y2": 65,
+   "f2": 0,
+   "text": "It appears that Nero found him innocent and released him. He visited Ephesus and Crete with Timothy and Titus, and possibly Macedonia.",
+   "refs": "1Ti 1:3; Tit 1:5",
+   "sources": "it “Paul”"
+  },
+  {
+   "id": "rome-2",
+   "lane": "travel",
+   "y": 65,
+   "f": 0,
+   "name": "Second imprisonment in Rome",
+   "when": "c. 65 C.E.",
+   "rank": 2,
+   "y2": 65,
+   "f2": 0.7,
+   "text": "In prison again at Rome, Paul writes his last letter. He likely died as a martyr under Nero shortly afterward.",
+   "refs": "2Ti 4:6-8",
+   "sources": "it “Paul”"
+  },
+  {
+   "id": "pentecost",
+   "lane": "events",
+   "y": 33,
+   "f": 0.39,
+   "name": "Pentecost: the congregation begins",
+   "when": "33 C.E., Sivan 6",
+   "rank": 2,
+   "text": "Holy spirit is poured out and the Christian congregation is formed.",
+   "refs": "Ac 2:1-17, 38",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "The Disciples Receive Holy Spirit",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/14/disciples-receive-holy-spirit-pentecost/"
+    }
+   ]
+  },
+  {
+   "id": "conversion",
+   "lane": "events",
+   "y": 34,
+   "f": 0.5,
+   "name": "Saul is converted near Damascus",
+   "when": "Date not given (before 36 C.E.)",
+   "rank": 2,
+   "text": "Jesus appears to Saul on the road to Damascus. Ananias restores his sight and he is baptized.",
+   "refs": "Ac 9:3-19; 22:6-11; 26:12-18",
+   "sources": "it “Paul”",
+   "approx": "The article gives no date for his conversion. It is placed here before his first visit to Jerusalem.",
+   "pictures": [
+    {
+     "title": "Jesus Chooses Saul",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/14/jesus-chooses-saul/"
+    }
+   ]
+  },
+  {
+   "id": "first-visit",
+   "lane": "events",
+   "y": 36,
+   "f": 0.3,
+   "name": "First visit to Jerusalem as a disciple",
+   "when": "Perhaps 36 C.E.",
+   "rank": 1,
+   "text": "Barnabas brings him to the apostles. He meets Peter and James, then leaves by way of Caesarea for Tarsus.",
+   "refs": "Ac 9:26-30; Ga 1:18-21",
+   "sources": "it “Paul”"
+  },
+  {
+   "id": "cornelius",
+   "lane": "events",
+   "y": 36,
+   "f": 0.7,
+   "name": "Cornelius becomes a Christian",
+   "when": "36 C.E.",
+   "rank": 1,
+   "text": "Peter visits Cornelius, the first uncircumcised Gentile to become a Christian. The seventy weeks end.",
+   "refs": "Ac 10:1-48; Da 9:24-27",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "Cornelius Receives Holy Spirit",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/14/cornelius-receives-holy-spirit/"
+    }
+   ]
+  },
+  {
+   "id": "james",
+   "lane": "events",
+   "y": 44,
+   "f": 0.3,
+   "name": "James executed; Peter jailed",
+   "when": "c. 44 C.E.",
+   "rank": 1,
+   "text": "Herod Agrippa I has the apostle James put to death and imprisons Peter.",
+   "refs": "Ac 12:1-4",
+   "sources": "it “Chronology”"
+  },
+  {
+   "id": "relief",
+   "lane": "events",
+   "y": 46,
+   "f": 0.3,
+   "name": "Relief mission to Jerusalem",
+   "when": "About 46 C.E.",
+   "rank": 1,
+   "text": "During the famine Paul and Barnabas carry relief from Antioch to the brothers in Judea.",
+   "refs": "Ac 11:27-30; 12:25",
+   "sources": "it “Paul”; it “Chronology”"
+  },
+  {
+   "id": "circumcision",
+   "lane": "events",
+   "y": 49,
+   "f": 0.1,
+   "name": "Decision on circumcision",
+   "when": "About 49 C.E.",
+   "rank": 2,
+   "text": "Paul and Barnabas take the question to Jerusalem. The governing body rules that Gentile Christians need not be circumcised.",
+   "refs": "Ac 15:1-29; Ga 2:1-10",
+   "sources": "it “Paul”; si Study 3, chart of dates"
+  },
+  {
+   "id": "corinth",
+   "lane": "events",
+   "y": 51,
+   "f": 0.0,
+   "name": "Eighteen months in Corinth",
+   "when": "c. 50–52 C.E.",
+   "rank": 1,
+   "text": "Paul works with Aquila and Priscilla and is brought before the proconsul Gallio.",
+   "refs": "Ac 18:1-18",
+   "sources": "it “Chronology”"
+  },
+  {
+   "id": "ephesus",
+   "lane": "events",
+   "y": 54,
+   "f": 0.0,
+   "name": "About three years in Ephesus",
+   "when": "During the third tour",
+   "rank": 1,
+   "text": "Paul teaches in the school of Tyrannus, and the word of Jehovah spreads through the district of Asia.",
+   "refs": "Ac 19:1–20:1",
+   "sources": "it “Paul”"
+  },
+  {
+   "id": "arrest",
+   "lane": "events",
+   "y": 56,
+   "f": 0.5,
+   "name": "Arrested in the temple",
+   "when": "c. 56 C.E.",
+   "rank": 2,
+   "text": "A mob seizes Paul in the temple at Jerusalem and Roman soldiers rescue him.",
+   "refs": "Ac 21:26–23:10",
+   "sources": "it “Paul”"
+  },
+  {
+   "id": "malta",
+   "lane": "events",
+   "y": 58,
+   "f": 0.9,
+   "name": "Shipwrecked on Malta",
+   "when": "About 58 C.E.",
+   "rank": 1,
+   "text": "The ship carrying Paul to Rome is wrecked, and all on board reach land safely.",
+   "refs": "Ac 27:2–28:10",
+   "sources": "it “Paul”",
+   "pictures": [
+    {
+     "title": "Paul Is Sent to Rome",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/14/apostle-paul-shipwreck-rome/"
+    }
+   ]
+  },
+  {
+   "id": "fire",
+   "lane": "events",
+   "y": 64,
+   "f": 0.55,
+   "name": "Fire of Rome",
+   "when": "July 64 C.E.",
+   "rank": 1,
+   "text": "A great fire devastates Rome and Nero’s persecution of Christians follows.",
+   "sources": "it “Chronology”"
+  },
+  {
+   "id": "jerusalem-70",
+   "lane": "events",
+   "y": 70,
+   "f": 0.6,
+   "name": "Jerusalem destroyed by the Romans",
+   "when": "70 C.E.",
+   "rank": 2,
+   "text": "Jerusalem and its temple are destroyed, as Jesus had foretold.",
+   "refs": "Da 9:27; Mt 23:37, 38; Lu 19:42-44",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "letter-1th",
+   "lane": "letters",
+   "y": 50,
+   "f": 0.5,
+   "name": "1 Thessalonians",
+   "when": "c. 50 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Corinth.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Corinth"
+    ],
+    [
+     "Completed",
+     "c. 50 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-2th",
+   "lane": "letters",
+   "y": 51,
+   "f": 0.3,
+   "name": "2 Thessalonians",
+   "when": "c. 51 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Corinth.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Corinth"
+    ],
+    [
+     "Completed",
+     "c. 51 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-ga",
+   "lane": "letters",
+   "y": 51,
+   "f": 0.8,
+   "name": "Galatians",
+   "when": "c. 50–52 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Corinth or Syrian Antioch.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Corinth or Syrian Antioch"
+    ],
+    [
+     "Completed",
+     "c. 50–52 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-1co",
+   "lane": "letters",
+   "y": 55,
+   "f": 0.2,
+   "name": "1 Corinthians",
+   "when": "c. 55 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Ephesus.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Ephesus"
+    ],
+    [
+     "Completed",
+     "c. 55 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-2co",
+   "lane": "letters",
+   "y": 55,
+   "f": 0.7,
+   "name": "2 Corinthians",
+   "when": "c. 55 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Macedonia.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Macedonia"
+    ],
+    [
+     "Completed",
+     "c. 55 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-ro",
+   "lane": "letters",
+   "y": 56,
+   "f": 0.15,
+   "name": "Romans",
+   "when": "c. 56 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Corinth.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Corinth"
+    ],
+    [
+     "Completed",
+     "c. 56 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-eph",
+   "lane": "letters",
+   "y": 60,
+   "f": 0.3,
+   "name": "Ephesians",
+   "when": "c. 60–61 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Rome.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Rome"
+    ],
+    [
+     "Completed",
+     "c. 60–61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-php",
+   "lane": "letters",
+   "y": 60,
+   "f": 0.5,
+   "name": "Philippians",
+   "when": "c. 60–61 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Rome.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Rome"
+    ],
+    [
+     "Completed",
+     "c. 60–61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-col",
+   "lane": "letters",
+   "y": 60,
+   "f": 0.7,
+   "name": "Colossians",
+   "when": "c. 60–61 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Rome.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Rome"
+    ],
+    [
+     "Completed",
+     "c. 60–61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-phm",
+   "lane": "letters",
+   "y": 60,
+   "f": 0.9,
+   "name": "Philemon",
+   "when": "c. 60–61 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Rome.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Rome"
+    ],
+    [
+     "Completed",
+     "c. 60–61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-heb",
+   "lane": "letters",
+   "y": 61,
+   "f": 0.15,
+   "name": "Hebrews",
+   "when": "c. 61 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Rome.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Rome"
+    ],
+    [
+     "Completed",
+     "c. 61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-1ti",
+   "lane": "letters",
+   "y": 62,
+   "f": 0.5,
+   "name": "1 Timothy",
+   "when": "c. 61–64 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Macedonia.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Macedonia"
+    ],
+    [
+     "Completed",
+     "c. 61–64 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-tit",
+   "lane": "letters",
+   "y": 63,
+   "f": 0.2,
+   "name": "Titus",
+   "when": "c. 61–64 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Macedonia (?).",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Macedonia (?)"
+    ],
+    [
+     "Completed",
+     "c. 61–64 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "letter-2ti",
+   "lane": "letters",
+   "y": 65,
+   "f": 0.35,
+   "name": "2 Timothy",
+   "when": "c. 65 C.E.",
+   "rank": 1,
+   "text": "Written by Paul from Rome.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Written from",
+     "Rome"
+    ],
+    [
+     "Completed",
+     "c. 65 C.E."
+    ]
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "Insight on the Scriptures, “Paul”",
+   "url": "https://www.jw.org/en/library/books/Insight-on-the-Scriptures/Paul/"
+  },
+  {
+   "label": "Insight on the Scriptures, “Chronology”",
+   "url": "https://www.jw.org/en/library/books/Insight-on-the-Scriptures/Chronology/"
+  },
+  {
+   "label": "“All Scripture Is Inspired of God and Beneficial,” Study 3",
+   "url": "https://www.jw.org/en/library/books/All-Scripture-Is-Inspired-of-God-and-Beneficial/Study-Number-3-Measuring-Events-in-the-Stream-of-Time/"
+  },
+  {
+   "label": "New World Translation, Table of the Books of the Bible",
+   "url": "https://www.jw.org/en/library/bible/nwt/books-of-the-bible-list/"
+  }
+ ]
+}

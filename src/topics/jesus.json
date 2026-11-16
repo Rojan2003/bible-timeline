@@ -1,0 +1,896 @@
+{
+ "id": "jesus",
+ "title": "The life of Jesus",
+ "short": "Life of Jesus",
+ "span": "3 B.C.E. – 33 C.E.",
+ "min": {
+  "y": -4,
+  "f": 0
+ },
+ "max": {
+  "y": 33,
+  "f": 0.6
+ },
+ "maxScale": 90000,
+ "intro": "The main events of Jesus’ life on earth in time order. Zoom in on 33 C.E. to follow his last week day by day.",
+ "lanes": [
+  {
+   "id": "phase",
+   "label": "Period",
+   "rows": 1,
+   "tone": "accent"
+  },
+  {
+   "id": "events",
+   "label": "Events",
+   "rows": 7,
+   "tone": "key"
+  }
+ ],
+ "marks": [
+  {
+   "y": 30,
+   "f": 0.27,
+   "label": "Passover 30",
+   "min": 60
+  },
+  {
+   "y": 31,
+   "f": 0.27,
+   "label": "Passover 31",
+   "min": 60
+  },
+  {
+   "y": 32,
+   "f": 0.27,
+   "label": "Passover 32",
+   "min": 60
+  },
+  {
+   "y": 33,
+   "f": 0.23013698630136986,
+   "label": "Nisan 8",
+   "min": 9000
+  },
+  {
+   "y": 33,
+   "f": 0.2328767123287671,
+   "label": "Nisan 9",
+   "min": 9000
+  },
+  {
+   "y": 33,
+   "f": 0.2356164383561644,
+   "label": "Nisan 10",
+   "min": 9000
+  },
+  {
+   "y": 33,
+   "f": 0.23835616438356164,
+   "label": "Nisan 11",
+   "min": 9000
+  },
+  {
+   "y": 33,
+   "f": 0.2410958904109589,
+   "label": "Nisan 12",
+   "min": 9000
+  },
+  {
+   "y": 33,
+   "f": 0.24383561643835616,
+   "label": "Nisan 13",
+   "min": 9000
+  },
+  {
+   "y": 33,
+   "f": 0.2465753424657534,
+   "label": "Nisan 14",
+   "min": 9000
+  },
+  {
+   "y": 33,
+   "f": 0.2493150684931507,
+   "label": "Nisan 15",
+   "min": 9000
+  },
+  {
+   "y": 33,
+   "f": 0.25205479452054796,
+   "label": "Nisan 16",
+   "min": 9000
+  },
+  {
+   "y": 33,
+   "f": 0.2547945205479452,
+   "label": "Nisan 17",
+   "min": 9000
+  }
+ ],
+ "items": [
+  {
+   "id": "early",
+   "lane": "phase",
+   "y": -2,
+   "f": 0.2,
+   "name": "Birth and early life",
+   "when": "2 B.C.E. – 29 C.E.",
+   "rank": 2,
+   "y2": 29,
+   "f2": 0.75,
+   "text": "From the announcements of John’s and Jesus’ births to the start of John the Baptist’s ministry. Jesus grows up in Nazareth, subject to his parents, and learns carpentry.",
+   "refs": "Mt 1:1–2:23; Lu 1:5–2:52",
+   "sources": "nwt Appendix A7-A",
+   "pictures": [
+    {
+     "title": "Angels Announce the Birth of Jesus",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/11/birth-of-jesus-announced/"
+    },
+    {
+     "title": "Young Jesus",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/11/young-jesus-in-temple/"
+    }
+   ]
+  },
+  {
+   "id": "beginning",
+   "lane": "phase",
+   "y": 29,
+   "f": 0.75,
+   "name": "Beginning of his ministry",
+   "when": "Fall of 29 – 30 C.E.",
+   "rank": 2,
+   "y2": 30,
+   "f2": 0.45,
+   "text": "From his baptism to his leaving Judea for Galilee after John is imprisoned.",
+   "refs": "Mt 3:13–4:12; Joh 1:15–4:43",
+   "sources": "nwt Appendix A7-B",
+   "pictures": [
+    {
+     "title": "Jesus Becomes the Messiah",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-becomes-the-messiah/"
+    }
+   ]
+  },
+  {
+   "id": "galilee",
+   "lane": "phase",
+   "y": 30,
+   "f": 0.45,
+   "name": "Great ministry in Galilee",
+   "when": "30 – 32 C.E.",
+   "rank": 2,
+   "y2": 32,
+   "f2": 0.75,
+   "text": "Jesus makes Capernaum his base, chooses the twelve, gives the Sermon on the Mount and makes three preaching tours of Galilee.",
+   "refs": "Mt 4:17–18:35; Mr 1:14–9:50; Lu 4:14–9:50",
+   "sources": "nwt Appendix A7-C, A7-D, A7-E",
+   "pictures": [
+    {
+     "title": "Jesus Preaches the Kingdom Message",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-preaching/"
+    },
+    {
+     "title": "The Sermon on the Mountain",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/sermon-on-mount/"
+    }
+   ]
+  },
+  {
+   "id": "judea-perea",
+   "lane": "phase",
+   "y": 32,
+   "f": 0.75,
+   "name": "Later ministry in Judea and Perea",
+   "when": "Fall of 32 – early 33 C.E.",
+   "rank": 2,
+   "y2": 33,
+   "f2": 0.23014,
+   "text": "From the Festival of Tabernacles in Jerusalem, through his teaching east of the Jordan, to his arrival near Jerusalem for the last Passover.",
+   "refs": "Lu 9:51–19:28; Joh 7:2–11:54",
+   "sources": "nwt Appendix A7-E, A7-F",
+   "pictures": [
+    {
+     "title": "Jesus Resurrects Lazarus",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-raises-lazarus/"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "lane": "phase",
+   "y": 33,
+   "f": 0.23014,
+   "name": "Final days in Jerusalem",
+   "when": "Nisan 8 – Iyyar 25, 33 C.E.",
+   "rank": 3,
+   "y2": 33,
+   "f2": 0.36164,
+   "text": "The last week before his death, his resurrection on Nisan 16, and the forty days until he ascends to heaven.",
+   "refs": "Mt 21:1–28:20; Mr 11:1–16:8; Lu 19:29–24:53; Joh 12:1–21:25",
+   "sources": "nwt Appendix A7-G, A7-H",
+   "pictures": [
+    {
+     "title": "Jesus’ Last Supper",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/jesus-last-supper/"
+    },
+    {
+     "title": "Jesus Dies at Golgotha",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/jesus-dies-golgotha/"
+    },
+    {
+     "title": "Jesus Is Resurrected",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/jesus-is-resurrected/"
+    }
+   ]
+  },
+  {
+   "id": "gabriel-zechariah",
+   "lane": "events",
+   "y": -3,
+   "f": 0.5,
+   "name": "Gabriel foretells John’s birth",
+   "when": "3 B.C.E.",
+   "rank": 1,
+   "text": "At the temple in Jerusalem the angel Gabriel tells the priest Zechariah that his wife Elizabeth will have a son, John.",
+   "refs": "Lu 1:5-25",
+   "sources": "nwt Appendix A7-A",
+   "pictures": [
+    {
+     "title": "Elizabeth Has a Baby",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/11/zechariah-elizabeth-john/"
+    }
+   ]
+  },
+  {
+   "id": "gabriel-mary",
+   "lane": "events",
+   "y": -2,
+   "f": 0.15,
+   "name": "Gabriel visits Mary",
+   "when": "c. 2 B.C.E.",
+   "rank": 1,
+   "text": "In Nazareth, Gabriel tells Mary she will give birth to Jesus. She visits her relative Elizabeth in Judea.",
+   "refs": "Lu 1:26-56",
+   "sources": "nwt Appendix A7-A",
+   "pictures": [
+    {
+     "title": "Gabriel Visits Mary",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/11/gabriel-visits-mary/"
+    }
+   ]
+  },
+  {
+   "id": "birth",
+   "lane": "events",
+   "y": -2,
+   "f": 0.75,
+   "name": "Jesus is born in Bethlehem",
+   "when": "2 B.C.E., c. October 1",
+   "rank": 3,
+   "text": "Jesus is born. An angel announces the good news to shepherds, who visit the infant. He is circumcised on the eighth day and later presented at the temple.",
+   "refs": "Mt 1:1-25; Lu 2:1-38; Joh 1:14",
+   "sources": "nwt Appendix A7-A",
+   "pictures": [
+    {
+     "title": "Angels Announce the Birth of Jesus",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/11/birth-of-jesus-announced/"
+    }
+   ]
+  },
+  {
+   "id": "egypt",
+   "lane": "events",
+   "y": -1,
+   "f": 0.9,
+   "name": "Astrologers visit; flight to Egypt",
+   "when": "1 B.C.E. or 1 C.E.",
+   "rank": 1,
+   "text": "Astrologers visit. The family flees to Egypt, Herod has the young boys killed, and after returning the family settles in Nazareth.",
+   "refs": "Mt 2:1-23; Lu 2:39, 40",
+   "sources": "nwt Appendix A7-A",
+   "pictures": [
+    {
+     "title": "Jehovah Protected Jesus",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/11/how-jesus-was-protected/"
+    }
+   ]
+  },
+  {
+   "id": "twelve-years",
+   "lane": "events",
+   "y": 12,
+   "f": 0.27,
+   "name": "Twelve-year-old Jesus at the temple",
+   "when": "12 C.E., Passover",
+   "rank": 2,
+   "text": "Jesus questions the teachers at the temple, then returns to Nazareth and continues subject to his parents.",
+   "refs": "Lu 2:41-52",
+   "sources": "nwt Appendix A7-A",
+   "pictures": [
+    {
+     "title": "Young Jesus",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/11/young-jesus-in-temple/"
+    }
+   ]
+  },
+  {
+   "id": "john-begins",
+   "lane": "events",
+   "y": 29,
+   "f": 0.25,
+   "name": "John the Baptist begins his ministry",
+   "when": "29 C.E., spring",
+   "rank": 1,
+   "text": "In the wilderness by the Jordan River, John begins preaching and baptizing.",
+   "refs": "Mt 3:1-12; Mr 1:1-8; Lu 3:1-18; Joh 1:6-8",
+   "sources": "nwt Appendix A7-A",
+   "pictures": [
+    {
+     "title": "John Prepares the Way",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/11/john-the-baptist/"
+    }
+   ]
+  },
+  {
+   "id": "baptism",
+   "lane": "events",
+   "y": 29,
+   "f": 0.75,
+   "name": "Jesus is baptized and anointed",
+   "when": "29 C.E., fall",
+   "rank": 3,
+   "text": "At the Jordan River Jesus is baptized and anointed. Jehovah declares him his Son and approves him.",
+   "refs": "Mt 3:13-17; Mr 1:9-11; Lu 3:21-38",
+   "sources": "nwt Appendix A7-B",
+   "pictures": [
+    {
+     "title": "Jesus Becomes the Messiah",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-becomes-the-messiah/"
+    }
+   ]
+  },
+  {
+   "id": "tempted",
+   "lane": "events",
+   "y": 29,
+   "f": 0.8,
+   "name": "Tempted by the Devil",
+   "when": "29 C.E., fall",
+   "rank": 1,
+   "text": "In the Judean wilderness Jesus is tempted by the Devil and rejects each temptation.",
+   "refs": "Mt 4:1-11; Mr 1:12, 13; Lu 4:1-13",
+   "sources": "nwt Appendix A7-B",
+   "pictures": [
+    {
+     "title": "The Devil Tests Jesus",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/the-devil-tests-jesus/"
+    }
+   ]
+  },
+  {
+   "id": "first-disciples",
+   "lane": "events",
+   "y": 29,
+   "f": 0.88,
+   "name": "First disciples; first miracle",
+   "when": "29 C.E., fall",
+   "rank": 1,
+   "text": "John identifies Jesus as the Lamb of God and the first disciples join him. At a wedding in Cana he turns water into wine.",
+   "refs": "Joh 1:15, 19-51; 2:1-12",
+   "sources": "nwt Appendix A7-B"
+  },
+  {
+   "id": "passover-30",
+   "lane": "events",
+   "y": 30,
+   "f": 0.27,
+   "name": "Cleanses the temple; talks with Nicodemus",
+   "when": "30 C.E., Passover",
+   "rank": 2,
+   "text": "In Jerusalem Jesus drives the sellers out of the temple and explains to Nicodemus what it means to be born again.",
+   "refs": "Joh 2:13–3:21",
+   "sources": "nwt Appendix A7-B",
+   "pictures": [
+    {
+     "title": "Jesus Cleanses the Temple",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-cleanses-the-temple/"
+    }
+   ]
+  },
+  {
+   "id": "samaria",
+   "lane": "events",
+   "y": 30,
+   "f": 0.42,
+   "name": "John imprisoned; teaches the Samaritans",
+   "when": "30 C.E., after Passover",
+   "rank": 1,
+   "text": "John is put in prison and Jesus leaves for Galilee. On the way he teaches a Samaritan woman at a well near Sychar.",
+   "refs": "Mt 4:12; Lu 3:19, 20; Joh 4:1-43",
+   "sources": "nwt Appendix A7-B",
+   "pictures": [
+    {
+     "title": "The Woman at the Well",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/the-woman-at-the-well/"
+    }
+   ]
+  },
+  {
+   "id": "kingdom-near",
+   "lane": "events",
+   "y": 30,
+   "f": 0.52,
+   "name": "Announces: “The Kingdom has drawn near”",
+   "when": "30 C.E.",
+   "rank": 1,
+   "text": "Jesus begins his great ministry in Galilee. He reads from the scroll of Isaiah at Nazareth and moves to Capernaum.",
+   "refs": "Mt 4:13-17; Mr 1:14, 15; Lu 4:14-31; Joh 4:44-54",
+   "sources": "nwt Appendix A7-C",
+   "pictures": [
+    {
+     "title": "Jesus Preaches the Kingdom Message",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-preaching/"
+    }
+   ]
+  },
+  {
+   "id": "four-fishermen",
+   "lane": "events",
+   "y": 30,
+   "f": 0.62,
+   "name": "Calls four fishermen",
+   "when": "30 C.E.",
+   "rank": 1,
+   "text": "By the Sea of Galilee he calls Simon and Andrew, James and John, and makes his first tour of Galilee with them.",
+   "refs": "Mt 4:18-25; Mr 1:16-39; Lu 5:1-11",
+   "sources": "nwt Appendix A7-C"
+  },
+  {
+   "id": "matthew",
+   "lane": "events",
+   "y": 30,
+   "f": 0.8,
+   "name": "Heals a paralytic; calls Matthew",
+   "when": "30 C.E.",
+   "rank": 1,
+   "text": "At Capernaum he heals a paralyzed man, then calls Matthew and dines with tax collectors.",
+   "refs": "Mt 9:1-17; Mr 2:1-22; Lu 5:17-39",
+   "sources": "nwt Appendix A7-C",
+   "pictures": [
+    {
+     "title": "Jesus Performs Many Miracles",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-performs-miracles/"
+    }
+   ]
+  },
+  {
+   "id": "passover-31",
+   "lane": "events",
+   "y": 31,
+   "f": 0.27,
+   "name": "Heals a sick man at Bethzatha",
+   "when": "31 C.E., Passover",
+   "rank": 2,
+   "text": "In Jerusalem he heals a man on the Sabbath, and the Jews seek to kill him.",
+   "refs": "Joh 5:1-47",
+   "sources": "nwt Appendix A7-C"
+  },
+  {
+   "id": "twelve-apostles",
+   "lane": "events",
+   "y": 31,
+   "f": 0.37,
+   "name": "Chooses the 12 apostles",
+   "when": "31 C.E., after Passover",
+   "rank": 2,
+   "text": "On a mountain near Capernaum, after praying all night, he chooses twelve apostles.",
+   "refs": "Mr 3:13-19; Lu 6:12-16",
+   "sources": "nwt Appendix A7-C",
+   "pictures": [
+    {
+     "title": "Jesus Chooses Twelve Apostles",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-12-apostles/"
+    }
+   ]
+  },
+  {
+   "id": "sermon",
+   "lane": "events",
+   "y": 31,
+   "f": 0.42,
+   "name": "Sermon on the Mount",
+   "when": "31 C.E., after Passover",
+   "rank": 3,
+   "text": "Near Capernaum he gives the Sermon on the Mount.",
+   "refs": "Mt 5:1–7:29; Lu 6:17-49",
+   "sources": "nwt Appendix A7-C",
+   "pictures": [
+    {
+     "title": "The Sermon on the Mountain",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/sermon-on-mount/"
+    }
+   ]
+  },
+  {
+   "id": "nain",
+   "lane": "events",
+   "y": 31,
+   "f": 0.55,
+   "name": "Resurrects a widow’s son",
+   "when": "31 C.E.",
+   "rank": 1,
+   "text": "At Nain he raises a widow’s only son. He then makes a second preaching tour of Galilee with the twelve.",
+   "refs": "Lu 7:11-17; 8:1-3",
+   "sources": "nwt Appendix A7-C"
+  },
+  {
+   "id": "illustrations",
+   "lane": "events",
+   "y": 31,
+   "f": 0.85,
+   "name": "Kingdom illustrations; calms a storm",
+   "when": "31 or 32 C.E.",
+   "rank": 1,
+   "text": "He teaches the crowds with illustrations about the Kingdom and calms a storm on the Sea of Galilee.",
+   "refs": "Mt 13:1-53; 8:18, 23-27; Mr 4:1-41; Lu 8:4-25",
+   "sources": "nwt Appendix A7-D"
+  },
+  {
+   "id": "jairus",
+   "lane": "events",
+   "y": 31,
+   "f": 0.93,
+   "name": "Raises Jairus’ daughter",
+   "when": "31 or 32 C.E.",
+   "rank": 1,
+   "text": "He heals a woman with a flow of blood and brings the daughter of Jairus back to life.",
+   "refs": "Mt 9:18-26; Mr 5:21-43; Lu 8:40-56",
+   "sources": "nwt Appendix A7-D"
+  },
+  {
+   "id": "apostles-sent",
+   "lane": "events",
+   "y": 32,
+   "f": 0.1,
+   "name": "Sends out the apostles; John is beheaded",
+   "when": "31 or 32 C.E.",
+   "rank": 1,
+   "text": "On a third tour of Galilee he sends the apostles out to preach. Herod has John the Baptist beheaded.",
+   "refs": "Mt 9:35–11:1; 14:1-12; Mr 6:6-29; Lu 9:1-9",
+   "sources": "nwt Appendix A7-D"
+  },
+  {
+   "id": "feeds-5000",
+   "lane": "events",
+   "y": 32,
+   "f": 0.25,
+   "name": "Feeds 5,000; walks on the sea",
+   "when": "32 C.E., near Passover",
+   "rank": 2,
+   "text": "He feeds about 5,000 men. The crowd tries to make him king. He walks on the sea and later calls himself the bread of life, and many leave him.",
+   "refs": "Mt 14:13-36; Mr 6:30-56; Lu 9:10-17; Joh 6:1-71",
+   "sources": "nwt Appendix A7-D",
+   "pictures": [
+    {
+     "title": "Jesus Feeds Thousands",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-feeds-thousands/"
+    },
+    {
+     "title": "Jesus Walks on Water",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-walks-on-water/"
+    }
+   ]
+  },
+  {
+   "id": "transfiguration",
+   "lane": "events",
+   "y": 32,
+   "f": 0.55,
+   "name": "Foretells his death; the transfiguration",
+   "when": "32 C.E., after Passover",
+   "rank": 2,
+   "text": "Near Caesarea Philippi he speaks of the keys of the Kingdom and foretells his death and resurrection. On a mountain, probably Hermon, he is transfigured and Jehovah speaks.",
+   "refs": "Mt 16:13–17:13; Mr 8:27–9:13; Lu 9:18-36",
+   "sources": "nwt Appendix A7-E"
+  },
+  {
+   "id": "tabernacles",
+   "lane": "events",
+   "y": 32,
+   "f": 0.78,
+   "name": "Teaches at the Festival of Tabernacles",
+   "when": "32 C.E., Festival of Tabernacles",
+   "rank": 2,
+   "text": "In Jerusalem he teaches at the festival, says “I am the light of the world,” and heals a man born blind.",
+   "refs": "Joh 7:11–9:41",
+   "sources": "nwt Appendix A7-E"
+  },
+  {
+   "id": "seventy",
+   "lane": "events",
+   "y": 32,
+   "f": 0.84,
+   "name": "Sends out the 70",
+   "when": "32 C.E., after the Festival of Tabernacles",
+   "rank": 1,
+   "text": "He sends out seventy disciples, gives the illustration of the neighborly Samaritan and visits the home of Martha and Mary.",
+   "refs": "Lu 10:1-42",
+   "sources": "nwt Appendix A7-E"
+  },
+  {
+   "id": "dedication",
+   "lane": "events",
+   "y": 32,
+   "f": 0.95,
+   "name": "“The fine shepherd”",
+   "when": "32 C.E., Festival of Dedication",
+   "rank": 1,
+   "text": "In Jerusalem he gives the illustration of the fine shepherd. The Jews try to stone him and he leaves for Bethany across the Jordan.",
+   "refs": "Joh 10:1-39",
+   "sources": "nwt Appendix A7-E"
+  },
+  {
+   "id": "perea",
+   "lane": "events",
+   "y": 33,
+   "f": 0.04,
+   "name": "Teaches in Perea",
+   "when": "After the Festival of Dedication",
+   "rank": 1,
+   "text": "Traveling toward Jerusalem he teaches in the cities and villages of Perea, giving the illustrations of the lost sheep, the lost coin and the lost son.",
+   "refs": "Lu 13:22–17:10",
+   "sources": "nwt Appendix A7-F"
+  },
+  {
+   "id": "lazarus",
+   "lane": "events",
+   "y": 33,
+   "f": 0.13,
+   "name": "Resurrects Lazarus",
+   "when": "After the Festival of Dedication",
+   "rank": 3,
+   "text": "At Bethany, Lazarus dies and Jesus brings him back to life. The leaders plot to kill Jesus.",
+   "refs": "Joh 11:1-54",
+   "sources": "nwt Appendix A7-F",
+   "pictures": [
+    {
+     "title": "Jesus Resurrects Lazarus",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/12/jesus-raises-lazarus/"
+    }
+   ]
+  },
+  {
+   "id": "jericho",
+   "lane": "events",
+   "y": 33,
+   "f": 0.2,
+   "name": "Heals blind men; visits Zacchaeus",
+   "when": "After the Festival of Dedication",
+   "rank": 1,
+   "text": "Passing through Jericho on the way to Jerusalem he heals two blind men and visits Zacchaeus.",
+   "refs": "Mt 20:29-34; Mr 10:46-52; Lu 18:35–19:28",
+   "sources": "nwt Appendix A7-F"
+  },
+  {
+   "id": "nisan-8",
+   "lane": "events",
+   "y": 33,
+   "f": 0.23151,
+   "name": "Arrives at Bethany",
+   "when": "Nisan 8, 33 C.E.",
+   "rank": 1,
+   "text": "Jesus arrives six days before the Passover.",
+   "refs": "Joh 11:55–12:1",
+   "sources": "nwt Appendix A7-G"
+  },
+  {
+   "id": "nisan-9",
+   "lane": "events",
+   "y": 33,
+   "f": 0.23425,
+   "name": "Enters Jerusalem on a donkey",
+   "when": "Nisan 9, 33 C.E.",
+   "rank": 2,
+   "text": "Mary pours oil on his head and feet at Bethany. He then enters Jerusalem triumphantly, riding on a donkey.",
+   "refs": "Mt 21:1-11, 14-17; 26:6-13; Mr 11:1-11; Lu 19:29-44; Joh 12:2-19",
+   "sources": "nwt Appendix A7-G"
+  },
+  {
+   "id": "nisan-10",
+   "lane": "events",
+   "y": 33,
+   "f": 0.23699,
+   "name": "Cleanses the temple again",
+   "when": "Nisan 10, 33 C.E.",
+   "rank": 1,
+   "text": "He curses a fig tree and cleanses the temple a second time. The chief priests scheme to destroy him. Jehovah speaks from heaven.",
+   "refs": "Mt 21:12, 13, 18, 19; Mr 11:12-19; Lu 19:45-48; Joh 12:20-50",
+   "sources": "nwt Appendix A7-G"
+  },
+  {
+   "id": "nisan-11",
+   "lane": "events",
+   "y": 33,
+   "f": 0.23973,
+   "name": "Teaches in the temple; the sign of his presence",
+   "when": "Nisan 11, 33 C.E.",
+   "rank": 2,
+   "text": "His authority is challenged. He answers questions on Caesar, the resurrection and the greatest commandment, pronounces woes on the scribes and Pharisees, and on the Mount of Olives gives the sign of his future presence.",
+   "refs": "Mt 21:19–25:46; Mr 11:20–13:37; Lu 20:1–21:38",
+   "sources": "nwt Appendix A7-G"
+  },
+  {
+   "id": "nisan-12",
+   "lane": "events",
+   "y": 33,
+   "f": 0.24247,
+   "name": "Leaders plot; Judas arranges the betrayal",
+   "when": "Nisan 12, 33 C.E.",
+   "rank": 1,
+   "text": "The Jewish leaders plot to kill him and Judas arranges to betray him.",
+   "refs": "Mt 26:1-5, 14-16; Mr 14:1, 2, 10, 11; Lu 22:1-6",
+   "sources": "nwt Appendix A7-G"
+  },
+  {
+   "id": "nisan-13",
+   "lane": "events",
+   "y": 33,
+   "f": 0.24548,
+   "name": "Prepares for the last Passover",
+   "when": "Nisan 13, 33 C.E. (Thursday afternoon)",
+   "rank": 1,
+   "text": "Jesus sends disciples to prepare the Passover.",
+   "refs": "Mt 26:17-19; Mr 14:12-16; Lu 22:7-13",
+   "sources": "nwt Appendix A7-G"
+  },
+  {
+   "id": "evening-meal",
+   "lane": "events",
+   "y": 33,
+   "f": 0.24616,
+   "name": "Passover; the Lord’s Evening Meal",
+   "when": "Nisan 14, 33 C.E. (after sunset)",
+   "rank": 2,
+   "text": "He eats the Passover with the apostles, washes their feet, dismisses Judas and institutes the Lord’s Evening Meal. He gives the command to love and prays with them.",
+   "refs": "Mt 26:20-35; Mr 14:17-31; Lu 22:14-38; Joh 13:1–17:26; 1Co 11:23-25",
+   "sources": "nwt Appendix A7-G, A7-H",
+   "pictures": [
+    {
+     "title": "Jesus’ Last Supper",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/jesus-last-supper/"
+    }
+   ]
+  },
+  {
+   "id": "arrest",
+   "lane": "events",
+   "y": 33,
+   "f": 0.24663,
+   "name": "Gethsemane: betrayal and arrest",
+   "when": "Nisan 14, 33 C.E. (night)",
+   "rank": 1,
+   "text": "After his agony in the garden he is betrayed and arrested.",
+   "refs": "Mt 26:30, 36-56; Mr 14:26, 32-52; Lu 22:39-53; Joh 18:1-12",
+   "sources": "nwt Appendix A7-H",
+   "pictures": [
+    {
+     "title": "Jesus Is Arrested",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/jesus-arrested/"
+    }
+   ]
+  },
+  {
+   "id": "trials",
+   "lane": "events",
+   "y": 33,
+   "f": 0.24734,
+   "name": "Trials; Peter denies him",
+   "when": "Nisan 14, 33 C.E.",
+   "rank": 1,
+   "text": "He is questioned by Annas, tried by Caiaphas and the Sanhedrin, and Peter denies him. He is taken to Pilate, to Herod and back to Pilate, who sentences him to death.",
+   "refs": "Mt 26:57–27:30; Mr 14:53–15:19; Lu 22:54–23:25; Joh 18:13–19:16",
+   "sources": "nwt Appendix A7-H",
+   "pictures": [
+    {
+     "title": "Peter Denies Jesus",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/peter-denies-jesus-3-times/"
+    }
+   ]
+  },
+  {
+   "id": "death",
+   "lane": "events",
+   "y": 33,
+   "f": 0.24827,
+   "name": "Dies at Golgotha",
+   "when": "Nisan 14, 33 C.E., c. 3:00 p.m. (Friday)",
+   "rank": 3,
+   "text": "Jesus dies on the torture stake. His body is taken down and placed in a tomb.",
+   "refs": "Mt 27:31-61; Mr 15:20-47; Lu 23:26-56; Joh 19:16-42",
+   "sources": "nwt Appendix A7-H",
+   "pictures": [
+    {
+     "title": "Jesus Dies at Golgotha",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/jesus-dies-golgotha/"
+    }
+   ]
+  },
+  {
+   "id": "nisan-15",
+   "lane": "events",
+   "y": 33,
+   "f": 0.25068,
+   "name": "Tomb sealed and guarded",
+   "when": "Nisan 15, 33 C.E.",
+   "rank": 1,
+   "text": "The priests and Pharisees get a guard for the tomb and seal it.",
+   "refs": "Mt 27:62-66",
+   "sources": "nwt Appendix A7-H"
+  },
+  {
+   "id": "resurrection",
+   "lane": "events",
+   "y": 33,
+   "f": 0.25288,
+   "name": "Jesus is resurrected",
+   "when": "Nisan 16, 33 C.E.",
+   "rank": 3,
+   "text": "Jesus is resurrected and appears five times to disciples that day.",
+   "refs": "Mt 28:1-15; Mr 16:1-8; Lu 24:1-49; Joh 20:1-25",
+   "sources": "nwt Appendix A7-H",
+   "pictures": [
+    {
+     "title": "Jesus Is Resurrected",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/jesus-is-resurrected/"
+    }
+   ]
+  },
+  {
+   "id": "appearances",
+   "lane": "events",
+   "y": 33,
+   "f": 0.30137,
+   "name": "More appearances; the commission",
+   "when": "After Nisan 16, 33 C.E.",
+   "rank": 1,
+   "text": "In Jerusalem and Galilee he appears to the disciples again, instructs them and commissions them to make disciples.",
+   "refs": "Mt 28:16-20; Joh 20:26–21:25; 1Co 15:5-7; Ac 1:3-8",
+   "sources": "nwt Appendix A7-H",
+   "pictures": [
+    {
+     "title": "Jesus Appears to the Fishermen",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/jesus-calls-the-fishermen/"
+    }
+   ]
+  },
+  {
+   "id": "ascension",
+   "lane": "events",
+   "y": 33,
+   "f": 0.36164,
+   "name": "Ascends to heaven",
+   "when": "Iyyar 25, 33 C.E.",
+   "rank": 2,
+   "text": "From the Mount of Olives, on the fortieth day after his resurrection, Jesus ascends to heaven.",
+   "refs": "Lu 24:50-53; Ac 1:9-12",
+   "sources": "nwt Appendix A7-H",
+   "pictures": [
+    {
+     "title": "Jesus Returns to Heaven",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/13/jesus-ascends-to-heaven/"
+    }
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "New World Translation, Appendix A7: Main Events of Jesus’ Earthly Life (A7-A to A7-H)",
+   "url": "https://www.jw.org/en/library/bible/nwt/appendix-a/events-in-jesus-life-on-earth/"
+  },
+  {
+   "label": "Lessons You Can Learn From the Bible (pictures)",
+   "url": "https://www.jw.org/en/library/books/bible-stories-lessons/"
+  }
+ ]
+}

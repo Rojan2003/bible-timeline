@@ -1,0 +1,481 @@
+{
+ "id": "powers",
+ "title": "World powers of Bible history",
+ "short": "World powers",
+ "span": "1750 B.C.E. – 70 C.E.",
+ "min": {
+  "y": -1790,
+  "f": 0
+ },
+ "max": {
+  "y": 120,
+  "f": 0
+ },
+ "maxScale": 40,
+ "intro": "The powers that ruled over God’s people, one after another, with the events where each one enters the Bible record.",
+ "lanes": [
+  {
+   "id": "power",
+   "label": "World power",
+   "rows": 2,
+   "tone": "accent"
+  },
+  {
+   "id": "events",
+   "label": "Events",
+   "rows": 6,
+   "tone": "key"
+  }
+ ],
+ "items": [
+  {
+   "id": "egypt",
+   "lane": "power",
+   "y": -1600,
+   "f": 0,
+   "name": "Egypt",
+   "when": "After 1600 B.C.E. – 1513 B.C.E.",
+   "rank": 3,
+   "y2": -1513,
+   "f2": 0,
+   "text": "The first world power of Bible history. A Pharaoh who did not know Joseph enslaved Israel. Egypt’s power was shaken at the Exodus, when Jehovah brought ten plagues and destroyed its army in the Red Sea.",
+   "refs": "Ex 1:8; 12:12; 14:27-30",
+   "sources": "si Study 3, chart of dates; it “Egypt, Egyptian”",
+   "approx": "The chart dates Egypt’s rise to “after 1600 B.C.E.” No end date is given. The bar stops at the Exodus, and Egypt’s later contacts with Israel are shown as events.",
+   "pictures": [
+    {
+     "title": "The Tenth Plague",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/4/10-plagues-egypt/"
+    },
+    {
+     "title": "The Miracle at the Red Sea",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/4/parting-the-red-sea/"
+    }
+   ]
+  },
+  {
+   "id": "assyria",
+   "lane": "power",
+   "y": -790,
+   "f": 0,
+   "name": "Assyria",
+   "when": "c. 790 – 632 B.C.E.",
+   "rank": 3,
+   "y2": -632,
+   "f2": 0,
+   "text": "Assyria pressed on Israel from the days of King Menahem, destroyed Samaria in 740 B.C.E. and invaded Judah in 732 B.C.E. Its capital, Nineveh, fell in 632 B.C.E.",
+   "refs": "2Ki 15:19, 20; 17:1-6; 18:13; Na 3:1-19",
+   "sources": "it “Assyria”; si Study 3, chart of dates",
+   "approx": "The article gives no date for when Assyria became dominant. The bar starts at its first recorded move into Israel, in Menahem’s reign.",
+   "pictures": [
+    {
+     "title": "Jehovah’s Angel Protected Hezekiah",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/9/hezekiah/"
+    }
+   ]
+  },
+  {
+   "id": "babylon",
+   "lane": "power",
+   "y": -632,
+   "f": 0,
+   "name": "Babylon",
+   "when": "632 – 539 B.C.E.",
+   "rank": 3,
+   "y2": -539,
+   "f2": 0,
+   "text": "After Nineveh fell, Babylon became the dominant power. Nebuchadnezzar defeated Egypt at Carchemish, took Jewish captives and destroyed Jerusalem in 607 B.C.E. In Daniel’s vision Babylon is the head of gold.",
+   "refs": "Da 2:32, 36-38; 7:4; 2Ki 25:8-10",
+   "sources": "nwt Appendix B9; si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "Jerusalem Is Destroyed",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/10/jerusalem-is-destroyed/"
+    },
+    {
+     "title": "A Kingdom That Will Last Forever",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/10/nebuchadnezzar-dream-statue/"
+    }
+   ]
+  },
+  {
+   "id": "medo-persia",
+   "lane": "power",
+   "y": -539,
+   "f": 0,
+   "name": "Medo-Persia",
+   "when": "539 – 331 B.C.E.",
+   "rank": 3,
+   "y2": -331,
+   "f2": 0,
+   "text": "Cyrus conquered Babylon in one night and in 537 B.C.E. decreed that the Jews could return. Under Persian kings the temple and the walls of Jerusalem were rebuilt.",
+   "refs": "Da 2:32, 39; 5:30, 31; 7:5; Ezr 1:1-4",
+   "sources": "nwt Appendix B9; si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "The Writing on the Wall",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/10/writing-on-the-wall/"
+    },
+    {
+     "title": "Esther Saves Her People",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/10/queen-esther-saves-her-people/"
+    },
+    {
+     "title": "The Walls of Jerusalem",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/10/walls-of-jerusalem-nehemiah/"
+    }
+   ]
+  },
+  {
+   "id": "greece",
+   "lane": "power",
+   "y": -331,
+   "f": 0,
+   "name": "Greece",
+   "when": "331 – 63 B.C.E.",
+   "rank": 3,
+   "y2": -63,
+   "f2": 0,
+   "text": "Alexander the Great conquered Persia, and Greece ruled Judea from 332 B.C.E. After his death his empire was divided. The Greek Septuagint translation was begun about 280 B.C.E.",
+   "refs": "Da 2:32, 39; 7:6; 8:21, 22",
+   "sources": "nwt Appendix B9; si Study 3, chart of dates"
+  },
+  {
+   "id": "rome",
+   "lane": "power",
+   "y": -63,
+   "f": 0,
+   "name": "Rome",
+   "when": "From 63 B.C.E.",
+   "rank": 3,
+   "y2": 110,
+   "f2": 0,
+   "text": "Rome ruled over Israel from 63 B.C.E. Jesus was born, preached and was put to death under Roman rule, and Rome destroyed Jerusalem in 70 C.E. The chart then names Anglo-America, which came into being during World War I (1914-1918 C.E.), beyond the years shown here.",
+   "refs": "Da 2:33, 40; 7:7; Joh 19:15; Re 17:10",
+   "sources": "nwt Appendix B9; si Study 3, chart of dates"
+  },
+  {
+   "id": "joseph-sold",
+   "lane": "events",
+   "y": -1750,
+   "f": 0,
+   "name": "Joseph sold into Egypt",
+   "when": "1750 B.C.E.",
+   "rank": 1,
+   "text": "Joseph’s brothers sell him and he is taken to Egypt as a slave.",
+   "refs": "Ge 37:2, 28, 36",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "A Slave Who Obeyed God",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/4/joseph/"
+    }
+   ]
+  },
+  {
+   "id": "joseph-ruler",
+   "lane": "events",
+   "y": -1737,
+   "f": 0,
+   "name": "Joseph made ruler under Pharaoh",
+   "when": "1737 B.C.E.",
+   "rank": 1,
+   "text": "Joseph interprets Pharaoh’s dreams and is put in charge of Egypt’s food supply.",
+   "refs": "Ge 41:40, 46",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "Jehovah Never Forgot Joseph",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/4/pharaoh-dreams/"
+    }
+   ]
+  },
+  {
+   "id": "jacob-egypt",
+   "lane": "events",
+   "y": -1728,
+   "f": 0,
+   "name": "Jacob’s family moves to Egypt",
+   "when": "1728 B.C.E.",
+   "rank": 2,
+   "text": "Jacob and his whole household come to live in Egypt.",
+   "refs": "Ge 46:26; 47:9",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "exodus",
+   "lane": "events",
+   "y": -1513,
+   "f": 0,
+   "name": "The Exodus",
+   "when": "1513 B.C.E.",
+   "rank": 3,
+   "text": "After the tenth plague Israel leaves Egypt, and Pharaoh’s army is destroyed in the Red Sea.",
+   "refs": "Ex 12:12; 14:27-30",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "The Miracle at the Red Sea",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/4/parting-the-red-sea/"
+    }
+   ]
+  },
+  {
+   "id": "shishak",
+   "lane": "events",
+   "y": -993,
+   "f": 0,
+   "name": "Shishak of Egypt invades Judah",
+   "when": "993 B.C.E.",
+   "rank": 1,
+   "text": "In Rehoboam’s fifth year Shishak takes the treasures of the temple and the palace.",
+   "refs": "1Ki 14:25, 26; 2Ch 12:2-9",
+   "sources": "si Study 3, chart of dates; it “Egypt, Egyptian”"
+  },
+  {
+   "id": "samaria",
+   "lane": "events",
+   "y": -740,
+   "f": 0,
+   "name": "Assyria takes Samaria",
+   "when": "740 B.C.E.",
+   "rank": 3,
+   "text": "After a three-year siege Samaria falls and the ten-tribe kingdom of Israel is carried into exile.",
+   "refs": "2Ki 17:6, 13, 18",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "sennacherib",
+   "lane": "events",
+   "y": -732,
+   "f": 0,
+   "name": "Sennacherib invades Judah",
+   "when": "732 B.C.E.",
+   "rank": 2,
+   "text": "In Hezekiah’s fourteenth year the Assyrians take Judah’s fortified cities. An angel strikes down 185,000 of them.",
+   "refs": "2Ki 18:13; 19:35, 36",
+   "sources": "si Study 3, chart of dates; it “Assyria”",
+   "pictures": [
+    {
+     "title": "Jehovah’s Angel Protected Hezekiah",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/9/hezekiah/"
+    }
+   ]
+  },
+  {
+   "id": "nineveh",
+   "lane": "events",
+   "y": -632,
+   "f": 0,
+   "name": "Nineveh falls",
+   "when": "632 B.C.E.",
+   "rank": 2,
+   "text": "The Assyrian capital falls to the Chaldeans and the Medes.",
+   "refs": "Na 3:7",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "megiddo",
+   "lane": "events",
+   "y": -629,
+   "f": 0,
+   "name": "Pharaoh Necho defeats Josiah",
+   "when": "c. 629 B.C.E.",
+   "rank": 1,
+   "text": "Necho marches north and King Josiah is fatally wounded at Megiddo.",
+   "refs": "2Ki 23:29; 2Ch 35:20-24",
+   "sources": "it “Egypt, Egyptian”"
+  },
+  {
+   "id": "carchemish",
+   "lane": "events",
+   "y": -625,
+   "f": 0,
+   "name": "Babylon defeats Egypt at Carchemish",
+   "when": "625 B.C.E.",
+   "rank": 2,
+   "text": "Nebuchadnezzar decisively defeats Pharaoh Necho and becomes king of Babylon.",
+   "refs": "Jer 25:1; 46:2",
+   "sources": "si Study 3, chart of dates; it “Egypt, Egyptian”"
+  },
+  {
+   "id": "captives",
+   "lane": "events",
+   "y": -617,
+   "f": 0,
+   "name": "First Jewish captives taken to Babylon",
+   "when": "617 B.C.E.",
+   "rank": 1,
+   "text": "Nebuchadnezzar takes King Jehoiachin and many others, Daniel and Ezekiel among them, to Babylon.",
+   "refs": "2Ki 24:12-18; Da 1:1-4",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "jerusalem-607",
+   "lane": "events",
+   "y": -607,
+   "f": 0,
+   "name": "Babylon destroys Jerusalem",
+   "when": "607 B.C.E.",
+   "rank": 3,
+   "text": "The temple is burned, the city destroyed and the land left desolate.",
+   "refs": "2Ki 25:8-10; Jer 52:12-14",
+   "sources": "si Study 3, chart of dates; nwt Appendix B9",
+   "pictures": [
+    {
+     "title": "Jerusalem Is Destroyed",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/10/jerusalem-is-destroyed/"
+    }
+   ]
+  },
+  {
+   "id": "babylon-falls",
+   "lane": "events",
+   "y": -539,
+   "f": 0,
+   "name": "Babylon falls to the Medes and Persians",
+   "when": "539 B.C.E.",
+   "rank": 3,
+   "text": "Cyrus takes Babylon in one night.",
+   "refs": "Da 5:30, 31",
+   "sources": "si Study 3, chart of dates; nwt Appendix B9",
+   "pictures": [
+    {
+     "title": "The Writing on the Wall",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/10/writing-on-the-wall/"
+    }
+   ]
+  },
+  {
+   "id": "cyrus-decree",
+   "lane": "events",
+   "y": -537,
+   "f": 0,
+   "name": "Cyrus lets the Jews return",
+   "when": "537 B.C.E.",
+   "rank": 2,
+   "text": "The decree of Cyrus ends the seventy years of desolation.",
+   "refs": "2Ch 36:22, 23; Ezr 1:1-4",
+   "sources": "si Study 3, chart of dates; nwt Appendix B9"
+  },
+  {
+   "id": "temple-515",
+   "lane": "events",
+   "y": -515,
+   "f": 0,
+   "name": "Second temple completed",
+   "when": "515 B.C.E.",
+   "rank": 1,
+   "text": "Zerubbabel finishes rebuilding the temple.",
+   "refs": "Ezr 6:14, 15",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "walls-455",
+   "lane": "events",
+   "y": -455,
+   "f": 0,
+   "name": "Decree to rebuild Jerusalem",
+   "when": "455 B.C.E.",
+   "rank": 2,
+   "text": "In the twentieth year of Artaxerxes, Nehemiah rebuilds the walls. The seventy weeks begin.",
+   "refs": "Ne 2:1-8; 6:15; Da 9:24",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "The Walls of Jerusalem",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/10/walls-of-jerusalem-nehemiah/"
+    }
+   ]
+  },
+  {
+   "id": "alexander",
+   "lane": "events",
+   "y": -331,
+   "f": 0,
+   "name": "Alexander conquers Persia",
+   "when": "331 B.C.E.",
+   "rank": 2,
+   "text": "Alexander the Great conquers Persia. Greece had begun to rule Judea in 332 B.C.E.",
+   "refs": "Da 8:21",
+   "sources": "nwt Appendix B9; si Study 3, chart of dates"
+  },
+  {
+   "id": "septuagint",
+   "lane": "events",
+   "y": -280,
+   "f": 0,
+   "name": "Greek Septuagint begun",
+   "when": "c. 280 B.C.E.",
+   "rank": 1,
+   "text": "Translation of the Hebrew Scriptures into Greek begins.",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "rededication",
+   "lane": "events",
+   "y": -165,
+   "f": 0,
+   "name": "Temple rededicated",
+   "when": "165 B.C.E.",
+   "rank": 1,
+   "text": "The temple is rededicated after being desecrated under Greek rule.",
+   "refs": "Joh 10:22",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "rome-63",
+   "lane": "events",
+   "y": -63,
+   "f": 0,
+   "name": "Rome rules Jerusalem",
+   "when": "63 B.C.E.",
+   "rank": 2,
+   "text": "Rome takes control of Jerusalem.",
+   "refs": "Joh 19:15; Re 17:10",
+   "sources": "si Study 3, chart of dates; nwt Appendix B9"
+  },
+  {
+   "id": "jesus-33",
+   "lane": "events",
+   "y": 33,
+   "f": 0,
+   "name": "Jesus put to death",
+   "when": "Nisan 14, 33 C.E.",
+   "rank": 2,
+   "text": "Under the Roman governor Pontius Pilate, Jesus is put to death and on the third day is resurrected.",
+   "refs": "Lu 22:20; 23:33",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "jerusalem-70",
+   "lane": "events",
+   "y": 70,
+   "f": 0,
+   "name": "Rome destroys Jerusalem",
+   "when": "70 C.E.",
+   "rank": 3,
+   "text": "Jerusalem and its temple are destroyed by the Romans.",
+   "refs": "Da 9:27; Lu 19:42-44",
+   "sources": "si Study 3, chart of dates; nwt Appendix B9"
+  }
+ ],
+ "references": [
+  {
+   "label": "New World Translation, Appendix B9: World Powers Foretold by Daniel",
+   "url": "https://www.jw.org/en/library/bible/nwt/appendix-b/daniel-2-image/"
+  },
+  {
+   "label": "“All Scripture Is Inspired of God and Beneficial,” Study 3",
+   "url": "https://www.jw.org/en/library/books/All-Scripture-Is-Inspired-of-God-and-Beneficial/Study-Number-3-Measuring-Events-in-the-Stream-of-Time/"
+  },
+  {
+   "label": "Insight on the Scriptures, “Assyria”",
+   "url": "https://www.jw.org/en/library/books/Insight-on-the-Scriptures/Assyria/"
+  },
+  {
+   "label": "Insight on the Scriptures, “Egypt, Egyptian”",
+   "url": "https://www.jw.org/en/library/books/Insight-on-the-Scriptures/Egypt-Egyptian/"
+  }
+ ]
+}

@@ -1,0 +1,1821 @@
+{
+ "id": "books",
+ "title": "When the Bible books were written",
+ "short": "Bible books",
+ "span": "1513 B.C.E. – 98 C.E.",
+ "min": {
+  "y": -1540,
+  "f": 0
+ },
+ "max": {
+  "y": 115,
+  "f": 0
+ },
+ "maxScale": 160,
+ "intro": "All 66 books at the year their writing was completed. Tap one for its writer, where it was written and the time it covers. Zoom in on the first century to separate the Greek Scriptures.",
+ "note": "“a.” means after, “b.” means before and “c.” means about. A “(?)” marks an uncertain value.",
+ "lanes": [
+  {
+   "id": "hebrew",
+   "label": "Hebrew Scriptures",
+   "rows": 7,
+   "tone": "accent"
+  },
+  {
+   "id": "greek",
+   "label": "Greek Scriptures",
+   "rows": 6,
+   "tone": "israel"
+  }
+ ],
+ "items": [
+  {
+   "id": "genesis",
+   "lane": "hebrew",
+   "y": -1513,
+   "f": 0,
+   "name": "Genesis",
+   "when": "1513 B.C.E.",
+   "rank": 3,
+   "text": "Bible book 1 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Moses"
+    ],
+    [
+     "Place written",
+     "Wilderness"
+    ],
+    [
+     "Writing completed",
+     "1513 B.C.E."
+    ],
+    [
+     "Time covered",
+     "“In the beginning” to 1657 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "exodus",
+   "lane": "hebrew",
+   "y": -1512,
+   "f": 0,
+   "name": "Exodus",
+   "when": "1512 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 2 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Moses"
+    ],
+    [
+     "Place written",
+     "Wilderness"
+    ],
+    [
+     "Writing completed",
+     "1512 B.C.E."
+    ],
+    [
+     "Time covered",
+     "1657–1512 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "leviticus",
+   "lane": "hebrew",
+   "y": -1512,
+   "f": 0,
+   "name": "Leviticus",
+   "when": "1512 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 3 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Moses"
+    ],
+    [
+     "Place written",
+     "Wilderness"
+    ],
+    [
+     "Writing completed",
+     "1512 B.C.E."
+    ],
+    [
+     "Time covered",
+     "1 month (1512 B.C.E.)"
+    ]
+   ]
+  },
+  {
+   "id": "numbers",
+   "lane": "hebrew",
+   "y": -1473,
+   "f": 0,
+   "name": "Numbers",
+   "when": "1473 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 4 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Moses"
+    ],
+    [
+     "Place written",
+     "Wilderness and Plains of Moab"
+    ],
+    [
+     "Writing completed",
+     "1473 B.C.E."
+    ],
+    [
+     "Time covered",
+     "1512–1473 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "deuteronomy",
+   "lane": "hebrew",
+   "y": -1473,
+   "f": 0,
+   "name": "Deuteronomy",
+   "when": "1473 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 5 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Moses"
+    ],
+    [
+     "Place written",
+     "Plains of Moab"
+    ],
+    [
+     "Writing completed",
+     "1473 B.C.E."
+    ],
+    [
+     "Time covered",
+     "2 months (1473 B.C.E.)"
+    ]
+   ]
+  },
+  {
+   "id": "joshua",
+   "lane": "hebrew",
+   "y": -1450,
+   "f": 0,
+   "name": "Joshua",
+   "when": "c. 1450 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 6 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Joshua"
+    ],
+    [
+     "Place written",
+     "Canaan"
+    ],
+    [
+     "Writing completed",
+     "c. 1450 B.C.E."
+    ],
+    [
+     "Time covered",
+     "1473–c. 1450 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "judges",
+   "lane": "hebrew",
+   "y": -1100,
+   "f": 0,
+   "name": "Judges",
+   "when": "c. 1100 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 7 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Samuel"
+    ],
+    [
+     "Place written",
+     "Israel"
+    ],
+    [
+     "Writing completed",
+     "c. 1100 B.C.E."
+    ],
+    [
+     "Time covered",
+     "c. 1450–c. 1120 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "ruth",
+   "lane": "hebrew",
+   "y": -1090,
+   "f": 0,
+   "name": "Ruth",
+   "when": "c. 1090 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 8 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Samuel"
+    ],
+    [
+     "Place written",
+     "Israel"
+    ],
+    [
+     "Writing completed",
+     "c. 1090 B.C.E."
+    ],
+    [
+     "Time covered",
+     "11 years of the judges’ rule"
+    ]
+   ]
+  },
+  {
+   "id": "1-samuel",
+   "lane": "hebrew",
+   "y": -1078,
+   "f": 0,
+   "name": "1 Samuel",
+   "when": "c. 1078 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 9 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Samuel; Gad; Nathan"
+    ],
+    [
+     "Place written",
+     "Israel"
+    ],
+    [
+     "Writing completed",
+     "c. 1078 B.C.E."
+    ],
+    [
+     "Time covered",
+     "c. 1180–1078 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "2-samuel",
+   "lane": "hebrew",
+   "y": -1040,
+   "f": 0,
+   "name": "2 Samuel",
+   "when": "c. 1040 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 10 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Gad; Nathan"
+    ],
+    [
+     "Place written",
+     "Israel"
+    ],
+    [
+     "Writing completed",
+     "c. 1040 B.C.E."
+    ],
+    [
+     "Time covered",
+     "1077–c. 1040 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "1-kings",
+   "lane": "hebrew",
+   "y": -580,
+   "f": 0,
+   "name": "1 Kings",
+   "when": "580 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 11 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Jeremiah"
+    ],
+    [
+     "Place written",
+     "Judah"
+    ],
+    [
+     "Writing completed",
+     "580 B.C.E."
+    ],
+    [
+     "Time covered",
+     "c. 1040–911 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "2-kings",
+   "lane": "hebrew",
+   "y": -580,
+   "f": 0,
+   "name": "2 Kings",
+   "when": "580 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 12 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Jeremiah"
+    ],
+    [
+     "Place written",
+     "Judah and Egypt"
+    ],
+    [
+     "Writing completed",
+     "580 B.C.E."
+    ],
+    [
+     "Time covered",
+     "c. 920–580 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "1-chronicles",
+   "lane": "hebrew",
+   "y": -460,
+   "f": 0,
+   "name": "1 Chronicles",
+   "when": "c. 460 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 13 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Ezra"
+    ],
+    [
+     "Place written",
+     "Jerusalem (?)"
+    ],
+    [
+     "Writing completed",
+     "c. 460 B.C.E."
+    ],
+    [
+     "Time covered",
+     "c. 1077–1037 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "2-chronicles",
+   "lane": "hebrew",
+   "y": -460,
+   "f": 0,
+   "name": "2 Chronicles",
+   "when": "c. 460 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 14 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Ezra"
+    ],
+    [
+     "Place written",
+     "Jerusalem (?)"
+    ],
+    [
+     "Writing completed",
+     "c. 460 B.C.E."
+    ],
+    [
+     "Time covered",
+     "c. 1037–537 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "ezra",
+   "lane": "hebrew",
+   "y": -460,
+   "f": 0,
+   "name": "Ezra",
+   "when": "c. 460 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 15 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Ezra"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "c. 460 B.C.E."
+    ],
+    [
+     "Time covered",
+     "537–c. 467 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "nehemiah",
+   "lane": "hebrew",
+   "y": -443,
+   "f": 0,
+   "name": "Nehemiah",
+   "when": "a. 443 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 16 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Nehemiah"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "a. 443 B.C.E."
+    ],
+    [
+     "Time covered",
+     "456–a. 443 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "esther",
+   "lane": "hebrew",
+   "y": -475,
+   "f": 0,
+   "name": "Esther",
+   "when": "c. 475 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 17 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Mordecai"
+    ],
+    [
+     "Place written",
+     "Shushan, Elam"
+    ],
+    [
+     "Writing completed",
+     "c. 475 B.C.E."
+    ],
+    [
+     "Time covered",
+     "493–c. 475 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "job",
+   "lane": "hebrew",
+   "y": -1473,
+   "f": 0,
+   "name": "Job",
+   "when": "c. 1473 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 18 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Moses"
+    ],
+    [
+     "Place written",
+     "Wilderness"
+    ],
+    [
+     "Writing completed",
+     "c. 1473 B.C.E."
+    ],
+    [
+     "Time covered",
+     "Over 140 years between 1657 and 1473 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "psalms",
+   "lane": "hebrew",
+   "y": -460,
+   "f": 0,
+   "name": "Psalms",
+   "when": "c. 460 B.C.E.",
+   "rank": 3,
+   "text": "Bible book 19 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "David and others"
+    ],
+    [
+     "Writing completed",
+     "c. 460 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "proverbs",
+   "lane": "hebrew",
+   "y": -717,
+   "f": 0,
+   "name": "Proverbs",
+   "when": "c. 717 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 20 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Solomon; Agur; Lemuel"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "c. 717 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "ecclesiastes",
+   "lane": "hebrew",
+   "y": -1000,
+   "f": 0,
+   "name": "Ecclesiastes",
+   "when": "b. 1000 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 21 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Solomon"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "b. 1000 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "song-of-solomon",
+   "lane": "hebrew",
+   "y": -1020,
+   "f": 0,
+   "name": "Song of Solomon",
+   "when": "c. 1020 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 22 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Solomon"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "c. 1020 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "isaiah",
+   "lane": "hebrew",
+   "y": -732,
+   "f": 0,
+   "name": "Isaiah",
+   "when": "a. 732 B.C.E.",
+   "rank": 3,
+   "text": "Bible book 23 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Isaiah"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "a. 732 B.C.E."
+    ],
+    [
+     "Time covered",
+     "c. 778–a. 732 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "jeremiah",
+   "lane": "hebrew",
+   "y": -580,
+   "f": 0,
+   "name": "Jeremiah",
+   "when": "580 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 24 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Jeremiah"
+    ],
+    [
+     "Place written",
+     "Judah; Egypt"
+    ],
+    [
+     "Writing completed",
+     "580 B.C.E."
+    ],
+    [
+     "Time covered",
+     "647–580 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "lamentations",
+   "lane": "hebrew",
+   "y": -607,
+   "f": 0,
+   "name": "Lamentations",
+   "when": "607 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 25 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Jeremiah"
+    ],
+    [
+     "Place written",
+     "Near Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "607 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "ezekiel",
+   "lane": "hebrew",
+   "y": -591,
+   "f": 0,
+   "name": "Ezekiel",
+   "when": "c. 591 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 26 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Ezekiel"
+    ],
+    [
+     "Place written",
+     "Babylon"
+    ],
+    [
+     "Writing completed",
+     "c. 591 B.C.E."
+    ],
+    [
+     "Time covered",
+     "613–c. 591 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "daniel",
+   "lane": "hebrew",
+   "y": -536,
+   "f": 0,
+   "name": "Daniel",
+   "when": "c. 536 B.C.E.",
+   "rank": 2,
+   "text": "Bible book 27 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Daniel"
+    ],
+    [
+     "Place written",
+     "Babylon"
+    ],
+    [
+     "Writing completed",
+     "c. 536 B.C.E."
+    ],
+    [
+     "Time covered",
+     "618–c. 536 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "hosea",
+   "lane": "hebrew",
+   "y": -745,
+   "f": 0,
+   "name": "Hosea",
+   "when": "a. 745 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 28 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Hosea"
+    ],
+    [
+     "Place written",
+     "Samaria (District)"
+    ],
+    [
+     "Writing completed",
+     "a. 745 B.C.E."
+    ],
+    [
+     "Time covered",
+     "b. 804–a. 745 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "joel",
+   "lane": "hebrew",
+   "y": -820,
+   "f": 0,
+   "name": "Joel",
+   "when": "c. 820 B.C.E. (?)",
+   "rank": 1,
+   "text": "Bible book 29 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Joel"
+    ],
+    [
+     "Place written",
+     "Judah"
+    ],
+    [
+     "Writing completed",
+     "c. 820 B.C.E. (?)"
+    ]
+   ]
+  },
+  {
+   "id": "amos",
+   "lane": "hebrew",
+   "y": -804,
+   "f": 0,
+   "name": "Amos",
+   "when": "c. 804 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 30 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Amos"
+    ],
+    [
+     "Place written",
+     "Judah"
+    ],
+    [
+     "Writing completed",
+     "c. 804 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "obadiah",
+   "lane": "hebrew",
+   "y": -607,
+   "f": 0,
+   "name": "Obadiah",
+   "when": "c. 607 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 31 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Obadiah"
+    ],
+    [
+     "Writing completed",
+     "c. 607 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "jonah",
+   "lane": "hebrew",
+   "y": -844,
+   "f": 0,
+   "name": "Jonah",
+   "when": "c. 844 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 32 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Jonah"
+    ],
+    [
+     "Writing completed",
+     "c. 844 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "micah",
+   "lane": "hebrew",
+   "y": -717,
+   "f": 0,
+   "name": "Micah",
+   "when": "b. 717 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 33 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Micah"
+    ],
+    [
+     "Place written",
+     "Judah"
+    ],
+    [
+     "Writing completed",
+     "b. 717 B.C.E."
+    ],
+    [
+     "Time covered",
+     "c. 777–717 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "nahum",
+   "lane": "hebrew",
+   "y": -632,
+   "f": 0,
+   "name": "Nahum",
+   "when": "b. 632 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 34 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Nahum"
+    ],
+    [
+     "Place written",
+     "Judah"
+    ],
+    [
+     "Writing completed",
+     "b. 632 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "habakkuk",
+   "lane": "hebrew",
+   "y": -628,
+   "f": 0,
+   "name": "Habakkuk",
+   "when": "c. 628 B.C.E. (?)",
+   "rank": 1,
+   "text": "Bible book 35 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Habakkuk"
+    ],
+    [
+     "Place written",
+     "Judah"
+    ],
+    [
+     "Writing completed",
+     "c. 628 B.C.E. (?)"
+    ]
+   ]
+  },
+  {
+   "id": "zephaniah",
+   "lane": "hebrew",
+   "y": -648,
+   "f": 0,
+   "name": "Zephaniah",
+   "when": "b. 648 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 36 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Zephaniah"
+    ],
+    [
+     "Place written",
+     "Judah"
+    ],
+    [
+     "Writing completed",
+     "b. 648 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "haggai",
+   "lane": "hebrew",
+   "y": -520,
+   "f": 0,
+   "name": "Haggai",
+   "when": "520 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 37 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Haggai"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "520 B.C.E."
+    ],
+    [
+     "Time covered",
+     "112 days (520 B.C.E.)"
+    ]
+   ]
+  },
+  {
+   "id": "zechariah",
+   "lane": "hebrew",
+   "y": -518,
+   "f": 0,
+   "name": "Zechariah",
+   "when": "518 B.C.E.",
+   "rank": 1,
+   "text": "Bible book 38 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Zechariah"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "518 B.C.E."
+    ],
+    [
+     "Time covered",
+     "520–518 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "malachi",
+   "lane": "hebrew",
+   "y": -443,
+   "f": 0,
+   "name": "Malachi",
+   "when": "a. 443 B.C.E.",
+   "rank": 3,
+   "text": "Bible book 39 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Malachi"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "a. 443 B.C.E."
+    ]
+   ]
+  },
+  {
+   "id": "matthew",
+   "lane": "greek",
+   "y": 41,
+   "f": 0,
+   "name": "Matthew",
+   "when": "c. 41 C.E.",
+   "rank": 3,
+   "text": "Bible book 40 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Matthew"
+    ],
+    [
+     "Place written",
+     "Israel"
+    ],
+    [
+     "Writing completed",
+     "c. 41 C.E."
+    ],
+    [
+     "Time covered",
+     "2 B.C.E.–33 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "mark",
+   "lane": "greek",
+   "y": 60,
+   "f": 0,
+   "name": "Mark",
+   "when": "c. 60–65 C.E.",
+   "rank": 1,
+   "y2": 65,
+   "f2": 0,
+   "text": "Bible book 41 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Mark"
+    ],
+    [
+     "Place written",
+     "Rome"
+    ],
+    [
+     "Writing completed",
+     "c. 60–65 C.E."
+    ],
+    [
+     "Time covered",
+     "29–33 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "luke",
+   "lane": "greek",
+   "y": 56,
+   "f": 0,
+   "name": "Luke",
+   "when": "c. 56–58 C.E.",
+   "rank": 1,
+   "y2": 58,
+   "f2": 0,
+   "text": "Bible book 42 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Luke"
+    ],
+    [
+     "Place written",
+     "Caesarea"
+    ],
+    [
+     "Writing completed",
+     "c. 56–58 C.E."
+    ],
+    [
+     "Time covered",
+     "3 B.C.E.–33 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "john",
+   "lane": "greek",
+   "y": 98,
+   "f": 0,
+   "name": "John",
+   "when": "c. 98 C.E.",
+   "rank": 2,
+   "text": "Bible book 43 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Apostle John"
+    ],
+    [
+     "Place written",
+     "Ephesus, or near"
+    ],
+    [
+     "Writing completed",
+     "c. 98 C.E."
+    ],
+    [
+     "Time covered",
+     "After prologue, 29–33 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "acts",
+   "lane": "greek",
+   "y": 61,
+   "f": 0,
+   "name": "Acts",
+   "when": "c. 61 C.E.",
+   "rank": 2,
+   "text": "Bible book 44 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Luke"
+    ],
+    [
+     "Place written",
+     "Rome"
+    ],
+    [
+     "Writing completed",
+     "c. 61 C.E."
+    ],
+    [
+     "Time covered",
+     "33–c. 61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "romans",
+   "lane": "greek",
+   "y": 56,
+   "f": 0,
+   "name": "Romans",
+   "when": "c. 56 C.E.",
+   "rank": 2,
+   "text": "Bible book 45 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Corinth"
+    ],
+    [
+     "Writing completed",
+     "c. 56 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "1-corinthians",
+   "lane": "greek",
+   "y": 55,
+   "f": 0,
+   "name": "1 Corinthians",
+   "when": "c. 55 C.E.",
+   "rank": 1,
+   "text": "Bible book 46 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Ephesus"
+    ],
+    [
+     "Writing completed",
+     "c. 55 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "2-corinthians",
+   "lane": "greek",
+   "y": 55,
+   "f": 0,
+   "name": "2 Corinthians",
+   "when": "c. 55 C.E.",
+   "rank": 1,
+   "text": "Bible book 47 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Macedonia"
+    ],
+    [
+     "Writing completed",
+     "c. 55 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "galatians",
+   "lane": "greek",
+   "y": 50,
+   "f": 0,
+   "name": "Galatians",
+   "when": "c. 50–52 C.E.",
+   "rank": 1,
+   "y2": 52,
+   "f2": 0,
+   "text": "Bible book 48 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Corinth or Syrian Antioch"
+    ],
+    [
+     "Writing completed",
+     "c. 50–52 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "ephesians",
+   "lane": "greek",
+   "y": 60,
+   "f": 0,
+   "name": "Ephesians",
+   "when": "c. 60–61 C.E.",
+   "rank": 1,
+   "y2": 61,
+   "f2": 0,
+   "text": "Bible book 49 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Rome"
+    ],
+    [
+     "Writing completed",
+     "c. 60–61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "philippians",
+   "lane": "greek",
+   "y": 60,
+   "f": 0,
+   "name": "Philippians",
+   "when": "c. 60–61 C.E.",
+   "rank": 1,
+   "y2": 61,
+   "f2": 0,
+   "text": "Bible book 50 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Rome"
+    ],
+    [
+     "Writing completed",
+     "c. 60–61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "colossians",
+   "lane": "greek",
+   "y": 60,
+   "f": 0,
+   "name": "Colossians",
+   "when": "c. 60–61 C.E.",
+   "rank": 1,
+   "y2": 61,
+   "f2": 0,
+   "text": "Bible book 51 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Rome"
+    ],
+    [
+     "Writing completed",
+     "c. 60–61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "1-thessalonians",
+   "lane": "greek",
+   "y": 50,
+   "f": 0,
+   "name": "1 Thessalonians",
+   "when": "c. 50 C.E.",
+   "rank": 1,
+   "text": "Bible book 52 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Corinth"
+    ],
+    [
+     "Writing completed",
+     "c. 50 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "2-thessalonians",
+   "lane": "greek",
+   "y": 51,
+   "f": 0,
+   "name": "2 Thessalonians",
+   "when": "c. 51 C.E.",
+   "rank": 1,
+   "text": "Bible book 53 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Corinth"
+    ],
+    [
+     "Writing completed",
+     "c. 51 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "1-timothy",
+   "lane": "greek",
+   "y": 61,
+   "f": 0,
+   "name": "1 Timothy",
+   "when": "c. 61–64 C.E.",
+   "rank": 1,
+   "y2": 64,
+   "f2": 0,
+   "text": "Bible book 54 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Macedonia"
+    ],
+    [
+     "Writing completed",
+     "c. 61–64 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "2-timothy",
+   "lane": "greek",
+   "y": 65,
+   "f": 0,
+   "name": "2 Timothy",
+   "when": "c. 65 C.E.",
+   "rank": 1,
+   "text": "Bible book 55 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Rome"
+    ],
+    [
+     "Writing completed",
+     "c. 65 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "titus",
+   "lane": "greek",
+   "y": 61,
+   "f": 0,
+   "name": "Titus",
+   "when": "c. 61–64 C.E.",
+   "rank": 1,
+   "y2": 64,
+   "f2": 0,
+   "text": "Bible book 56 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Macedonia (?)"
+    ],
+    [
+     "Writing completed",
+     "c. 61–64 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "philemon",
+   "lane": "greek",
+   "y": 60,
+   "f": 0,
+   "name": "Philemon",
+   "when": "c. 60–61 C.E.",
+   "rank": 1,
+   "y2": 61,
+   "f2": 0,
+   "text": "Bible book 57 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Rome"
+    ],
+    [
+     "Writing completed",
+     "c. 60–61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "hebrews",
+   "lane": "greek",
+   "y": 61,
+   "f": 0,
+   "name": "Hebrews",
+   "when": "c. 61 C.E.",
+   "rank": 1,
+   "text": "Bible book 58 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Paul"
+    ],
+    [
+     "Place written",
+     "Rome"
+    ],
+    [
+     "Writing completed",
+     "c. 61 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "james",
+   "lane": "greek",
+   "y": 62,
+   "f": 0,
+   "name": "James",
+   "when": "b. 62 C.E.",
+   "rank": 1,
+   "text": "Bible book 59 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "James (Jesus’ brother)"
+    ],
+    [
+     "Place written",
+     "Jerusalem"
+    ],
+    [
+     "Writing completed",
+     "b. 62 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "1-peter",
+   "lane": "greek",
+   "y": 62,
+   "f": 0,
+   "name": "1 Peter",
+   "when": "c. 62–64 C.E.",
+   "rank": 1,
+   "y2": 64,
+   "f2": 0,
+   "text": "Bible book 60 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Peter"
+    ],
+    [
+     "Place written",
+     "Babylon"
+    ],
+    [
+     "Writing completed",
+     "c. 62–64 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "2-peter",
+   "lane": "greek",
+   "y": 64,
+   "f": 0,
+   "name": "2 Peter",
+   "when": "c. 64 C.E.",
+   "rank": 1,
+   "text": "Bible book 61 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Peter"
+    ],
+    [
+     "Place written",
+     "Babylon (?)"
+    ],
+    [
+     "Writing completed",
+     "c. 64 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "1-john",
+   "lane": "greek",
+   "y": 98,
+   "f": 0,
+   "name": "1 John",
+   "when": "c. 98 C.E.",
+   "rank": 1,
+   "text": "Bible book 62 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Apostle John"
+    ],
+    [
+     "Place written",
+     "Ephesus, or near"
+    ],
+    [
+     "Writing completed",
+     "c. 98 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "2-john",
+   "lane": "greek",
+   "y": 98,
+   "f": 0,
+   "name": "2 John",
+   "when": "c. 98 C.E.",
+   "rank": 1,
+   "text": "Bible book 63 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Apostle John"
+    ],
+    [
+     "Place written",
+     "Ephesus, or near"
+    ],
+    [
+     "Writing completed",
+     "c. 98 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "3-john",
+   "lane": "greek",
+   "y": 98,
+   "f": 0,
+   "name": "3 John",
+   "when": "c. 98 C.E.",
+   "rank": 1,
+   "text": "Bible book 64 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Apostle John"
+    ],
+    [
+     "Place written",
+     "Ephesus, or near"
+    ],
+    [
+     "Writing completed",
+     "c. 98 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "jude",
+   "lane": "greek",
+   "y": 65,
+   "f": 0,
+   "name": "Jude",
+   "when": "c. 65 C.E.",
+   "rank": 1,
+   "text": "Bible book 65 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Jude (Jesus’ brother)"
+    ],
+    [
+     "Place written",
+     "Israel (?)"
+    ],
+    [
+     "Writing completed",
+     "c. 65 C.E."
+    ]
+   ]
+  },
+  {
+   "id": "revelation",
+   "lane": "greek",
+   "y": 96,
+   "f": 0,
+   "name": "Revelation",
+   "when": "c. 96 C.E.",
+   "rank": 3,
+   "text": "Bible book 66 of 66.",
+   "sources": "nwt Table of the Books of the Bible",
+   "facts": [
+    [
+     "Writer",
+     "Apostle John"
+    ],
+    [
+     "Place written",
+     "Patmos"
+    ],
+    [
+     "Writing completed",
+     "c. 96 C.E."
+    ]
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "New World Translation, Table of the Books of the Bible",
+   "url": "https://www.jw.org/en/library/bible/nwt/books-of-the-bible-list/"
+  }
+ ]
+}

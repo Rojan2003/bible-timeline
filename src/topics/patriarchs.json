@@ -1,0 +1,810 @@
+{
+ "id": "patriarchs",
+ "title": "Lifespans from Adam to Joseph",
+ "short": "Patriarchs",
+ "span": "4026 – 1657 B.C.E.",
+ "min": {
+  "y": -4070,
+  "f": 0
+ },
+ "max": {
+  "y": -1610,
+  "f": 0
+ },
+ "maxScale": 12,
+ "intro": "Each bar is one life. Where bars overlap, those men were alive at the same time.",
+ "lanes": [
+  {
+   "id": "lives",
+   "label": "Lives",
+   "rows": 11,
+   "tone": "accent"
+  },
+  {
+   "id": "events",
+   "label": "Events",
+   "rows": 2,
+   "tone": "key"
+  }
+ ],
+ "items": [
+  {
+   "id": "adam",
+   "lane": "lives",
+   "y": -4026,
+   "f": 0,
+   "name": "Adam",
+   "when": "4026–3096 B.C.E. · 930 years",
+   "rank": 3,
+   "y2": -3096,
+   "f2": 0,
+   "text": "The first man. He was created in 4026 B.C.E. and lived long enough to see Lamech, the father of Noah, born.",
+   "refs": "Ge 2:7; 5:3-5",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Created",
+     "4026 B.C.E."
+    ],
+    [
+     "Died",
+     "3096 B.C.E."
+    ],
+    [
+     "Lived",
+     "930 years"
+    ]
+   ],
+   "pictures": [
+    {
+     "title": "God Made the First Man and Woman",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/1/god-made-adam-and-eve/"
+    }
+   ]
+  },
+  {
+   "id": "seth",
+   "lane": "lives",
+   "y": -3896,
+   "f": 0,
+   "name": "Seth",
+   "when": "3896–2984 B.C.E. · 912 years",
+   "rank": 1,
+   "y2": -2984,
+   "f2": 0,
+   "text": "Born when Adam was 130, after Cain killed Abel.",
+   "refs": "Ge 4:25; 5:3, 6-8",
+   "sources": "Worked out from the ages in Genesis 5; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "3896 B.C.E."
+    ],
+    [
+     "Died",
+     "2984 B.C.E."
+    ],
+    [
+     "Lived",
+     "912 years"
+    ]
+   ]
+  },
+  {
+   "id": "enosh",
+   "lane": "lives",
+   "y": -3791,
+   "f": 0,
+   "name": "Enosh",
+   "when": "3791–2886 B.C.E. · 905 years",
+   "rank": 1,
+   "y2": -2886,
+   "f2": 0,
+   "text": "Son of Seth. In his days people began calling on the name of Jehovah.",
+   "refs": "Ge 4:26; 5:9-11",
+   "sources": "Worked out from the ages in Genesis 5; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "3791 B.C.E."
+    ],
+    [
+     "Died",
+     "2886 B.C.E."
+    ],
+    [
+     "Lived",
+     "905 years"
+    ]
+   ]
+  },
+  {
+   "id": "kenan",
+   "lane": "lives",
+   "y": -3701,
+   "f": 0,
+   "name": "Kenan",
+   "when": "3701–2791 B.C.E. · 910 years",
+   "rank": 1,
+   "y2": -2791,
+   "f2": 0,
+   "text": "Son of Enosh.",
+   "refs": "Ge 5:12-14",
+   "sources": "Worked out from the ages in Genesis 5; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "3701 B.C.E."
+    ],
+    [
+     "Died",
+     "2791 B.C.E."
+    ],
+    [
+     "Lived",
+     "910 years"
+    ]
+   ]
+  },
+  {
+   "id": "mahalalel",
+   "lane": "lives",
+   "y": -3631,
+   "f": 0,
+   "name": "Mahalalel",
+   "when": "3631–2736 B.C.E. · 895 years",
+   "rank": 1,
+   "y2": -2736,
+   "f2": 0,
+   "text": "Son of Kenan.",
+   "refs": "Ge 5:15-17",
+   "sources": "Worked out from the ages in Genesis 5; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "3631 B.C.E."
+    ],
+    [
+     "Died",
+     "2736 B.C.E."
+    ],
+    [
+     "Lived",
+     "895 years"
+    ]
+   ]
+  },
+  {
+   "id": "jared",
+   "lane": "lives",
+   "y": -3566,
+   "f": 0,
+   "name": "Jared",
+   "when": "3566–2604 B.C.E. · 962 years",
+   "rank": 1,
+   "y2": -2604,
+   "f2": 0,
+   "text": "Son of Mahalalel and father of Enoch.",
+   "refs": "Ge 5:18-20",
+   "sources": "Worked out from the ages in Genesis 5; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "3566 B.C.E."
+    ],
+    [
+     "Died",
+     "2604 B.C.E."
+    ],
+    [
+     "Lived",
+     "962 years"
+    ]
+   ]
+  },
+  {
+   "id": "enoch",
+   "lane": "lives",
+   "y": -3404,
+   "f": 0,
+   "name": "Enoch",
+   "when": "3404–3039 B.C.E. · 365 years",
+   "rank": 2,
+   "y2": -3039,
+   "f2": 0,
+   "text": "He walked with the true God and prophesied. Then “he was no more, for God took him.”",
+   "refs": "Ge 5:21-24; Jude 14",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "3404 B.C.E."
+    ],
+    [
+     "Taken",
+     "3039 B.C.E."
+    ],
+    [
+     "Lived",
+     "365 years"
+    ]
+   ]
+  },
+  {
+   "id": "methuselah",
+   "lane": "lives",
+   "y": -3339,
+   "f": 0,
+   "name": "Methuselah",
+   "when": "3339–2370 B.C.E. · 969 years",
+   "rank": 2,
+   "y2": -2370,
+   "f2": 0,
+   "text": "The longest life in the Bible record. He died in the year of the Flood.",
+   "refs": "Ge 5:25-27",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "3339 B.C.E."
+    ],
+    [
+     "Died",
+     "2370 B.C.E."
+    ],
+    [
+     "Lived",
+     "969 years"
+    ]
+   ]
+  },
+  {
+   "id": "lamech",
+   "lane": "lives",
+   "y": -3152,
+   "f": 0,
+   "name": "Lamech",
+   "when": "3152–2375 B.C.E. · 777 years",
+   "rank": 1,
+   "y2": -2375,
+   "f2": 0,
+   "text": "Father of Noah. He died five years before the Flood.",
+   "refs": "Ge 5:28-31",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "3152 B.C.E."
+    ],
+    [
+     "Died",
+     "2375 B.C.E."
+    ],
+    [
+     "Lived",
+     "777 years"
+    ]
+   ]
+  },
+  {
+   "id": "noah",
+   "lane": "lives",
+   "y": -2970,
+   "f": 0,
+   "name": "Noah",
+   "when": "2970–2020 B.C.E. · 950 years",
+   "rank": 3,
+   "y2": -2020,
+   "f2": 0,
+   "text": "He built the ark and came through the Flood of 2370 B.C.E. with his family. He lived another 350 years, dying two years before Abraham was born.",
+   "refs": "Ge 5:32; 7:6; 9:28, 29",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2970 B.C.E."
+    ],
+    [
+     "Died",
+     "2020 B.C.E."
+    ],
+    [
+     "Lived",
+     "950 years"
+    ]
+   ],
+   "pictures": [
+    {
+     "title": "Noah’s Ark",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/2/noah-and-the-ark/"
+    },
+    {
+     "title": "Eight Survive Into a New World",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/2/noahs-family-survives/"
+    }
+   ]
+  },
+  {
+   "id": "shem",
+   "lane": "lives",
+   "y": -2468,
+   "f": 0,
+   "name": "Shem",
+   "when": "2468–1868 B.C.E. · 600 years",
+   "rank": 2,
+   "y2": -1868,
+   "f2": 0,
+   "text": "Son of Noah and a survivor of the Flood. He was still alive when Abraham was 150 years old.",
+   "refs": "Ge 7:11; 11:10, 11",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2468 B.C.E."
+    ],
+    [
+     "Died",
+     "1868 B.C.E."
+    ],
+    [
+     "Lived",
+     "600 years"
+    ]
+   ]
+  },
+  {
+   "id": "arpachshad",
+   "lane": "lives",
+   "y": -2368,
+   "f": 0,
+   "name": "Arpachshad",
+   "when": "2368–1930 B.C.E. · 438 years",
+   "rank": 1,
+   "y2": -1930,
+   "f2": 0,
+   "text": "Born to Shem two years after the Flood began.",
+   "refs": "Ge 11:10-13",
+   "sources": "Worked out from the ages in Genesis 11; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2368 B.C.E."
+    ],
+    [
+     "Died",
+     "1930 B.C.E."
+    ],
+    [
+     "Lived",
+     "438 years"
+    ]
+   ]
+  },
+  {
+   "id": "shelah",
+   "lane": "lives",
+   "y": -2333,
+   "f": 0,
+   "name": "Shelah",
+   "when": "2333–1900 B.C.E. · 433 years",
+   "rank": 1,
+   "y2": -1900,
+   "f2": 0,
+   "text": "Son of Arpachshad.",
+   "refs": "Ge 11:12-15",
+   "sources": "Worked out from the ages in Genesis 11; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2333 B.C.E."
+    ],
+    [
+     "Died",
+     "1900 B.C.E."
+    ],
+    [
+     "Lived",
+     "433 years"
+    ]
+   ]
+  },
+  {
+   "id": "eber",
+   "lane": "lives",
+   "y": -2303,
+   "f": 0,
+   "name": "Eber",
+   "when": "2303–1839 B.C.E. · 464 years",
+   "rank": 1,
+   "y2": -1839,
+   "f2": 0,
+   "text": "Son of Shelah. He outlived Abraham.",
+   "refs": "Ge 11:14-17",
+   "sources": "Worked out from the ages in Genesis 11; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2303 B.C.E."
+    ],
+    [
+     "Died",
+     "1839 B.C.E."
+    ],
+    [
+     "Lived",
+     "464 years"
+    ]
+   ]
+  },
+  {
+   "id": "peleg",
+   "lane": "lives",
+   "y": -2269,
+   "f": 0,
+   "name": "Peleg",
+   "when": "2269–2030 B.C.E. · 239 years",
+   "rank": 1,
+   "y2": -2030,
+   "f2": 0,
+   "text": "Son of Eber. In his days the earth’s population was divided, at Babel.",
+   "refs": "Ge 10:25; 11:16-19",
+   "sources": "Worked out from the ages in Genesis 11; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2269 B.C.E."
+    ],
+    [
+     "Died",
+     "2030 B.C.E."
+    ],
+    [
+     "Lived",
+     "239 years"
+    ]
+   ],
+   "pictures": [
+    {
+     "title": "The Tower of Babel",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/3/tower-babel/"
+    }
+   ]
+  },
+  {
+   "id": "reu",
+   "lane": "lives",
+   "y": -2239,
+   "f": 0,
+   "name": "Reu",
+   "when": "2239–2000 B.C.E. · 239 years",
+   "rank": 1,
+   "y2": -2000,
+   "f2": 0,
+   "text": "Son of Peleg.",
+   "refs": "Ge 11:18-21",
+   "sources": "Worked out from the ages in Genesis 11; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2239 B.C.E."
+    ],
+    [
+     "Died",
+     "2000 B.C.E."
+    ],
+    [
+     "Lived",
+     "239 years"
+    ]
+   ]
+  },
+  {
+   "id": "serug",
+   "lane": "lives",
+   "y": -2207,
+   "f": 0,
+   "name": "Serug",
+   "when": "2207–1977 B.C.E. · 230 years",
+   "rank": 1,
+   "y2": -1977,
+   "f2": 0,
+   "text": "Son of Reu.",
+   "refs": "Ge 11:20-23",
+   "sources": "Worked out from the ages in Genesis 11; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2207 B.C.E."
+    ],
+    [
+     "Died",
+     "1977 B.C.E."
+    ],
+    [
+     "Lived",
+     "230 years"
+    ]
+   ]
+  },
+  {
+   "id": "nahor",
+   "lane": "lives",
+   "y": -2177,
+   "f": 0,
+   "name": "Nahor",
+   "when": "2177–2029 B.C.E. · 148 years",
+   "rank": 1,
+   "y2": -2029,
+   "f2": 0,
+   "text": "Son of Serug and grandfather of Abraham.",
+   "refs": "Ge 11:22-25",
+   "sources": "Worked out from the ages in Genesis 11; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2177 B.C.E."
+    ],
+    [
+     "Died",
+     "2029 B.C.E."
+    ],
+    [
+     "Lived",
+     "148 years"
+    ]
+   ]
+  },
+  {
+   "id": "terah",
+   "lane": "lives",
+   "y": -2148,
+   "f": 0,
+   "name": "Terah",
+   "when": "2148–1943 B.C.E. · 205 years",
+   "rank": 1,
+   "y2": -1943,
+   "f2": 0,
+   "text": "Father of Abraham. He left Ur with his family and died in Haran.",
+   "refs": "Ge 11:24-32",
+   "sources": "Worked out from the ages in Genesis 11; si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2148 B.C.E."
+    ],
+    [
+     "Died",
+     "1943 B.C.E."
+    ],
+    [
+     "Lived",
+     "205 years"
+    ]
+   ]
+  },
+  {
+   "id": "abraham",
+   "lane": "lives",
+   "y": -2018,
+   "f": 0,
+   "name": "Abraham",
+   "when": "2018–1843 B.C.E. · 175 years",
+   "rank": 3,
+   "y2": -1843,
+   "f2": 0,
+   "text": "At 75 he crossed the Euphrates into Canaan, and Jehovah’s covenant with him took effect, in 1943 B.C.E. Isaac was born when he was 100.",
+   "refs": "Ge 12:4; 21:5; 25:7",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "2018 B.C.E."
+    ],
+    [
+     "Died",
+     "1843 B.C.E."
+    ],
+    [
+     "Lived",
+     "175 years"
+    ]
+   ],
+   "pictures": [
+    {
+     "title": "Abraham and Sarah Obeyed God",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/3/abraham-and-sarah/"
+    },
+    {
+     "title": "A Test of Faith",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/3/abraham-isaac-test-faith/"
+    }
+   ]
+  },
+  {
+   "id": "isaac",
+   "lane": "lives",
+   "y": -1918,
+   "f": 0,
+   "name": "Isaac",
+   "when": "1918–1738 B.C.E. · 180 years",
+   "rank": 2,
+   "y2": -1738,
+   "f2": 0,
+   "text": "The son Jehovah promised to Abraham and Sarah. He married Rebekah in 1878 B.C.E.",
+   "refs": "Ge 21:2, 5; 25:20; 35:28, 29",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "1918 B.C.E."
+    ],
+    [
+     "Died",
+     "1738 B.C.E."
+    ],
+    [
+     "Lived",
+     "180 years"
+    ]
+   ],
+   "pictures": [
+    {
+     "title": "A Son At Last!",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/3/isaac-and-ishmael/"
+    }
+   ]
+  },
+  {
+   "id": "jacob",
+   "lane": "lives",
+   "y": -1858,
+   "f": 0,
+   "name": "Jacob",
+   "when": "1858–1711 B.C.E. · 147 years",
+   "rank": 2,
+   "y2": -1711,
+   "f2": 0,
+   "text": "Twin brother of Esau, later named Israel. He moved his family to Egypt in 1728 B.C.E., when he was 130.",
+   "refs": "Ge 25:26; 32:28; 47:9, 28",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "1858 B.C.E."
+    ],
+    [
+     "Died",
+     "1711 B.C.E."
+    ],
+    [
+     "Lived",
+     "147 years"
+    ]
+   ],
+   "pictures": [
+    {
+     "title": "Jacob Got the Inheritance",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/3/jacob-esau-inheritance/"
+    }
+   ]
+  },
+  {
+   "id": "joseph",
+   "lane": "lives",
+   "y": -1767,
+   "f": 0,
+   "name": "Joseph",
+   "when": "1767–1657 B.C.E. · 110 years",
+   "rank": 2,
+   "y2": -1657,
+   "f2": 0,
+   "text": "Sold into Egypt at 17 and made ruler under Pharaoh at 30. Genesis ends with his death.",
+   "refs": "Ge 37:2, 28; 41:46; 50:26",
+   "sources": "si Study 3, chart of dates",
+   "facts": [
+    [
+     "Born",
+     "1767 B.C.E."
+    ],
+    [
+     "Died",
+     "1657 B.C.E."
+    ],
+    [
+     "Lived",
+     "110 years"
+    ]
+   ],
+   "pictures": [
+    {
+     "title": "A Slave Who Obeyed God",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/4/joseph/"
+    },
+    {
+     "title": "Jehovah Never Forgot Joseph",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/4/pharaoh-dreams/"
+    }
+   ]
+  },
+  {
+   "id": "flood",
+   "lane": "events",
+   "y": -2370,
+   "f": 0.8,
+   "name": "The Flood",
+   "when": "2370 B.C.E.",
+   "rank": 3,
+   "text": "The floodwaters fall in the autumn. Eight people survive in the ark.",
+   "refs": "Ge 7:6, 11",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "Noah’s Ark",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/2/noah-and-the-ark/"
+    },
+    {
+     "title": "Eight Survive Into a New World",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/2/noahs-family-survives/"
+    }
+   ]
+  },
+  {
+   "id": "babel",
+   "lane": "events",
+   "y": -2269,
+   "f": 0,
+   "name": "Tower of Babel",
+   "when": "After 2269 B.C.E.",
+   "rank": 2,
+   "text": "The building of the tower and the confusing of languages, in the days of Peleg.",
+   "refs": "Ge 10:25; 11:4-9",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "The Tower of Babel",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/3/tower-babel/"
+    }
+   ]
+  },
+  {
+   "id": "covenant",
+   "lane": "events",
+   "y": -1943,
+   "f": 0,
+   "name": "Abrahamic covenant takes effect",
+   "when": "1943 B.C.E.",
+   "rank": 2,
+   "text": "Abraham crosses the Euphrates and the 430 years to the Exodus begin.",
+   "refs": "Ge 12:4, 7; Ex 12:40; Ga 3:17",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "Abraham and Sarah Obeyed God",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/3/abraham-and-sarah/"
+    }
+   ]
+  },
+  {
+   "id": "to-egypt",
+   "lane": "events",
+   "y": -1728,
+   "f": 0,
+   "name": "Jacob moves to Egypt",
+   "when": "1728 B.C.E.",
+   "rank": 1,
+   "text": "Jacob and his whole family enter Egypt.",
+   "refs": "Ge 46:26; 47:9",
+   "sources": "si Study 3, chart of dates"
+  }
+ ],
+ "references": [
+  {
+   "label": "“All Scripture Is Inspired of God and Beneficial,” Study 3, chart of dates",
+   "url": "https://www.jw.org/en/library/books/All-Scripture-Is-Inspired-of-God-and-Beneficial/Study-Number-3-Measuring-Events-in-the-Stream-of-Time/"
+  },
+  {
+   "label": "Genesis chapters 5 and 11, New World Translation",
+   "url": "https://www.jw.org/en/library/bible/nwt/books/genesis/5/"
+  }
+ ]
+}

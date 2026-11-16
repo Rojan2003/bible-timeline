@@ -1,0 +1,523 @@
+{
+ "id": "judges",
+ "title": "The Judges",
+ "short": "Judges",
+ "span": "1473 – 1117 B.C.E.",
+ "min": {
+  "y": -1490,
+  "f": 0
+ },
+ "max": {
+  "y": -1100,
+  "f": 0
+ },
+ "maxScale": 40,
+ "intro": "From the entry into Canaan to Israel’s first king. The dated events are on the lower row.",
+ "note": "The judges are shown in the Bible’s order, evenly spaced. The Bible does not give their dates, and some served at the same time in different parts of the land.",
+ "lanes": [
+  {
+   "id": "judges",
+   "label": "Judges (order only)",
+   "rows": 4,
+   "tone": "israel"
+  },
+  {
+   "id": "dates",
+   "label": "Dated events",
+   "rows": 3,
+   "tone": "key"
+  }
+ ],
+ "items": [
+  {
+   "id": "othniel",
+   "lane": "judges",
+   "y": -1425,
+   "f": 0,
+   "name": "Othniel",
+   "when": "Judge 1 of 12 · date not given",
+   "rank": 2,
+   "refs": "Jg 3:7-11",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Judah"
+    ],
+    [
+     "Delivered Israel from",
+     "Cushan-rishathaim of Mesopotamia"
+    ],
+    [
+     "Years of oppression",
+     "8 years"
+    ],
+    [
+     "Result",
+     "The land had rest 40 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "noCross": true
+  },
+  {
+   "id": "ehud",
+   "lane": "judges",
+   "y": -1401,
+   "f": 0,
+   "name": "Ehud",
+   "when": "Judge 2 of 12 · date not given",
+   "rank": 1,
+   "refs": "Jg 3:12-30",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Benjamin"
+    ],
+    [
+     "Delivered Israel from",
+     "Eglon, king of Moab"
+    ],
+    [
+     "Years of oppression",
+     "18 years"
+    ],
+    [
+     "Result",
+     "The land had rest 80 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "noCross": true
+  },
+  {
+   "id": "shamgar",
+   "lane": "judges",
+   "y": -1377,
+   "f": 0,
+   "name": "Shamgar",
+   "when": "Judge 3 of 12 · date not given",
+   "rank": 1,
+   "refs": "Jg 3:31",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Delivered Israel from",
+     "The Philistines"
+    ],
+    [
+     "Result",
+     "Struck down 600 Philistines with a cattle goad"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "noCross": true
+  },
+  {
+   "id": "barak",
+   "lane": "judges",
+   "y": -1353,
+   "f": 0,
+   "name": "Barak",
+   "when": "Judge 4 of 12 · date not given",
+   "rank": 2,
+   "refs": "Jg 4:1–5:31",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Naphtali (?)"
+    ],
+    [
+     "Delivered Israel from",
+     "Jabin, king of Canaan, and his army chief Sisera"
+    ],
+    [
+     "Years of oppression",
+     "20 years"
+    ],
+    [
+     "Result",
+     "The land had rest 40 years. The prophetess Deborah was judging Israel and went with him."
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "pictures": [
+    {
+     "title": "A New Leader and Two Brave Women",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/deborah-barak-jael/"
+    }
+   ],
+   "noCross": true
+  },
+  {
+   "id": "gideon",
+   "lane": "judges",
+   "y": -1329,
+   "f": 0,
+   "name": "Gideon",
+   "when": "Judge 5 of 12 · date not given",
+   "rank": 2,
+   "refs": "Jg 6:1–8:28",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Manasseh"
+    ],
+    [
+     "Delivered Israel from",
+     "Midian"
+    ],
+    [
+     "Years of oppression",
+     "7 years"
+    ],
+    [
+     "Result",
+     "The land had rest 40 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "pictures": [
+    {
+     "title": "Gideon Conquered the Midianites",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/gideon-midianites/"
+    }
+   ],
+   "noCross": true
+  },
+  {
+   "id": "tola",
+   "lane": "judges",
+   "y": -1305,
+   "f": 0,
+   "name": "Tola",
+   "when": "Judge 6 of 12 · date not given",
+   "rank": 1,
+   "refs": "Jg 10:1, 2",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Issachar"
+    ],
+    [
+     "Result",
+     "Judged Israel 23 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "noCross": true
+  },
+  {
+   "id": "jair",
+   "lane": "judges",
+   "y": -1281,
+   "f": 0,
+   "name": "Jair",
+   "when": "Judge 7 of 12 · date not given",
+   "rank": 1,
+   "refs": "Jg 10:3-5",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Manasseh"
+    ],
+    [
+     "Result",
+     "Judged Israel 22 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "noCross": true
+  },
+  {
+   "id": "jephthah",
+   "lane": "judges",
+   "y": -1257,
+   "f": 0,
+   "name": "Jephthah",
+   "when": "Judge 8 of 12 · date not given",
+   "rank": 2,
+   "refs": "Jg 10:6–12:7",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Manasseh"
+    ],
+    [
+     "Delivered Israel from",
+     "The Ammonites"
+    ],
+    [
+     "Years of oppression",
+     "18 years"
+    ],
+    [
+     "Result",
+     "Judged Israel 6 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "pictures": [
+    {
+     "title": "Jephthah’s Promise",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/jephthahs-promise/"
+    }
+   ],
+   "noCross": true
+  },
+  {
+   "id": "ibzan",
+   "lane": "judges",
+   "y": -1233,
+   "f": 0,
+   "name": "Ibzan",
+   "when": "Judge 9 of 12 · date not given",
+   "rank": 1,
+   "refs": "Jg 12:8-10",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Zebulun (?)"
+    ],
+    [
+     "Result",
+     "Judged Israel 7 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "noCross": true
+  },
+  {
+   "id": "elon",
+   "lane": "judges",
+   "y": -1209,
+   "f": 0,
+   "name": "Elon",
+   "when": "Judge 10 of 12 · date not given",
+   "rank": 1,
+   "refs": "Jg 12:11, 12",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Zebulun"
+    ],
+    [
+     "Result",
+     "Judged Israel 10 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "noCross": true
+  },
+  {
+   "id": "abdon",
+   "lane": "judges",
+   "y": -1185,
+   "f": 0,
+   "name": "Abdon",
+   "when": "Judge 11 of 12 · date not given",
+   "rank": 1,
+   "refs": "Jg 12:13-15",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Ephraim"
+    ],
+    [
+     "Result",
+     "Judged Israel 8 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "noCross": true
+  },
+  {
+   "id": "samson",
+   "lane": "judges",
+   "y": -1161,
+   "f": 0,
+   "name": "Samson",
+   "when": "Judge 12 of 12 · date not given",
+   "rank": 2,
+   "refs": "Jg 13:1–16:31",
+   "sources": "Book of Judges; it “Judge”",
+   "facts": [
+    [
+     "Tribe",
+     "Dan"
+    ],
+    [
+     "Delivered Israel from",
+     "The Philistines"
+    ],
+    [
+     "Years of oppression",
+     "40 years"
+    ],
+    [
+     "Result",
+     "Judged Israel 20 years"
+    ]
+   ],
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "pictures": [
+    {
+     "title": "Jehovah Made Samson Strong",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/samson-and-delilah/"
+    }
+   ],
+   "noCross": true
+  },
+  {
+   "id": "eli",
+   "lane": "judges",
+   "y": -1160,
+   "f": 0,
+   "name": "Eli",
+   "when": "High priest · date not given",
+   "rank": 1,
+   "text": "Eli the high priest judged Israel 40 years. The boy Samuel grew up serving with him at the tabernacle in Shiloh.",
+   "refs": "1Sa 1:9; 4:18",
+   "sources": "First book of Samuel",
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "pictures": [
+    {
+     "title": "Hannah Prays for a Son",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/hannahs-prayer/"
+    },
+    {
+     "title": "Jehovah Speaks to Samuel",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/god-calls-samuel/"
+    }
+   ],
+   "noCross": true
+  },
+  {
+   "id": "samuel",
+   "lane": "judges",
+   "y": -1135,
+   "f": 0,
+   "name": "Samuel",
+   "when": "Prophet and judge · date not given",
+   "rank": 2,
+   "text": "Samuel kept judging Israel all the days of his life. He is not usually counted among the twelve judges. In 1117 B.C.E. he anointed Saul as Israel’s first king.",
+   "refs": "1Sa 7:15-17; 10:1",
+   "sources": "it “Judge”; si Study 3, chart of dates",
+   "approx": "The Bible gives the order of the judges and the length of each period, but not their dates, and some judged at the same time in different parts of the land. This position shows the order only.",
+   "pictures": [
+    {
+     "title": "Jehovah Speaks to Samuel",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/god-calls-samuel/"
+    }
+   ],
+   "noCross": true
+  },
+  {
+   "id": "entry",
+   "lane": "dates",
+   "y": -1473,
+   "f": 0,
+   "name": "Israel enters Canaan",
+   "when": "1473 B.C.E.",
+   "rank": 3,
+   "text": "Under Joshua the nation crosses the Jordan.",
+   "refs": "Jos 4:19",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "Jehovah Chose Joshua",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/joshua-promised-land/"
+    },
+    {
+     "title": "Rahab Hid the Spies",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/rahab-hid-the-spies/"
+    }
+   ]
+  },
+  {
+   "id": "conquest",
+   "lane": "dates",
+   "y": -1467,
+   "f": 0,
+   "name": "Major conquest completed",
+   "when": "1467 B.C.E.",
+   "rank": 1,
+   "text": "The main conquest of the land is finished and it is divided among the tribes.",
+   "refs": "Jos 11:23; 14:7, 10-15",
+   "sources": "si Study 3, chart of dates"
+  },
+  {
+   "id": "joshua-dies",
+   "lane": "dates",
+   "y": -1450,
+   "f": 0,
+   "name": "Joshua dies",
+   "when": "c. 1450 B.C.E.",
+   "rank": 2,
+   "text": "Joshua completes his book and dies. The period of the judges, as usually viewed, begins with Othniel sometime afterward.",
+   "refs": "Jos 24:26, 29",
+   "sources": "si Study 3, chart of dates; it “Judge”"
+  },
+  {
+   "id": "ruth",
+   "lane": "dates",
+   "y": -1300,
+   "f": 0,
+   "name": "Ruth and Naomi",
+   "when": "In the days of the judges",
+   "rank": 1,
+   "text": "The events of the book of Ruth cover about eleven years of the judges’ rule. No date is given.",
+   "refs": "Ru 1:1",
+   "sources": "nwt Table of the Books of the Bible",
+   "approx": "No date is given. It is placed in the period only to show that it belongs to these years.",
+   "pictures": [
+    {
+     "title": "Ruth and Naomi",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/6/ruth-naomi/"
+    }
+   ],
+   "noCross": true
+  },
+  {
+   "id": "saul",
+   "lane": "dates",
+   "y": -1117,
+   "f": 0,
+   "name": "Samuel anoints Saul as king",
+   "when": "1117 B.C.E.",
+   "rank": 3,
+   "text": "Israel asks for a king and the period of the judges ends.",
+   "refs": "1Sa 10:24; Ac 13:21",
+   "sources": "si Study 3, chart of dates",
+   "pictures": [
+    {
+     "title": "Israel’s First King",
+     "url": "https://www.jw.org/en/library/books/bible-stories-lessons/7/saul-king-of-israel/"
+    }
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "Insight on the Scriptures, “Judge”",
+   "url": "https://www.jw.org/en/library/books/Insight-on-the-Scriptures/Judge/"
+  },
+  {
+   "label": "Book of Judges, New World Translation",
+   "url": "https://www.jw.org/en/library/bible/nwt/books/judges/"
+  },
+  {
+   "label": "“All Scripture Is Inspired of God and Beneficial,” Study 3, chart of dates",
+   "url": "https://www.jw.org/en/library/books/All-Scripture-Is-Inspired-of-God-and-Beneficial/Study-Number-3-Measuring-Events-in-the-Stream-of-Time/"
+  }
+ ]
+}

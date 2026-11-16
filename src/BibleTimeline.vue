@@ -14,7 +14,6 @@
         <button id="zoom-out" type="button" class="btn" :disabled="scale <= minScale * 1.001" aria-label="Zoom out" @click="zoomBy(1 / 1.8)">−</button>
         <button id="zoom-in" type="button" class="btn" :disabled="scale >= maxScale * 0.999" aria-label="Zoom in" @click="zoomBy(1.8)">+</button>
         <button id="zoom-fit" type="button" class="btn wide" @click="fit(true)">Show all</button>
-        <a id="nav-kings" class="btn wide nav" href="#/kings">Kings and prophets</a>
       </div>
     </header>
   
@@ -73,7 +72,7 @@
           </div>
           <div class="era-act">
             <button type="button" class="btn wide" @click="goEra(e)">Show this period</button>
-            <a v-if="e.link === 'kings'" class="btn wide nav" href="#/kings">Kings and prophets</a>
+            <a v-for="t in e.topics" :key="t.id" class="btn wide nav" :href="t.href">{{ t.label }}</a>
           </div>
         </section>
         <p class="src">Dates and periods follow <i>Insight on the Scriptures</i>, “Chronology,” and <i>“All Scripture Is Inspired of God and Beneficial,”</i> Study 3, on jw.org.</p>
@@ -94,6 +93,7 @@
           <p>{{ e.text }}</p>
           <p v-if="e.sources" class="src">Sources: {{ e.sources }}</p>
         </li>
+        <li class="rel-li"><Related :c0="sel.c" :c1="sel.cEnd === null ? sel.c : sel.cEnd" /></li>
       </ol>
       <div class="pfoot">
         <button id="panel-prev" type="button" class="btn wide" :disabled="sel.id === 0" @click="step(-1)">← Earlier</button>
@@ -108,6 +108,8 @@
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
 import DATA from './timeline.json';
 import PERIODS from './periods.json';
+import Related from './Related.vue';
+import { topicsFor } from './topics/index.js';
 
 // The calendar has no year zero, so 1 B.C.E. sits at 0 and 1 C.E. at 1 on the number line.
 const cont = (y) => (y < 0 ? y + 1 : y);
@@ -128,7 +130,7 @@ const fmtYear = (y) => Math.abs(y) + (y < 0 ? ' B.C.E.' : ' C.E.');
 // The periods of Bible chronology, used for the "About these years" line and panel.
 const periods = PERIODS.map((p) => {
   const c0 = cont(p.from), c1 = cont(p.to), years = c1 - c0;
-  return { ...p, c0, c1, label: fmtYear(p.from) + ' – ' + fmtYear(p.to), yearsText: years.toLocaleString('en-US') + ' years' };
+  return { ...p, c0, c1, topics: topicsFor(c0, c1), label: fmtYear(p.from) + ' – ' + fmtYear(p.to), yearsText: years.toLocaleString('en-US') + ' years' };
 });
 
 // What a label looks like at each zoom level: [width, height] in px.
@@ -428,6 +430,7 @@ function setup(props) {
       const s = clampScale(3);
       selId.value = it.id;
       set(s, it.c - W.value / 2 / s);
+      if (props.openInfo) { selId.value = null; infoOpen.value = true; }
     }
     view.value.addEventListener('wheel', onWheel, { passive: false });
     if (window.ResizeObserver) { ro = new ResizeObserver(() => measure(false)); ro.observe(view.value); }
@@ -442,7 +445,7 @@ function setup(props) {
   };
 }
 
-export default { props: { focusYear: { type: Number, default: null } }, setup };
+export default { components: { Related }, props: { focusYear: { type: Number, default: null }, openInfo: { type: Boolean, default: false } }, setup };
 </script>
 
 <style>
@@ -579,6 +582,9 @@ h2 { font-family: var(--font-head); font-size: 22px; font-weight: 600; margin: 0
 .jwpics a::after { content: " ↗"; }
 .jwpics a:hover { border-color: var(--accent); }
 .jwpics a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.plist .rel-li { list-style: none; margin-left: -18px; }
+.plist.one .rel-li { margin-left: 0; }
+.plist .rel-li .rel { margin-top: 0; }
 .pfoot { display: flex; gap: 6px; padding: 10px 12px; border-top: 1px solid var(--grid); }
 .pfoot .btn { flex: 1 1 0; padding: 0 6px; white-space: nowrap; }
 

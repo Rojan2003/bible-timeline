@@ -8,9 +8,6 @@
         <h1>Kings and Prophets</h1>
         <p class="sub">Judah and Israel <span class="sep">·</span> 997–607 B.C.E.</p>
       </div>
-      <div class="ctl">
-        <a id="nav-timeline" class="btn wide nav" href="#/">← Timeline</a>
-      </div>
     </header>
 
     <div class="kp-tabrow">
@@ -21,7 +18,7 @@
       </div>
     </div>
 
-    <KingsTimeline v-if="tab === 'timeline'" @story="openStory" />
+    <KingsTimeline v-if="tab === 'timeline'" :initial="sel" @story="openStory" />
 
     <div v-else class="kp-scroll" ref="scroller">
       <div class="kp-wrap">
@@ -155,7 +152,8 @@ const INSIGHT = 'https://www.jw.org/en/library/books/Insight-on-the-Scriptures/'
 
 export default {
   components: { KingsTimeline },
-  setup() {
+  props: { sel: { type: String, default: null } },
+  setup(props) {
     const scroller = ref(null);
     const tab = ref('timeline');
     const kingdom = ref('all');
@@ -176,6 +174,8 @@ export default {
       const still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (el) el.scrollIntoView({ behavior: still ? 'auto' : 'smooth', block: 'start' });
     }
+    // A link from another timeline (#/kings?sel=...) always opens the zoomable view.
+    watch(() => props.sel, (id) => { if (id) tab.value = 'timeline'; });
     let jumping = false;
     watch(tab, () => nextTick(() => { if (scroller.value && !jumping) scroller.value.scrollTop = 0; }));
     // From the timeline view: open the story at one king's card.

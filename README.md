@@ -175,7 +175,11 @@ npm run sync -- --dry-run    # only show what would change
 | `src/KingsProphets.vue` | The Kings and Prophets page (tabs, the kings' story cards, the prophets) |
 | `src/KingsTimeline.vue` | The zoomable view on that page: Judah's kings, the prophets and Israel's kings as bars |
 | `src/kings-prophets.json` | Hand-written. The text for that page: the kings in story order, and the prophets |
-| `src/App.vue` | Switches between the two pages (`#/` timeline, `#/kings` kings and prophets) |
+| `src/App.vue` | The strip of links at the top, and switching between the pages (`#/`, `#/kings`, `#/t/<topic>`) |
+| `src/TopicTimeline.vue` | One zoomable timeline for a topic. The same component draws all six |
+| `src/topics/*.json` | Hand-written. One file per topic: `patriarchs`, `judges`, `powers`, `books`, `jesus`, `paul` |
+| `src/topics/index.js` | The shared index of everything that has a place in time. It works out the "At the same time" links |
+| `src/Related.vue` | The "At the same time" box shown in every details panel |
 | `public/manifest.webmanifest`, `public/icons/` | The app's name, colours and icons for installing it |
 | `public/sw.js` | Service worker: saves the site for offline use. Only runs in the built site, not in `npm run dev` |
 | `.github/workflows/sync-and-deploy.yml` | Runs the sync and publishes the site |
@@ -237,6 +241,29 @@ Every prophet has `situation` (what was going on when he began), `start` (how he
 
 The content was taken only from jw.org and wol.jw.org. Dates follow chart A6 of the New World
 Translation, so a few differ by a year from the timeline.
+
+### The topic timelines and how they connect
+
+Six more timelines sit beside the main one and Kings and Prophets: lifespans from Adam to Joseph,
+the Judges, world powers, when the Bible books were written, the life of Jesus, and Paul. Each is
+one file in `src/topics/`, and none of them is touched by the Google Doc sync.
+
+In a topic file:
+
+- `lanes`: the rows of the view, each with a `label`, how many `rows` of items it may stack, and a colour `tone`.
+- `items`: each has a `lane`, a `name`, the wording of its date in `when`, and its position: `y` is
+  the year (negative for B.C.E.) and `f` a fraction of that year, for a season or a day. An item
+  with `y2` (and `f2`) is drawn as a bar, otherwise as a dot.
+- `rank`: 3 keeps its name when zoomed out, 1 is the first to give way. An item with no room is
+  hidden until you zoom in.
+- `text`, `facts`, `refs`, `sources`, `pictures`: what the details panel shows.
+- `approx`: a note shown when a position is not a real date. `noCross: true` keeps such an item out
+  of the "At the same time" links (used for the judges, whose dates the Bible does not give).
+
+Everything is connected by time. `src/topics/index.js` gathers the kings, prophets, periods and
+every topic item, and for whatever is open it lists what overlaps those years in the other
+timelines. Each name is a link that opens that timeline on that item. A new item added to any file
+joins in automatically. Links look like `#/t/jesus?sel=baptism` or `#/kings?sel=k-hezekiah`.
 
 ### Tuning the zoom
 

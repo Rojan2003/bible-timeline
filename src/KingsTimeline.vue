@@ -76,6 +76,7 @@
           <dd>{{ item.sources }} <span class="sep">·</span> <a :href="insight + item.slug + '/'" target="_blank" rel="noopener">Read on jw.org</a></dd>
         </dl>
         <button type="button" class="kp-link" @click="$emit('story', item.id)">Read this reign in the story →</button>
+        <Related :c0="item.from + 1" :c1="item.to + 1" :self-key="'kings:k-' + item.id" />
       </div>
       <div v-else class="kt-body">
         <p class="kt-kings">{{ item.kings }}</p>
@@ -92,6 +93,7 @@
           <dt>Sources</dt>
           <dd>{{ item.sources }} <span class="sep">·</span> <a :href="insight + item.slug + '/'" target="_blank" rel="noopener">Read on jw.org</a></dd>
         </dl>
+        <Related :c0="item.from + 1" :c1="item.to + 1" :self-key="'kings:p-' + item.id" />
       </div>
 
       <div class="pfoot">
@@ -104,8 +106,9 @@
 </template>
 
 <script>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
+import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue';
 import DATA from './kings-prophets.json';
+import Related from './Related.vue';
 
 const INSIGHT = 'https://www.jw.org/en/library/books/Insight-on-the-Scriptures/';
 // Years are negative for B.C.E. The whole view is B.C.E., so there is no year zero to step over.
@@ -125,8 +128,10 @@ const repName = { good: 'Good', mixed: 'Mixed', bad: 'Bad' };
 const rank = (k) => (k.reputation === 'bad' ? 0 : 1000) + (k.to - k.from);
 
 export default {
+  components: { Related },
   emits: ['story'],
-  setup() {
+  props: { initial: { type: String, default: null } },
+  setup(props) {
     const view = ref(null);
     const W = ref(1000);
     const H = ref(520);
@@ -360,8 +365,21 @@ export default {
       W.value = box.width; H.value = box.height;
       if (wasFit) fit(false); else set(scale.value, centre - W.value / 2 / scale.value);
     }
+    // Opened from another timeline with ?sel=k-<king> or ?sel=p-<prophet>.
+    function openSel(id, animate) {
+      const m = /^([kp])-(.+)$/.exec(id || '');
+      if (!m) return;
+      const type = m[1] === 'k' ? 'king' : 'prophet';
+      const it = (type === 'king' ? kings : prophets).find((d) => d.id === m[2]);
+      if (!it) return;
+      sel.value = { type, id: it.id };
+      const s = clampScale(Math.max(scale.value, Math.min(12, (W.value * 0.3) / Math.max(it.to - it.from, 1))));
+      animate ? glide(s, mid(it) - W.value / 2 / s) : set(s, mid(it) - W.value / 2 / s);
+    }
+    watch(() => props.initial, (id) => openSel(id, true));
     onMounted(() => {
       measure(true);
+      openSel(props.initial, false);
       view.value.addEventListener('wheel', onWheel, { passive: false });
       if (window.ResizeObserver) { ro = new ResizeObserver(() => measure(false)); ro.observe(view.value); }
     });
