@@ -159,7 +159,8 @@ npm run sync -- --dry-run    # only show what would change
 | `public/img/` | Generated. The pictures from the Doc as JPEGs, at most 640 px wide |
 | `src/overrides.json` | Hand-made choices that are applied after every sync (see above) |
 | `src/BibleTimeline.vue` | The timeline itself (template, logic and styles in one component) |
-| `src/KingsProphets.vue` | The Kings and Prophets page |
+| `src/KingsProphets.vue` | The Kings and Prophets page (tabs, the kings' story cards, the prophets) |
+| `src/KingsTimeline.vue` | The zoomable view on that page: Judah's kings, the prophets and Israel's kings as bars |
 | `src/kings-prophets.json` | Hand-written. The text for that page: the kings in story order, and the prophets |
 | `src/App.vue` | Switches between the two pages (`#/` timeline, `#/kings` kings and prophets) |
 | `.github/workflows/sync-and-deploy.yml` | Runs the sync and publishes the site |
@@ -202,6 +203,9 @@ commits nothing and publishes nothing; a push or the button always publishes.
 Opened with the "Kings and prophets" button on the timeline, or directly at `#/kings`. It is not
 part of the Google Doc sync: all its wording is in `src/kings-prophets.json`, edited by hand.
 
+The page has three tabs: a zoomable timeline of the reigns (tap one for its details), the kings'
+story as cards to read from top to bottom, and the prophets.
+
 Every king has the same fields:
 
 - `reputation`: `good`, `mixed` or `bad`, with the Bible's own `verdict` and its verse.
@@ -210,6 +214,7 @@ Every king has the same fields:
 - `learn`: what we can learn from him.
 - `next`: one line that leads into the next king, so the cards read as one story. Kings are
   shown in the order they appear in the file.
+- `from` and `to`: where the bar starts and ends on the zoomable view (negative for B.C.E.).
 - `year`: used by the "See on the timeline" link (`#/timeline?y=-997` opens the timeline there).
 
 Every prophet has `situation` (what was going on when he began), `start` (how he began) and

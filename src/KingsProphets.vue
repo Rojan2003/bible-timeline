@@ -13,12 +13,18 @@
       </div>
     </header>
 
-    <div class="kp-scroll" ref="scroller">
+    <div class="kp-tabrow">
+      <div class="kp-tabs" role="tablist" aria-label="View">
+        <button id="tab-timeline" type="button" role="tab" :aria-selected="tab === 'timeline'" :class="{ on: tab === 'timeline' }" @click="tab = 'timeline'">Timeline</button>
+        <button id="tab-kings" type="button" role="tab" :aria-selected="tab === 'kings'" :class="{ on: tab === 'kings' }" @click="tab = 'kings'">Kings’ story <span>{{ data.kings.length }}</span></button>
+        <button id="tab-prophets" type="button" role="tab" :aria-selected="tab === 'prophets'" :class="{ on: tab === 'prophets' }" @click="tab = 'prophets'">Prophets <span>{{ data.prophets.length }}</span></button>
+      </div>
+    </div>
+
+    <KingsTimeline v-if="tab === 'timeline'" @story="openStory" />
+
+    <div v-else class="kp-scroll" ref="scroller">
       <div class="kp-wrap">
-        <div class="kp-tabs" role="tablist" aria-label="Section">
-          <button id="tab-kings" type="button" role="tab" :aria-selected="tab === 'kings'" :class="{ on: tab === 'kings' }" @click="tab = 'kings'">Kings <span>{{ data.kings.length }}</span></button>
-          <button id="tab-prophets" type="button" role="tab" :aria-selected="tab === 'prophets'" :class="{ on: tab === 'prophets' }" @click="tab = 'prophets'">Prophets <span>{{ data.prophets.length }}</span></button>
-        </div>
 
         <!-- ================= KINGS ================= -->
         <template v-if="tab === 'kings'">
@@ -135,13 +141,15 @@
 <script>
 import { ref, computed, watch, nextTick } from 'vue';
 import DATA from './kings-prophets.json';
+import KingsTimeline from './KingsTimeline.vue';
 
 const INSIGHT = 'https://www.jw.org/en/library/books/Insight-on-the-Scriptures/';
 
 export default {
+  components: { KingsTimeline },
   setup() {
     const scroller = ref(null);
-    const tab = ref('kings');
+    const tab = ref('timeline');
     const kingdom = ref('all');
     const rep = ref('all');
 
@@ -160,9 +168,20 @@ export default {
       const still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (el) el.scrollIntoView({ behavior: still ? 'auto' : 'smooth', block: 'start' });
     }
-    watch(tab, () => nextTick(() => { if (scroller.value) scroller.value.scrollTop = 0; }));
+    let jumping = false;
+    watch(tab, () => nextTick(() => { if (scroller.value && !jumping) scroller.value.scrollTop = 0; }));
+    // From the timeline view: open the story at one king's card.
+    function openStory(id) {
+      jumping = true;
+      kingdom.value = 'all'; rep.value = 'all'; tab.value = 'kings';
+      nextTick(() => {
+        const el = document.getElementById('k-' + id);
+        if (el) el.scrollIntoView({ block: 'start' });
+        jumping = false;
+      });
+    }
 
-    return { data: DATA, insight: INSIGHT, scroller, tab, kingdom, rep, kingdomOpts, repOpts, repName, filtered, chapters, shown, shownText, go };
+    return { data: DATA, insight: INSIGHT, scroller, tab, kingdom, rep, kingdomOpts, repOpts, repName, filtered, chapters, shown, shownText, go, openStory };
   },
 };
 </script>
@@ -181,12 +200,13 @@ export default {
 .kp .btn.nav { color: inherit; }
 .kp button:focus-visible, .kp a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+.kp-tabrow { flex: none; padding: 0 max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px)); overflow-x: auto; }
 .kp-tabs { display: inline-flex; padding: 3px; gap: 3px; background: var(--grid); border-radius: 10px; }
-.kp-tabs button { border: 0; background: none; padding: 7px 16px; border-radius: 8px; font-weight: 600; font-size: 14px; cursor: pointer; color: var(--muted); }
+.kp-tabs button { border: 0; background: none; white-space: nowrap; padding: 7px 16px; border-radius: 8px; font-weight: 600; font-size: 14px; cursor: pointer; color: var(--muted); }
 .kp-tabs button.on { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
 .kp-tabs span { font-weight: 500; font-size: 12px; color: var(--muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
 
-.kp-lead { margin: 16px 0 14px; color: var(--muted); max-width: 62ch; }
+.kp-lead { margin: 0 0 14px; color: var(--muted); max-width: 62ch; }
 .kp-filters { display: flex; flex-wrap: wrap; gap: 8px 18px; }
 .kp-group { display: flex; flex-wrap: wrap; gap: 6px; }
 .kp-chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 12px; font-size: 13px; font-weight: 500; cursor: pointer; }
