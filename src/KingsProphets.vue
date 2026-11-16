@@ -73,7 +73,11 @@
                     <p>{{ k.learn }}</p>
                   </div>
 
-                  <dl class="kp-meta">
+<div v-if="k.pictures" class="jwpics">
+            <b>Pictures on jw.org</b>
+            <a v-for="l in k.pictures" :key="l.url" :href="l.url" target="_blank" rel="noopener">{{ l.title }}</a>
+          </div>
+          <dl class="kp-meta">
                     <template v-if="k.prophets"><dt>Prophets at the time</dt><dd>{{ k.prophets }}</dd></template>
                     <dt>Sources</dt>
                     <dd>{{ k.sources }} <span class="sep">·</span> <a :href="insight + k.slug + '/'" target="_blank" rel="noopener">Read on jw.org</a></dd>
@@ -114,7 +118,11 @@
                 <h4>His message</h4>
                 <p>{{ p.message }}</p>
 
-                <dl class="kp-meta">
+<div v-if="p.pictures" class="jwpics">
+            <b>Pictures on jw.org</b>
+            <a v-for="l in p.pictures" :key="l.url" :href="l.url" target="_blank" rel="noopener">{{ l.title }}</a>
+          </div>
+          <dl class="kp-meta">
                   <dt>Sources</dt>
                   <dd>{{ p.sources }} <span class="sep">·</span> <a :href="insight + p.slug + '/'" target="_blank" rel="noopener">Read on jw.org</a></dd>
                 </dl>

@@ -171,6 +171,7 @@ npm run sync -- --dry-run    # only show what would change
 | `public/img/` | Generated. The pictures from the Doc as JPEGs, at most 640 px wide |
 | `src/overrides.json` | Hand-made choices that are applied after every sync (see above) |
 | `src/BibleTimeline.vue` | The timeline itself (template, logic and styles in one component) |
+| `src/periods.json` | Hand-written. The periods of Bible chronology shown under "About these years" in the header (title, years, text, scriptures, sources). Not touched by the sync |
 | `src/KingsProphets.vue` | The Kings and Prophets page (tabs, the kings' story cards, the prophets) |
 | `src/KingsTimeline.vue` | The zoomable view on that page: Judah's kings, the prophets and Israel's kings as bars |
 | `src/kings-prophets.json` | Hand-written. The text for that page: the kings in story order, and the prophets |

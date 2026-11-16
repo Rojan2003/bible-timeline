@@ -66,7 +66,11 @@
         <ul><li v-for="f in item.faced" :key="f">{{ f }}</li></ul>
         <div class="kp-learn"><h4>What we can learn</h4><p>{{ item.learn }}</p></div>
         <p v-if="item.next" class="kp-next"><span aria-hidden="true">→</span>{{ item.next }}</p>
-        <dl class="kp-meta">
+<div v-if="item.pictures" class="jwpics">
+            <b>Pictures on jw.org</b>
+            <a v-for="l in item.pictures" :key="l.url" :href="l.url" target="_blank" rel="noopener">{{ l.title }}</a>
+          </div>
+          <dl class="kp-meta">
           <template v-if="item.prophets"><dt>Prophets at the time</dt><dd>{{ item.prophets }}</dd></template>
           <dt>Sources</dt>
           <dd>{{ item.sources }} <span class="sep">·</span> <a :href="insight + item.slug + '/'" target="_blank" rel="noopener">Read on jw.org</a></dd>
@@ -80,7 +84,11 @@
         <p>{{ item.start }}</p>
         <h4>His message</h4>
         <p>{{ item.message }}</p>
-        <dl class="kp-meta">
+<div v-if="item.pictures" class="jwpics">
+            <b>Pictures on jw.org</b>
+            <a v-for="l in item.pictures" :key="l.url" :href="l.url" target="_blank" rel="noopener">{{ l.title }}</a>
+          </div>
+          <dl class="kp-meta">
           <dt>Sources</dt>
           <dd>{{ item.sources }} <span class="sep">·</span> <a :href="insight + item.slug + '/'" target="_blank" rel="noopener">Read on jw.org</a></dd>
         </dl>

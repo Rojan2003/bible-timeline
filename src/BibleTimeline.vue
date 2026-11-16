@@ -5,6 +5,9 @@
       <div class="ttl">
         <h1>Bible Timeline</h1>
         <p class="sub">{{ rangeText }} <span class="sep">·</span> {{ countText }}</p>
+        <button v-if="eras.length" id="era-info" type="button" class="eraline" :aria-expanded="infoOpen" @click="toggleInfo">
+          <b>About these years</b><span>{{ eraLine }}</span>
+        </button>
       </div>
       <div class="ctl">
         <span class="lvl" :data-mode="mode">{{ modeName }}</span>
@@ -49,7 +52,35 @@
       <div class="win" :style="miniWin"></div>
     </div>
   
-    <aside v-if="sel" class="panel" aria-live="polite">
+    <aside v-if="infoOpen" class="panel" aria-live="polite">
+      <div class="phead">
+        <div>
+          <h2 class="ih">About these years</h2>
+          <span class="isub">{{ rangeText }} <span class="sep">·</span> {{ spanText }}</span>
+        </div>
+        <button id="info-close" type="button" class="btn" aria-label="Close" @click="infoOpen = false">×</button>
+      </div>
+      <div class="ilist">
+        <section v-for="e in eras" :key="e.id" class="era-card">
+          <h3>{{ e.title }}</h3>
+          <p class="era-when">{{ e.label }} <span class="sep">·</span> {{ e.yearsText }}</p>
+          <p>{{ e.text }}</p>
+          <p v-if="e.refs" class="src">Scriptures: {{ e.refs }}</p>
+          <p class="src">Sources: {{ e.sources }}</p>
+<div v-if="e.pictures" class="jwpics">
+            <b>Pictures on jw.org</b>
+            <a v-for="l in e.pictures" :key="l.url" :href="l.url" target="_blank" rel="noopener">{{ l.title }}</a>
+          </div>
+          <div class="era-act">
+            <button type="button" class="btn wide" @click="goEra(e)">Show this period</button>
+            <a v-if="e.link === 'kings'" class="btn wide nav" href="#/kings">Kings and prophets</a>
+          </div>
+        </section>
+        <p class="src">Dates and periods follow <i>Insight on the Scriptures</i>, “Chronology,” and <i>“All Scripture Is Inspired of God and Beneficial,”</i> Study 3, on jw.org.</p>
+      </div>
+    </aside>
+
+    <aside v-else-if="sel" class="panel" aria-live="polite">
       <div class="phead">
         <div>
           <h2>{{ sel.label }}</h2>
@@ -76,6 +107,7 @@
 <script>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
 import DATA from './timeline.json';
+import PERIODS from './periods.json';
 
 // The calendar has no year zero, so 1 B.C.E. sits at 0 and 1 C.E. at 1 on the number line.
 const cont = (y) => (y < 0 ? y + 1 : y);
@@ -92,6 +124,12 @@ const items = DATA.map((d, i) => ({
 const minC = items[0].c;
 const maxC = items[items.length - 1].c;
 const span = maxC - minC;
+const fmtYear = (y) => Math.abs(y) + (y < 0 ? ' B.C.E.' : ' C.E.');
+// The periods of Bible chronology, used for the "About these years" line and panel.
+const periods = PERIODS.map((p) => {
+  const c0 = cont(p.from), c1 = cont(p.to), years = c1 - c0;
+  return { ...p, c0, c1, label: fmtYear(p.from) + ' – ' + fmtYear(p.to), yearsText: years.toLocaleString('en-US') + ' years' };
+});
 
 // What a label looks like at each zoom level: [width, height] in px.
 const SIZES = {
@@ -116,6 +154,7 @@ function setup(props) {
   const scale = ref(0.15);   // px per year
   const left = ref(minC);    // year at the left edge of the view
   const selId = ref(null);
+  const infoOpen = ref(false);
   const dragging = ref(false);
   let moved = false;
   let raf = 0;
@@ -209,6 +248,28 @@ function setup(props) {
     return p >= n ? n + (n === 1 ? ' date' : ' dates') + ' in view, all labelled' : p + ' of ' + n + ' dates labelled';
   });
 
+  // The periods in view. A period counts once a fair part of it, or of the screen, shows it.
+  const eras = computed(() => {
+    const s = scale.value, l = Math.max(minC, left.value), r = Math.min(maxC, left.value + W.value / s);
+    const seen = periods.map((p) => ({ p, px: (Math.min(p.c1, r) - Math.max(p.c0, l)) * s })).filter((o) => o.px > 0);
+    const keep = seen.filter((o) => o.px >= Math.min((o.p.c1 - o.p.c0) * s * 0.5, W.value * 0.12));
+    if (keep.length) return keep.map((o) => o.p);
+    return seen.length ? [seen.reduce((a, b) => (b.px > a.px ? b : a)).p] : [];
+  });
+  const eraLine = computed(() => {
+    const e = eras.value;
+    return e.length === 1 ? e[0].title + ' · ' + e[0].yearsText : e.map((p) => p.short).join(' → ');
+  });
+  const spanText = computed(() => {
+    const l = Math.max(minC, left.value), r = Math.min(maxC, left.value + W.value / scale.value);
+    return Math.max(1, Math.round(r) - Math.round(l)).toLocaleString('en-US') + ' years in view';
+  });
+  function toggleInfo() { infoOpen.value = !infoOpen.value; }
+  function goEra(p) {
+    const s = clampScale((W.value - 96) / Math.max(1, p.c1 - p.c0));
+    glide(s, p.c0 - (W.value - (p.c1 - p.c0) * s) / 2 / s);
+  }
+
   // When the view is empty, offer a jump to the nearest date on each side.
   const jump = computed(() => {
     const l = left.value, r = l + W.value / scale.value;
@@ -257,7 +318,7 @@ function setup(props) {
     animate ? glide(s, l) : (scale.value = s, left.value = l);
   }
   function centreOn(it, s) { glide(s, it.c - W.value / 2 / s); }
-  function pick(it) { if (!moved) selId.value = it.id; }
+  function pick(it) { if (!moved) { selId.value = it.id; infoOpen.value = false; } }
   function step(d) {
     const it = items[Math.min(items.length - 1, Math.max(0, selId.value + d))];
     selId.value = it.id; centreOn(it, scale.value);
@@ -324,7 +385,7 @@ function setup(props) {
     glide(s, c - W.value / 2 / s);
   }
   function onKey(e) {
-    if (e.key === 'Escape') { selId.value = null; return; }
+    if (e.key === 'Escape') { if (infoOpen.value) infoOpen.value = false; else selId.value = null; return; }
     if (e.target.closest && e.target.closest('.panel')) return;
     const k = e.key;
     if (k === 'ArrowLeft' || k === 'ArrowRight') {
@@ -376,7 +437,7 @@ function setup(props) {
 
   return {
     view, mini, items, scale, minScale, maxScale, mode, modeName, axisY, vis, ticks, eraX, rangeText, countText,
-    miniTicks, miniWin, sel, selId, dragging, jump, jumpTo,
+    miniTicks, miniWin, sel, selId, dragging, jump, jumpTo, infoOpen, eras, eraLine, spanText, toggleInfo, goEra,
     zoomBy, fit, pick, step, focusItem, onDown, onDbl, onKey, miniDown,
   };
 }
@@ -412,7 +473,13 @@ button { font: inherit; color: inherit; }
 
 .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; padding-block: 12px 10px;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
-.ttl { min-width: 0; }
+.ttl { min-width: 0; flex: 1 1 240px; }
+.eraline { display: flex; align-items: baseline; gap: 8px; max-width: 100%; margin: 5px 0 0; padding: 3px 9px 3px 8px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); font-size: 12.5px; cursor: pointer; text-align: left; }
+.eraline:hover, .eraline[aria-expanded="true"] { border-color: var(--accent); }
+.eraline:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.eraline b { flex: none; font-weight: 600; color: var(--accent); }
+.eraline b::before { content: "i"; display: inline-grid; place-items: center; width: 14px; height: 14px; margin-right: 6px; border-radius: 50%; background: var(--accent); color: var(--surface); font-family: var(--font-head); font-size: 10px; font-weight: 600; vertical-align: 1px; }
+.eraline span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); }
 h1 { font-family: var(--font-head); font-size: 20px; font-weight: 600; letter-spacing: -.01em; margin: 0; text-wrap: balance; }
 .sub { margin: 2px 0 0; color: var(--muted); font-size: 12.5px; font-variant-numeric: tabular-nums; }
 .sep { margin: 0 4px; }
@@ -495,6 +562,23 @@ h2 { font-family: var(--font-head); font-size: 22px; font-weight: 600; margin: 0
 .plist p { margin: 0; max-width: 65ch; }
 .pic { display: block; width: 100%; max-height: 220px; object-fit: contain; object-position: left; border-radius: 6px; margin-bottom: 8px; pointer-events: none; }
 .plist .src { margin-top: 4px; font-size: 12px; color: var(--muted); }
+.ih { font-size: 19px; }
+.isub { display: block; margin-top: 3px; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.ilist { flex: 1 1 auto; min-height: 0; overflow-y: auto; padding: 4px 16px 14px; }
+.ilist p { margin: 0; max-width: 65ch; }
+.ilist .src { margin-top: 4px; font-size: 12px; color: var(--muted); }
+.era-card { padding: 12px 0 14px; border-bottom: 1px solid var(--grid); }
+.era-card h3 { font-family: var(--font-head); font-size: 16px; font-weight: 600; margin: 0; }
+.era-when { font-size: 12.5px; color: var(--key); font-weight: 500; font-variant-numeric: tabular-nums; margin: 1px 0 6px !important; }
+.era-act { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.era-act .btn { height: 30px; font-size: 12.5px; }
+.ilist > .src { margin-top: 12px; }
+.jwpics { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 10px; font-size: 12.5px; }
+.jwpics b { flex: 0 0 100%; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.jwpics a { display: inline-block; padding: 3px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--accent); text-decoration: none; }
+.jwpics a::after { content: " ↗"; }
+.jwpics a:hover { border-color: var(--accent); }
+.jwpics a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .pfoot { display: flex; gap: 6px; padding: 10px 12px; border-top: 1px solid var(--grid); }
 .pfoot .btn { flex: 1 1 0; padding: 0 6px; white-space: nowrap; }
 
