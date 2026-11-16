@@ -1,0 +1,558 @@
+{
+  "chapters": [
+    { "id": 1, "title": "One kingdom becomes two", "span": "997 – c. 947 B.C.E.", "intro": "Solomon dies and his kingdom tears in half. Judah keeps David’s line and the temple in Jerusalem. Israel, the ten tribes in the north, starts with a new king and a new kind of worship." },
+    { "id": 2, "title": "Ahab’s house and the fight over Baal", "span": "c. 940 – c. 905 B.C.E.", "intro": "Israel’s strongest dynasty brings in Baal worship. Elijah and Elisha stand against it, and a marriage ties Ahab’s family to the kings of Judah." },
+    { "id": 3, "title": "Jehu’s purge and a hidden child", "span": "c. 905 – c. 844 B.C.E.", "intro": "One man ends two reigns in a day. In Jerusalem a baby is hidden in the temple while his grandmother rules." },
+    { "id": 4, "title": "Rich on the outside", "span": "c. 844 – c. 778 B.C.E.", "intro": "Both kingdoms grow strong and wealthy. Prophets warn that the prosperity is covering deep decay, and then Israel’s throne starts changing hands by murder." },
+    { "id": 5, "title": "Assyria closes in and Samaria falls", "span": "c. 778 – 716 B.C.E.", "intro": "Assyria becomes the power everyone fears. Israel is carried into exile. Judah survives under one of its best kings." },
+    { "id": 6, "title": "Judah alone", "span": "716 – 629 B.C.E.", "intro": "With the north gone, Judah swings from its worst king to its last great reformer." },
+    { "id": 7, "title": "The last four kings", "span": "628 – 607 B.C.E.", "intro": "Egypt and then Babylon decide who sits on the throne. Jeremiah keeps warning, and in 607 B.C.E. Jerusalem is destroyed." }
+  ],
+  "kings": [
+    {
+      "id": "rehoboam", "chapter": 1, "name": "Rehoboam", "kingdom": "judah", "year": -997, "dates": "997–980 B.C.E.", "reign": "17 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad, because he had not set his heart on searching for Jehovah. (2Ch 12:14)",
+      "story": "Solomon’s son came to Shechem to be made king. The people asked him to lighten the load his father had put on them. He rejected the advice of the older men, answered harshly as the young men told him to, and ten tribes walked away. He gathered 180,000 men to force them back, but when the prophet Shemaiah said the split was from Jehovah, he obeyed and sent the army home. For about three years he did well. Then he left Jehovah’s law, and in his fifth year Shishak of Egypt invaded and carried off the treasures of the temple and the palace.",
+      "faced": ["A divided nation on his first day as king", "Constant hostility with Jeroboam in the north", "Invasion by Shishak of Egypt in his fifth year", "A prophet’s message that he had to accept or reject"],
+      "learn": "Listen to experienced counsel before you answer. Rehoboam did some good things: he obeyed Shemaiah, and he humbled himself when Shishak came, so Jerusalem was spared. But good moments do not replace a heart that keeps searching for Jehovah.",
+      "prophets": "Shemaiah",
+      "next": "The man the ten tribes chose instead was about to make a decision that would mark Israel for the next 250 years.",
+      "sources": "it “Rehoboam”; w18.06 pp. 30-32; w24.07 pp. 20-25", "slug": "Rehoboam"
+    },
+    {
+      "id": "jeroboam", "chapter": 1, "name": "Jeroboam", "kingdom": "israel", "year": -997, "dates": "997 – c. 976 B.C.E.", "reign": "22 years",
+      "reputation": "bad",
+      "verdict": "He set up calf worship. Every later king of Israel is measured against “the sins of Jeroboam.” (1Ki 14:16; 15:30, 34)",
+      "story": "Jeroboam was an able officer under Solomon. The prophet Ahijah told him he would rule ten tribes and that his house would last if he obeyed Jehovah. Solomon tried to kill him, so he fled to Egypt until Solomon died. Once he was king, he feared that people going up to Jerusalem to worship would return to Rehoboam. So he made two golden calves, one at Bethel and one at Dan, appointed his own priests and invented his own festival. A man of God from Judah denounced the altar at Bethel. Jeroboam’s hand dried up and was healed, yet he did not turn back.",
+      "faced": ["Starting a new kingdom with no capital, temple or army", "Fear that his people’s loyalty would drift back to Jerusalem", "A direct warning at the Bethel altar", "A crushing defeat by Abijah of Judah"],
+      "learn": "Jehovah had already promised him a lasting house. Fear of losing his position made him swap true worship for something more convenient, and he lost the very thing he was trying to protect.",
+      "prophets": "Ahijah; an unnamed man of God from Judah",
+      "next": "In Judah, Rehoboam died and his son inherited the war with Jeroboam.",
+      "sources": "it “Jeroboam” No. 1", "slug": "Jeroboam"
+    },
+    {
+      "id": "abijah", "chapter": 1, "name": "Abijah", "also": "Abijam", "kingdom": "judah", "year": -980, "dates": "980–978 B.C.E.", "reign": "3 years",
+      "reputation": "bad",
+      "verdict": "He went on in the sins of his father, and his heart was not complete with Jehovah. (1Ki 15:3)",
+      "story": "Abijah faced Jeroboam with 400,000 men against 800,000. Before the battle he called out that Judah still had Jehovah’s priests and Jehovah at their head. Jeroboam set an ambush behind them. Judah cried out to Jehovah, won, and took Bethel. Yet at home Abijah left the high places and sacred pillars standing.",
+      "faced": ["An army twice the size of his own", "An ambush from the front and the rear", "The idolatry his father had allowed in Judah"],
+      "learn": "He leaned on Jehovah in an emergency and was helped. But turning to God in a crisis is not the same as serving him with a complete heart the rest of the time.",
+      "prophets": "",
+      "next": "His son Asa was different.",
+      "sources": "it “Abijah” No. 5; w24.07 pp. 20-25", "slug": "Abijah"
+    },
+    {
+      "id": "asa", "chapter": 1, "name": "Asa", "kingdom": "judah", "year": -978, "dates": "978–937 B.C.E.", "reign": "41 years",
+      "reputation": "good",
+      "verdict": "He did what was right in Jehovah’s eyes, like David his forefather. (1Ki 15:11)",
+      "story": "Asa cleared out the idols and even removed his grandmother Maacah from her position as queen mother because she had made an obscene idol. Judah had ten years of peace. Then Zerah the Ethiopian came with a million men. Asa prayed, relied on Jehovah and won completely. The prophet Azariah encouraged him, and the nation made a covenant to search for Jehovah. Late in his reign Baasha of Israel fortified Ramah to cut Judah off. This time Asa paid the king of Syria with temple treasure to attack Israel. When the seer Hanani corrected him, Asa put him in the stocks. In his last years he suffered from a disease in his feet.",
+      "faced": ["A country full of idols when he became king", "Opposition inside his own family", "The largest invading army in the record", "A blockade by Baasha of Israel"],
+      "learn": "Stand firm for true worship even when family opposes it, and rely on Jehovah in small problems as well as great ones. Asa trusted Jehovah against a million men, then trusted a political deal against a smaller threat. His good qualities outweighed his errors, but the errors are recorded so we can avoid them.",
+      "prophets": "Azariah son of Oded; Hanani",
+      "next": "While Asa ruled 41 years in Jerusalem, Israel went through five kings and three violent changes of ruling house.",
+      "sources": "it “Asa” No. 1; w17.03 pp. 18-27", "slug": "Asa"
+    },
+    {
+      "id": "nadab", "chapter": 1, "name": "Nadab", "kingdom": "israel", "year": -976, "dates": "c. 976 – c. 975 B.C.E.", "reign": "2 years",
+      "reputation": "bad",
+      "verdict": "He kept up the calf worship his father started. (1Ki 15:25, 26)",
+      "story": "Jeroboam’s son was besieging Gibbethon, a city the Philistines had taken, when Baasha assassinated him. Baasha then killed everyone left of Jeroboam’s house.",
+      "faced": ["A war with the Philistines", "A conspiracy inside his own army"],
+      "learn": "Ahijah had said Jeroboam’s house would be swept away, and it was, within two years of his death. Following a parent’s wrong course leads to the same end.",
+      "prophets": "",
+      "next": "Baasha took the throne he had killed for.",
+      "sources": "it “Nadab” No. 2", "slug": "Nadab"
+    },
+    {
+      "id": "baasha", "chapter": 1, "name": "Baasha", "kingdom": "israel", "year": -975, "dates": "c. 975 – c. 952 B.C.E.", "reign": "24 years",
+      "reputation": "bad",
+      "verdict": "He walked in the way of Jeroboam, so the same judgment was spoken against his own house. (1Ki 16:1-4)",
+      "story": "Baasha came from an unimportant family of Issachar. He fought Asa of Judah all his days and began fortifying Ramah, just north of Jerusalem, to stop anyone going in or out. He had to abandon it when Syria attacked him from the north. The prophet Jehu son of Hanani told him that his house would end exactly as Jeroboam’s had.",
+      "faced": ["Long war with Judah", "A Syrian attack on his northern cities", "A prophet’s judgment message"],
+      "learn": "He was the one who carried out the judgment on Jeroboam’s house, then copied the very sins that brought it. Seeing what happens to others only helps if we change our own course.",
+      "prophets": "Jehu son of Hanani",
+      "next": "His son Elah inherited the throne and the judgment.",
+      "sources": "it “Baasha”", "slug": "Baasha"
+    },
+    {
+      "id": "elah", "chapter": 1, "name": "Elah", "kingdom": "israel", "year": -952, "dates": "c. 952 – c. 951 B.C.E.", "reign": "2 years",
+      "reputation": "bad",
+      "verdict": "His sins and his father’s caused Israel to sin with their worthless idols. (1Ki 16:13)",
+      "story": "While the army was away besieging Gibbethon, Elah was in Tirzah drinking himself drunk at the house of his steward. Zimri, the chief of half his chariots, walked in and killed him.",
+      "faced": ["A conspiracy by one of his own commanders"],
+      "learn": "He was indulging himself while his responsibilities waited. Carelessness left him with no defence when trouble came.",
+      "prophets": "",
+      "next": "Zimri’s reign lasted one week.",
+      "sources": "it “Elah” No. 3", "slug": "Elah"
+    },
+    {
+      "id": "zimri", "chapter": 1, "name": "Zimri", "kingdom": "israel", "year": -951, "dates": "c. 951 B.C.E.", "reign": "7 days",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes. (1Ki 16:19)",
+      "story": "Zimri wiped out all of Baasha’s house, as the prophet had foretold. When the army at Gibbethon heard, they made their chief Omri king on the spot and marched on Tirzah. Seeing the city taken, Zimri set the king’s house on fire over himself and died.",
+      "faced": ["An army that refused to accept him"],
+      "learn": "Power taken by treachery gave him seven days. Years later his name was still a byword for a servant who killed his master. (2Ki 9:31)",
+      "prophets": "",
+      "next": "Omri had the army, but half the people backed another man.",
+      "sources": "it “Zimri” No. 3", "slug": "Zimri"
+    },
+    {
+      "id": "omri", "chapter": 1, "name": "Omri", "also": "with Tibni for the first 4 years", "kingdom": "israel", "year": -951, "dates": "c. 951 – c. 940 B.C.E.", "reign": "12 years (alone from c. 947)",
+      "reputation": "bad",
+      "verdict": "He kept doing what was bad and was worse than all who were before him. (1Ki 16:25, 26)",
+      "story": "For about four years Israel was split between Omri and Tibni. When Tibni died, Omri ruled alone. He bought a hill from a man named Shemer and built a new capital on it, Samaria, which later held out through long sieges. He brought Moab under tribute. He was powerful enough that Assyria went on calling Israel “the land of Omri” long after his family was gone.",
+      "faced": ["Civil war for the throne", "Pressure from Syria, which took some of his cities", "Building a capital from nothing"],
+      "learn": "By human measures Omri was a success, and the Bible admits his mightiness. Its verdict is still about his worship. Achievement and reputation are not the same as Jehovah’s approval.",
+      "prophets": "",
+      "next": "Omri’s son Ahab went further than his father: he married Jezebel.",
+      "sources": "it “Omri” No. 3", "slug": "Omri"
+    },
+    {
+      "id": "ahab", "chapter": 2, "name": "Ahab", "kingdom": "israel", "year": -940, "dates": "c. 940 – c. 920 B.C.E.", "reign": "22 years",
+      "reputation": "bad",
+      "verdict": "No one sold himself to do what was bad the way Ahab did, egged on by his wife Jezebel. (1Ki 21:25)",
+      "story": "Ahab married Jezebel, daughter of the king of Sidon, and built a temple for Baal in Samaria. Jezebel had Jehovah’s prophets killed, and Obadiah hid a hundred of them in caves. Elijah announced a drought that lasted three and a half years and ended with the test on Mount Carmel, where fire fell from heaven on Jehovah’s altar. Jehovah twice gave Ahab victory over Syria, but Ahab let the Syrian king go. When Jezebel had Naboth murdered for his vineyard, Elijah pronounced judgment. Ahab humbled himself and the calamity was delayed. Later he ignored the prophet Micaiah, went into battle in disguise at Ramoth-gilead and was killed by an arrow shot at random.",
+      "faced": ["A wife who pushed him toward Baal worship and murder", "A three-and-a-half-year drought", "Repeated Syrian invasions", "Plain warnings from Elijah and Micaiah"],
+      "learn": "Ahab did show some humility, and Jehovah noticed it. But he never truly repented or gave up false worship. A moment of regret is not the same as a changed life. His story also shows how much a marriage mate can shape a person’s course.",
+      "prophets": "Elijah; Micaiah",
+      "next": "In Judah a very different king had come to the throne, but he tied his family to Ahab’s.",
+      "sources": "it “Ahab” No. 1; w24.07 pp. 20-25", "slug": "Ahab"
+    },
+    {
+      "id": "jehoshaphat", "chapter": 2, "name": "Jehoshaphat", "kingdom": "judah", "year": -937, "dates": "937 – c. 913 B.C.E.", "reign": "25 years",
+      "reputation": "good",
+      "verdict": "He walked in the ways of his father Asa and searched for Jehovah with all his heart. (2Ch 20:32; 22:9)",
+      "story": "Jehoshaphat sent princes, Levites and priests through the cities of Judah with the book of Jehovah’s Law to teach the people. He appointed judges and told them to judge for Jehovah without partiality or bribes. But he made a marriage alliance with Ahab: his son married Ahab’s daughter Athaliah. He went with Ahab to Ramoth-gilead and was nearly killed. The seer Jehu rebuked him for helping the wicked. Later Moab, Ammon and Seir invaded together. Jehoshaphat gathered Judah and prayed, “We do not know what we should do, but our eyes are toward you.” Singers went out ahead of the army, and the invaders turned on one another.",
+      "faced": ["The pull of an alliance with a stronger, wicked neighbour", "A battle where he was mistaken for Ahab", "A three-nation invasion he had no power to stop", "Correction from a prophet"],
+      "learn": "Teach others what the Scriptures say, and when a problem is too big, say so in prayer and look to Jehovah. His one repeated weakness was his choice of partners. The alliance with Ahab’s house nearly cost him his life and later nearly wiped out his family.",
+      "prophets": "Micaiah; Jehu son of Hanani; Jahaziel; Elisha",
+      "next": "Back in Israel, Ahab’s son took over.",
+      "sources": "it “Jehoshaphat” No. 3; w17.03 pp. 18-27", "slug": "Jehoshaphat"
+    },
+    {
+      "id": "ahaziah-israel", "chapter": 2, "name": "Ahaziah", "also": "of Israel", "kingdom": "israel", "year": -920, "dates": "c. 920 – c. 917 B.C.E.", "reign": "2 years",
+      "reputation": "bad",
+      "verdict": "He walked in the way of his father and mother and served Baal. (1Ki 22:52, 53)",
+      "story": "Moab revolted as soon as Ahab was dead. Then Ahaziah fell through the grating of his roof chamber and was badly hurt. He sent messengers to ask Baal-zebub, the god of Ekron, whether he would recover. Elijah met them on the road with Jehovah’s answer: he would not leave his bed. Ahaziah sent soldiers to arrest Elijah, and two companies were consumed by fire before a third captain begged for his men’s lives.",
+      "faced": ["The revolt of Moab", "A serious accident", "A message of judgment from Elijah"],
+      "learn": "Where a person turns in a crisis shows whom he really trusts. Ahaziah had seen what Jehovah did in his father’s day and still sent to a Philistine god.",
+      "prophets": "Elijah",
+      "next": "He had no son, so his brother Jehoram became king.",
+      "sources": "it “Ahaziah” No. 1", "slug": "Ahaziah"
+    },
+    {
+      "id": "jehoram-israel", "chapter": 2, "name": "Jehoram", "also": "of Israel", "kingdom": "israel", "year": -917, "dates": "c. 917 – c. 905 B.C.E.", "reign": "12 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad, though not like his father and mother: he removed Baal’s sacred pillar but held on to the calf worship. (2Ki 3:2, 3)",
+      "story": "Jehoram marched against Moab with Jehoshaphat of Judah and the king of Edom, and the armies ran out of water. Elisha helped them only out of regard for Jehoshaphat. Again and again Elisha was there in Jehoram’s reign: Naaman the Syrian was healed, Syrian raiding parties were exposed before they struck, and a siege that starved Samaria ended overnight just as Elisha said. Jehoram was recovering from battle wounds at Jezreel when Jehu arrived.",
+      "faced": ["The revolt of Moab", "Syrian raids and the siege of Samaria", "Famine inside his capital", "A prophet whose word kept coming true"],
+      "learn": "He saw Jehovah’s help with his own eyes many times and made only a partial change. Removing one wrong thing while holding on to another is not returning to Jehovah.",
+      "prophets": "Elisha",
+      "next": "Judah’s throne had passed to a man with the same name, and Ahab’s daughter was his wife.",
+      "sources": "it “Jehoram” No. 2", "slug": "Jehoram"
+    },
+    {
+      "id": "jehoram-judah", "chapter": 2, "name": "Jehoram", "also": "of Judah", "kingdom": "judah", "year": -913, "dates": "913 – c. 906 B.C.E.", "reign": "8 years",
+      "reputation": "bad",
+      "verdict": "He walked in the way of the kings of Israel, because Ahab’s daughter had become his wife. (2Ki 8:18)",
+      "story": "Once his position was secure, Jehoram killed his six brothers and some of the princes. He built high places and turned Judah to false gods. Edom and Libnah broke away. A written message from Elijah told him what was coming. Philistines and Arabs then invaded and carried off his wives and sons, leaving only the youngest. He died of a painful disease of the intestines and was buried without honour. Jehovah did not end the line, because of his covenant with David.",
+      "faced": ["His wife Athaliah’s influence", "Revolts by Edom and Libnah", "Invasion by Philistines and Arabs", "A written warning from Elijah"],
+      "learn": "He had a faithful father and a good example in front of him. The influence he chose to live with outweighed it. Whom we marry and whom we listen to can undo a good upbringing.",
+      "prophets": "Elijah (by letter)",
+      "next": "His one surviving son, Ahaziah, became king, with Athaliah as his adviser.",
+      "sources": "it “Jehoram” No. 3", "slug": "Jehoram"
+    },
+    {
+      "id": "ahaziah-judah", "chapter": 2, "name": "Ahaziah", "also": "of Judah", "kingdom": "judah", "year": -906, "dates": "c. 906 – c. 905 B.C.E.", "reign": "1 year",
+      "reputation": "bad",
+      "verdict": "His mother was his adviser in doing wickedly, and the house of Ahab counselled him to his ruin. (2Ch 22:3, 4)",
+      "story": "Ahaziah joined his uncle Jehoram of Israel in a war against Syria at Ramoth-gilead. Jehoram was wounded and went to Jezreel to recover, and Ahaziah went to visit him. He was there on the day Jehu arrived. He fled, was wounded, and died at Megiddo.",
+      "faced": ["A mother and relatives who steered him wrong", "War with Syria", "Jehu’s uprising"],
+      "learn": "He took his advice from the wrong people and shared their end. Choosing advisers is choosing a direction.",
+      "prophets": "",
+      "next": "One man ended both kings’ reigns on the same day: Jehu.",
+      "sources": "it “Ahaziah” No. 2", "slug": "Ahaziah"
+    },
+    {
+      "id": "jehu", "chapter": 3, "name": "Jehu", "kingdom": "israel", "year": -905, "dates": "c. 905 – 876 B.C.E.", "reign": "28 years",
+      "reputation": "mixed",
+      "verdict": "He wiped Baal out of Israel, but he did not take care to walk in Jehovah’s law with all his heart and kept the golden calves. (2Ki 10:28-31)",
+      "story": "Jehu was an army chief at Ramoth-gilead when a prophet sent by Elisha anointed him king and told him to strike down Ahab’s house. He drove straight to Jezreel, killed Jehoram, had Jezebel thrown from a window and had Ahab’s seventy sons put to death. With Jehonadab beside him he gathered the worshippers of Baal into Baal’s temple, executed them and tore the temple down. Jehovah promised him four generations on the throne. But Jehu left the calves at Bethel and Dan, and in his days Hazael of Syria began cutting away Israel’s land east of the Jordan.",
+      "faced": ["A commission to end the most powerful family in Israel", "Baal worship rooted in the capital", "Syria under Hazael"],
+      "learn": "Jehu was fast and thorough in the task he was given, and Jehovah rewarded it. But he stopped where obedience would have cost him politically. Zeal for part of what Jehovah asks is not the same as walking in his law with the whole heart.",
+      "prophets": "Elisha",
+      "next": "In Jerusalem, Ahaziah’s death opened the way for his mother.",
+      "sources": "it “Jehu” No. 3", "slug": "Jehu"
+    },
+    {
+      "id": "athaliah", "chapter": 3, "name": "Queen Athaliah", "kingdom": "judah", "year": -905, "dates": "c. 905 – 898 B.C.E.", "reign": "6 years",
+      "reputation": "bad",
+      "verdict": "A daughter of Ahab and Jezebel who seized the throne by murdering the royal children. (2Ki 11:1)",
+      "story": "When Athaliah saw that her son was dead, she killed all the royal offspring and made herself queen. One baby escaped. Jehosheba, the wife of the high priest Jehoiada, took the infant Jehoash and hid him in the temple for six years. In the seventh year Jehoiada brought the boy out under guard, crowned him and anointed him. Athaliah ran to the temple shouting, “Conspiracy!” and was taken out and executed.",
+      "faced": ["The loss of her son and her family in Israel", "A high priest who stayed loyal to David’s line"],
+      "learn": "She did everything she could to end David’s royal line and failed, because Jehovah had made a covenant with David. Two people, Jehosheba and Jehoiada, acted with courage at the right moment, and the promise held.",
+      "prophets": "",
+      "next": "Judah now had a seven-year-old king, raised in the temple.",
+      "sources": "it “Athaliah” No. 1", "slug": "Athaliah"
+    },
+    {
+      "id": "jehoash-judah", "chapter": 3, "name": "Jehoash", "also": "Joash, of Judah", "kingdom": "judah", "year": -898, "dates": "898–858 B.C.E.", "reign": "40 years",
+      "reputation": "mixed",
+      "verdict": "He did what was right all the days of Jehoiada the priest. (2Ch 24:2)",
+      "story": "Guided by Jehoiada, the young king repaired the temple, which Athaliah’s sons had broken into. A chest was set at the gate and the people gladly filled it. After Jehoiada died, the princes of Judah came to the king and he listened to them. They left Jehovah’s house for sacred poles and idols. Prophets were sent and ignored. When Zechariah, Jehoiada’s own son, spoke up, Jehoash had him stoned in the temple courtyard. Within a year a small Syrian force defeated Judah’s large army, and Jehoash’s own servants killed him on his bed.",
+      "faced": ["Growing up as an orphan in hiding", "A neglected, plundered temple", "Pressure from the princes after his mentor died", "A Syrian invasion under Hazael"],
+      "learn": "His faithfulness lasted as long as the man who guided him. Good guidance is a gift, but each person needs convictions of his own. He also forgot the kindness shown to him and killed the son of the man who saved his life.",
+      "prophets": "Zechariah son of Jehoiada",
+      "next": "In the north, Jehu’s son was paying for the calves his father kept.",
+      "sources": "it “Jehoash” No. 1", "slug": "Jehoash"
+    },
+    {
+      "id": "jehoahaz-israel", "chapter": 3, "name": "Jehoahaz", "also": "of Israel", "kingdom": "israel", "year": -876, "dates": "876 – c. 859 B.C.E.", "reign": "17 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes and followed the sin of Jeroboam. (2Ki 13:2)",
+      "story": "Because of Israel’s course, Jehovah let Hazael of Syria oppress them throughout this reign. The army was ground down to fifty horsemen, ten chariots and ten thousand foot soldiers. Jehoahaz finally begged for Jehovah’s favour, and Jehovah listened and gave Israel relief, because of his covenant with Abraham, Isaac and Jacob. The calf worship stayed.",
+      "faced": ["Syrian oppression year after year", "An army reduced almost to nothing"],
+      "learn": "Jehovah listened even to this king’s plea, which shows how ready he is to show mercy. But asking for relief is not the same as changing. Israel took the help and kept the sin.",
+      "prophets": "Elisha",
+      "next": "His son Jehoash ruled with him for about three years and then alone.",
+      "sources": "it “Jehoahaz” No. 2", "slug": "Jehoahaz"
+    },
+    {
+      "id": "jehoash-israel", "chapter": 3, "name": "Jehoash", "also": "Joash, of Israel", "kingdom": "israel", "year": -859, "dates": "c. 859 – c. 844 B.C.E.", "reign": "16 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes and did not leave the sins of Jeroboam. (2Ki 13:11)",
+      "story": "Jehoash went down to the dying Elisha and wept over him. Elisha told him to shoot an arrow toward Syria and then to strike the ground with the arrows. He struck three times and stopped, and Elisha said he would defeat Syria only three times. So it happened: three victories, and the cities Hazael had taken were won back. Later Amaziah of Judah challenged him to battle. Jehoash defeated him, broke down part of Jerusalem’s wall and took the temple treasures to Samaria.",
+      "faced": ["Syria still holding Israelite cities", "The death of Elisha", "An unprovoked challenge from Judah"],
+      "learn": "He respected Jehovah’s prophet but responded half-heartedly, and his blessing was limited to match. How fully we act on direction affects how much good comes from it.",
+      "prophets": "Elisha",
+      "next": "The king who picked that fight was Amaziah of Judah.",
+      "sources": "it “Jehoash” No. 2", "slug": "Jehoash"
+    },
+    {
+      "id": "amaziah", "chapter": 3, "name": "Amaziah", "kingdom": "judah", "year": -858, "dates": "858–829 B.C.E.", "reign": "29 years",
+      "reputation": "mixed",
+      "verdict": "He did what was right in Jehovah’s eyes, but not with a complete heart. (2Ch 25:2)",
+      "story": "Amaziah executed his father’s killers but spared their sons, as the Law of Moses required. For a war with Edom he hired 100,000 soldiers from Israel. A man of God told him to send them home, and he did, even though the silver was already paid. He won the battle. Then he brought Edom’s gods back and bowed to them. A prophet asked why he would worship gods that could not save their own people, and Amaziah told him to be quiet. Full of confidence, he challenged Jehoash of Israel, was captured, and saw Jerusalem’s wall broken down. Years later a conspiracy formed and he was killed at Lachish.",
+      "faced": ["His father’s assassination", "A choice between a prophet’s word and money already spent", "Success in war", "Correction he did not want to hear"],
+      "learn": "He obeyed when it cost him money, and Jehovah gave him the victory. But success made him proud, and he then refused correction. How a person reacts to counsel shows whether the heart is complete.",
+      "prophets": "Two unnamed prophets",
+      "next": "Meanwhile Israel was about to reach the height of its power.",
+      "sources": "it “Amaziah” No. 1; w24.07 pp. 20-25", "slug": "Amaziah"
+    },
+    {
+      "id": "jeroboam-ii", "chapter": 4, "name": "Jeroboam II", "kingdom": "israel", "year": -844, "dates": "c. 844 – c. 803 B.C.E.", "reign": "41 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes and did not leave the sins of the first Jeroboam. (2Ki 14:24)",
+      "story": "Jehovah saw how bitter Israel’s affliction was and used Jeroboam to save them. He won back Israel’s borders from Hamath down to the Dead Sea, just as the prophet Jonah had said. Wealth poured in. Amos and Hosea described what went with it: winter houses and ivory couches, the poor sold for a pair of sandals, drunkenness, immorality and the calf at Bethel. The priest of Bethel reported Amos to the king and told him to go back to Judah.",
+      "faced": ["A weakened kingdom at the start", "Sudden prosperity", "Prophets who would not flatter him"],
+      "learn": "The good years were an act of Jehovah’s mercy, not a sign that he approved. Comfort can make a people stop listening just when they most need to.",
+      "prophets": "Jonah; Amos; Hosea",
+      "next": "Judah was growing strong at the same time, under a sixteen-year-old.",
+      "sources": "it “Jeroboam” No. 2; it “Amos, Book of”", "slug": "Jeroboam"
+    },
+    {
+      "id": "uzziah", "chapter": 4, "name": "Uzziah", "also": "Azariah", "kingdom": "judah", "year": -829, "dates": "829–778 B.C.E.", "reign": "52 years",
+      "reputation": "good",
+      "verdict": "He did what was right in Jehovah’s eyes, but when he was strong his heart became haughty to his own ruin. (2Ch 26:4, 16)",
+      "story": "Uzziah kept searching for God in the days of Zechariah, who taught him, and as long as he did, God made him prosper. He defeated the Philistines and the Arabs, received tribute from the Ammonites, built towers, dug cisterns, loved farming and equipped a large army with war engines. Then he walked into the temple to burn incense, which only the priests could do. Azariah the chief priest and eighty priests stood up to him. He became enraged, and leprosy broke out on his forehead. He lived in a separate house until he died, while his son Jotham ran the palace.",
+      "faced": ["Becoming king at sixteen after his father’s murder", "Enemies on every border", "Great success and fame", "Priests who told him he was wrong"],
+      "learn": "Most of his long reign is an example worth copying. His fall came from one thing: he began to feel that his success entitled him to more than Jehovah had given him, and he answered counsel with anger.",
+      "prophets": "Zechariah (his instructor); Joel (perhaps); Amos; Hosea; Isaiah",
+      "next": "In the north, Jeroboam II died and the kingdom began to come apart.",
+      "sources": "it “Uzziah” No. 3", "slug": "Uzziah"
+    },
+    {
+      "id": "zechariah", "chapter": 4, "name": "Zechariah", "kingdom": "israel", "year": -803, "dates": "c. 803 – c. 791 B.C.E.", "reign": "6 months recorded",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes, as his forefathers had done. (2Ki 15:9)",
+      "story": "Zechariah was the son of Jeroboam II. He seems to have begun to reign in some sense when his father died, but his kingship was not fully confirmed until about 792 B.C.E. Six months later Shallum struck him down in public.",
+      "faced": ["A throne he could not secure for about eleven years", "Conspiracy"],
+      "learn": "He was the fourth generation after Jehu, exactly the number Jehovah had promised. Jehovah’s word is kept to the letter, both the favour and its limit. (2Ki 15:12)",
+      "prophets": "Hosea",
+      "next": "From here on, almost every king of Israel was murdered by the next one.",
+      "sources": "it “Zechariah” No. 14; chart A6", "slug": "Zechariah"
+    },
+    {
+      "id": "shallum", "chapter": 4, "name": "Shallum", "kingdom": "israel", "year": -791, "dates": "c. 791 B.C.E.", "reign": "1 month",
+      "reputation": "bad",
+      "verdict": "The record gives no verdict. It says only that he took the throne by murder and kept it one month. (2Ki 15:10, 13)",
+      "story": "Shallum son of Jabesh killed Zechariah and reigned in Samaria for one month. Menahem came up from Tirzah and killed him.",
+      "faced": ["A rival with more force"],
+      "learn": "What he gained by violence was taken the same way within weeks. Hosea, who lived through these years, described kings falling one after another with no one calling on Jehovah. (Ho 7:7)",
+      "prophets": "Hosea",
+      "next": "Menahem held the throne by terror and by paying Assyria.",
+      "sources": "it “Shallum” No. 5", "slug": "Shallum"
+    },
+    {
+      "id": "menahem", "chapter": 4, "name": "Menahem", "kingdom": "israel", "year": -791, "dates": "c. 791 – c. 780 B.C.E.", "reign": "10 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes all his days. (2Ki 15:18)",
+      "story": "Menahem treated the town of Tiphsah with terrible cruelty because it would not open its gates to him. Then King Pul of Assyria, also known as Tiglath-pileser III, came into the land. Menahem paid him a thousand talents of silver to stay in power and raised it by taxing every wealthy man fifty shekels.",
+      "faced": ["Resistance to his rule", "The first Assyrian army inside Israel"],
+      "learn": "He bought safety from Assyria and never turned to Jehovah. The same Assyria finished the kingdom about forty years later. Hosea said of Israel in those days that they went to Assyria like a senseless dove. (Ho 7:11)",
+      "prophets": "Hosea",
+      "next": "His son Pekahiah inherited a kingdom that paid tribute.",
+      "sources": "it “Menahem”", "slug": "Menahem"
+    },
+    {
+      "id": "pekahiah", "chapter": 4, "name": "Pekahiah", "kingdom": "israel", "year": -780, "dates": "c. 780 – c. 778 B.C.E.", "reign": "2 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes and kept the calf worship. (2Ki 15:24)",
+      "story": "After two years Pekahiah was killed in the palace at Samaria by his own adjutant, Pekah, who came with fifty men of Gilead.",
+      "faced": ["Conspiracy by an officer close to him"],
+      "learn": "Nothing in his short reign changed the direction his father and the nation were going. A new ruler without a new course made no difference.",
+      "prophets": "Hosea",
+      "next": "Pekah took the throne and turned against Judah.",
+      "sources": "it “Pekahiah”", "slug": "Pekahiah"
+    },
+    {
+      "id": "pekah", "chapter": 5, "name": "Pekah", "kingdom": "israel", "year": -778, "dates": "c. 778 – c. 758 B.C.E.", "reign": "20 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes. (2Ki 15:28)",
+      "story": "Pekah allied with Rezin of Syria and attacked Judah, meaning to remove the king and put their own man on David’s throne. His army killed 120,000 in a day and marched 200,000 captives toward Samaria. The prophet Oded met them and said Jehovah’s anger was against them, and leading men of Ephraim clothed and fed the captives and took them home. Pekah never took Jerusalem. Assyria then captured Gilead, Galilee and all Naphtali and carried the people away. Hoshea conspired against Pekah and killed him.",
+      "faced": ["The rising power of Assyria", "A war of his own choosing against Judah", "Loss of the north and east of his kingdom"],
+      "learn": "He spent his strength fighting his brothers and lost a large part of his land. The bright spot belongs to the men who listened to Oded: they admitted they were wrong and treated the captives with kindness.",
+      "prophets": "Oded; Isaiah (in Judah); Hosea",
+      "next": "In Judah, Uzziah’s son had become king the year after Pekah.",
+      "sources": "it “Pekah”", "slug": "Pekah"
+    },
+    {
+      "id": "jotham", "chapter": 5, "name": "Jotham", "kingdom": "judah", "year": -777, "dates": "777–762 B.C.E.", "reign": "16 years",
+      "reputation": "good",
+      "verdict": "He did what was right in Jehovah’s eyes and grew strong because he prepared his ways before Jehovah. (2Ch 27:2, 6)",
+      "story": "Jotham had managed the palace while his father lived apart as a leper. As king he built the upper gate of the temple, strengthened the wall of Ophel and built cities, forts and towers in the hills. He defeated the Ammonites, who paid tribute for three years. Unlike his father he did not push into the temple. The people, though, were still acting corruptly, and near the end of his reign Rezin and Pekah began moving against Judah.",
+      "faced": ["Taking on royal duties early because of his father’s leprosy", "A people who did not share his faithfulness", "War with Ammon", "The first pressure from Syria and Israel"],
+      "learn": "He copied what was good in his father and avoided his father’s mistake. He also stayed faithful when the people around him did not, which shows it can be done.",
+      "prophets": "Isaiah; Micah; Hosea",
+      "next": "His son Ahaz did not follow him.",
+      "sources": "it “Jotham” No. 3", "slug": "Jotham"
+    },
+    {
+      "id": "ahaz", "chapter": 5, "name": "Ahaz", "kingdom": "judah", "year": -762, "dates": "762–746 B.C.E.", "reign": "16 years",
+      "reputation": "bad",
+      "verdict": "He did not do what was right in Jehovah’s eyes, and in the time of his distress he acted even more unfaithfully. (2Ki 16:2; 2Ch 28:22)",
+      "story": "Syria and Israel invaded to replace Ahaz, and his heart shook like trees in the wind. Isaiah met him and said to stay calm: the plan would fail. Jehovah even offered him a sign, and Ahaz refused it. He sent the silver and gold of the temple to Tiglath-pileser of Assyria and called himself his servant. Assyria took Damascus, but the help turned into a burden. Ahaz copied a pagan altar he saw in Damascus and put it in the temple court, burned his own sons as offerings, cut up the temple utensils and finally shut the temple doors. Edom and the Philistines raided him as well.",
+      "faced": ["Invasion by Syria and Israel together", "Raids by Edom and the Philistines", "A direct offer of help from Jehovah through Isaiah", "Dependence on Assyria"],
+      "learn": "Fear pushed him toward human help and away from the help Jehovah was offering. Each new trouble made him worse instead of bringing him back. Hardship does not decide our course. How we respond to it does.",
+      "prophets": "Isaiah; Micah; Hosea; Oded",
+      "next": "While Ahaz was shutting the temple, the last king of Israel was taking his throne.",
+      "sources": "it “Ahaz” No. 1", "slug": "Ahaz"
+    },
+    {
+      "id": "hoshea", "chapter": 5, "name": "Hoshea", "kingdom": "israel", "year": -758, "dates": "c. 758 – 740 B.C.E.", "reign": "9 years from c. 748",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes, only not as the kings of Israel before him. (2Ki 17:2)",
+      "story": "Hoshea killed Pekah. It seems his rule was not fully established, or did not have Assyria’s backing, until about 748 B.C.E. Shalmaneser V made him pay tribute. Hoshea secretly sent to King So of Egypt and stopped paying. Shalmaneser put him in prison and besieged Samaria for three years. In 740 B.C.E. the city fell, the people were deported, and the ten-tribe kingdom ended. The Bible then stops and explains why: they had left Jehovah, followed the nations, and ignored every prophet sent to them.",
+      "faced": ["A kingdom already half taken by Assyria", "Tribute he could not keep paying", "A three-year siege"],
+      "learn": "Being less bad than those before him did not save the nation. He looked to Egypt and never returned to Jehovah. The end of Israel shows that Jehovah’s patience is long, about 257 years, but it is not without limit.",
+      "prophets": "Hosea; Micah; Isaiah (in Judah)",
+      "next": "When Samaria fell, a new king had been on the throne in Jerusalem for six years, and Assyria would come for Judah next.",
+      "sources": "it “Hoshea” No. 4; chart A6", "slug": "Hoshea"
+    },
+    {
+      "id": "hezekiah", "chapter": 5, "name": "Hezekiah", "kingdom": "judah", "year": -746, "dates": "746–716 B.C.E.", "reign": "29 years",
+      "reputation": "good",
+      "verdict": "He did what was right in Jehovah’s eyes. He trusted in Jehovah and kept sticking to him. (2Ki 18:3-6)",
+      "story": "In the first month of his reign Hezekiah opened the doors his father had shut and had the temple cleansed. He held a Passover and sent runners to invite the northern tribes too. He removed the high places and crushed the copper serpent Moses had made, because people were burning incense to it. He stopped serving Assyria. In his fourteenth year Sennacherib took the fortified cities of Judah and sent the Rabshakeh to mock Jehovah at Jerusalem’s wall. Hezekiah spread the threatening letters out before Jehovah and prayed. Isaiah brought the answer, and that night an angel struck down 185,000 Assyrians. Hezekiah then became deathly ill, prayed, and was given fifteen more years. When envoys came from Babylon he proudly showed them all his treasures. Isaiah corrected him, and he humbled himself.",
+      "faced": ["A closed temple and an idolatrous nation left by his father", "The fall of Israel next door", "The Assyrian army at his walls", "A terminal illness", "Praise and attention after his recovery"],
+      "learn": "A bad family background does not have to decide who you become. He removed things that got in the way of worship, even a relic with a sacred history. Under threat and on his sickbed he prayed and trusted. When pride caught him out, he accepted correction, which is why he is still counted as faithful.",
+      "prophets": "Isaiah; Micah; Hosea",
+      "next": "His son Manasseh, born during the extra fifteen years, undid nearly everything.",
+      "sources": "it “Hezekiah” No. 1; w17.03 pp. 18-27; w24.07 pp. 20-25", "slug": "Hezekiah"
+    },
+    {
+      "id": "manasseh", "chapter": 6, "name": "Manasseh", "kingdom": "judah", "year": -716, "dates": "716–661 B.C.E.", "reign": "55 years",
+      "reputation": "mixed",
+      "verdict": "He did what was bad on a large scale, then humbled himself greatly and was forgiven. (2Ki 21:2; 2Ch 33:12, 13)",
+      "story": "Manasseh became king at twelve. He rebuilt the high places his father had destroyed, set up altars to Baal, worshipped the stars in the temple courtyards, put a carved image in Jehovah’s house, burned his own sons as offerings, practised magic and shed a great deal of innocent blood. Jehovah kept speaking to him and the people, and they paid no attention. Then Assyrian army chiefs captured him and took him in fetters to Babylon. In his distress he begged Jehovah, kept humbling himself and prayed. Jehovah heard and restored him to Jerusalem. He removed the foreign gods and the image, repaired Jehovah’s altar and told Judah to serve Jehovah.",
+      "faced": ["Becoming king as a child, without his father", "Judah as a vassal of Assyria", "Prophets he refused to hear", "Imprisonment in a foreign land"],
+      "learn": "No one who truly turns back is beyond Jehovah’s mercy. Manasseh’s repentance was real because he acted on it. Even so, the harm from his earlier years was not undone, and it shaped his son and the nation. (2Ki 24:3, 4)",
+      "prophets": "Unnamed prophets (2Ki 21:10)",
+      "next": "His son copied the early years, not the late ones.",
+      "sources": "it “Manasseh” No. 4; w11 1/1 p. 18; w24.07 pp. 20-25", "slug": "Manasseh"
+    },
+    {
+      "id": "amon", "chapter": 6, "name": "Amon", "kingdom": "judah", "year": -661, "dates": "661–659 B.C.E.", "reign": "2 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad, and he did not humble himself as his father Manasseh had. (2Ch 33:22, 23)",
+      "story": "Amon sacrificed to the images his father had once made. After two years his own servants killed him in his house. The people of the land executed the conspirators and made his eight-year-old son king.",
+      "faced": ["His father’s earlier example", "A conspiracy in his own household"],
+      "learn": "He had watched his father’s repentance and its results, and he chose the earlier pattern anyway. A parent’s change of heart cannot be inherited. Each person has to humble himself.",
+      "prophets": "",
+      "next": "The boy they crowned was Josiah.",
+      "sources": "it “Amon” No. 2", "slug": "Amon"
+    },
+    {
+      "id": "josiah", "chapter": 6, "name": "Josiah", "kingdom": "judah", "year": -659, "dates": "659–629 B.C.E.", "reign": "31 years",
+      "reputation": "good",
+      "verdict": "No king before him returned to Jehovah with all his heart, soul and strength as he did. (2Ki 23:25)",
+      "story": "Josiah was eight when he became king. At about sixteen he began to search for the God of David, and at twenty he started clearing Judah of idols. In his eighteenth year, during repairs to the temple, the high priest Hilkiah found the book of Jehovah’s Law. When it was read to him, Josiah ripped his garments and sent to ask Jehovah. The prophetess Huldah said calamity would come, but not in his days, because his heart was soft. He read the Law to all the people, made a covenant, and tore down the altar at Bethel, as a man of God had foretold by name some three hundred years before. He held a Passover greater than any since Samuel. Then Pharaoh Necho marched north. Josiah went out to stop him at Megiddo, though Necho’s warning was from God, and was fatally wounded.",
+      "faced": ["A wicked father and grandfather’s legacy", "A nation whose reform was only on the surface", "Discovering how far the nation had drifted from the Law", "A decision about whether to go to war"],
+      "learn": "You do not have to be old to search for Jehovah, and you can start even if your family did not. When the Scriptures showed him something, he acted at once. His one recorded error was going into a fight without finding out Jehovah’s will first.",
+      "prophets": "Zephaniah; Jeremiah; Huldah",
+      "next": "Four more kings followed in twenty-two years: three of his sons and a grandson. None was like him.",
+      "sources": "it “Josiah” No. 1; w17.03 pp. 18-27; w24.07 pp. 20-25", "slug": "Josiah"
+    },
+    {
+      "id": "jehoahaz-judah", "chapter": 7, "name": "Jehoahaz", "also": "Shallum, of Judah", "kingdom": "judah", "year": -628, "dates": "628 B.C.E.", "reign": "3 months",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes. (2Ki 23:32)",
+      "story": "The people chose Jehoahaz over his older brother. Three months later Pharaoh Necho put him in bonds at Riblah, fined Judah a hundred talents of silver and a talent of gold, and took him to Egypt, where he died. Jeremiah said he would never see his homeland again.",
+      "faced": ["Egypt in control after his father’s death"],
+      "learn": "Josiah’s reforms had gone only as deep as Josiah. Within three months of his death the direction had already changed. A good example helps only those who make it their own.",
+      "prophets": "Jeremiah",
+      "next": "Necho replaced him with his brother Eliakim and renamed him Jehoiakim.",
+      "sources": "it “Jehoahaz” No. 3", "slug": "Jehoahaz"
+    },
+    {
+      "id": "jehoiakim", "chapter": 7, "name": "Jehoiakim", "also": "Eliakim", "kingdom": "judah", "year": -628, "dates": "628–618 B.C.E.", "reign": "11 years",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes. (2Ki 23:37)",
+      "story": "Jehoiakim taxed the land to pay Egypt and built himself a grand house with labour he did not pay for. He had the prophet Urijah brought back from Egypt and killed. When Jeremiah’s scroll was read to him by the winter fire, he cut it up a few columns at a time and burned it. Jeremiah dictated it again, with more added. In 625 B.C.E. Babylon defeated Egypt at Carchemish, and Jehoiakim became Nebuchadnezzar’s vassal. After three years he rebelled, and raiding bands and then the Babylonian army came against him.",
+      "faced": ["A throne he owed to Egypt", "The shift of world power from Egypt to Babylon", "Jeremiah’s written warnings"],
+      "learn": "He tried to get rid of a message he did not like by destroying the scroll. The message was rewritten and it came true. Rejecting counsel does not change what is coming.",
+      "prophets": "Jeremiah; Habakkuk; Urijah",
+      "next": "He died as the siege began, and his eighteen-year-old son inherited it.",
+      "sources": "it “Jehoiakim”", "slug": "Jehoiakim"
+    },
+    {
+      "id": "jehoiachin", "chapter": 7, "name": "Jehoiachin", "also": "Jeconiah, Coniah", "kingdom": "judah", "year": -618, "dates": "618–617 B.C.E.", "reign": "3 months, 10 days",
+      "reputation": "bad",
+      "verdict": "He did what was bad in Jehovah’s eyes, as his father had done. (2Ki 24:9)",
+      "story": "With Nebuchadnezzar’s army around the city, Jehoiachin surrendered in 617 B.C.E. He was taken to Babylon with his mother, the princes, the craftsmen and thousands of others, along with treasures from the temple. Ezekiel and Daniel were among those in exile. He spent about thirty-seven years in prison until a later king of Babylon released him and gave him a seat at the royal table. His sons were born in Babylon, and through them David’s line continued.",
+      "faced": ["A siege already under way when he became king", "Exile and long imprisonment"],
+      "learn": "No descendant of his ever ruled in Jerusalem, yet Jehovah kept David’s line alive through him all the way to the Messiah. Human failure did not cancel Jehovah’s promise. (Mt 1:11, 12)",
+      "prophets": "Jeremiah",
+      "next": "Nebuchadnezzar put Jehoiachin’s uncle Mattaniah on the throne and renamed him Zedekiah.",
+      "sources": "it “Jehoiachin”", "slug": "Jehoiachin"
+    },
+    {
+      "id": "zedekiah", "chapter": 7, "name": "Zedekiah", "also": "Mattaniah", "kingdom": "judah", "year": -617, "dates": "617–607 B.C.E.", "reign": "11 years",
+      "reputation": "bad",
+      "verdict": "He continued to do what was bad in Jehovah’s eyes. (2Ki 24:19)",
+      "story": "Zedekiah swore loyalty to Nebuchadnezzar in Jehovah’s name. Jeremiah told him to keep his neck under Babylon’s yoke and live. Instead he broke the oath and looked to Egypt, and the Babylonians came back and surrounded Jerusalem. During the siege he freed the Hebrew slaves and then let them be taken back. He asked Jeremiah for Jehovah’s word more than once, in secret, and each time he was told to surrender. He admitted he was afraid of his princes and of the Jews who had already gone over. He let the princes throw Jeremiah into a muddy cistern and then let Ebed-melech pull him out. In 607 B.C.E. the wall was broken through. Zedekiah fled by night, was caught near Jericho, saw his sons killed, was blinded and taken to Babylon. The city and the temple were burned.",
+      "faced": ["An oath he had sworn in Jehovah’s name", "Neighbouring kings urging revolt", "Princes stronger-willed than he was", "An eighteen-month siege and famine"],
+      "learn": "He knew what was right, asked for it again and again, and did not do it because he feared people. Knowing Jehovah’s direction only helps the one with the courage to follow it.",
+      "prophets": "Jeremiah; Ezekiel (in Babylon)",
+      "next": "",
+      "sources": "it “Zedekiah” No. 4", "slug": "Zedekiah"
+    }
+  ],
+  "ending": "With Zedekiah the line of kings ruling from Jerusalem stopped. The land lay desolate until a remnant returned in 537 B.C.E. The story picks up again on the timeline.",
+  "prophets": [
+    {
+      "id": "elijah", "name": "Elijah", "year": -940, "period": "From Ahab’s reign (c. 940) until after 913 B.C.E.", "sentTo": "Israel", "kings": "Ahab and Ahaziah of Israel; Jehoram of Judah",
+      "situation": "Ahab had married Jezebel and made Baal worship the religion of the palace. Jezebel was having Jehovah’s prophets killed, and those still alive were hiding in caves. Speaking for Jehovah in public could cost a man his life.",
+      "start": "His first recorded act was to stand in front of Ahab and announce that there would be no dew or rain except at his word. He then had to hide, first by a stream and later with a widow in Zarephath, in Jezebel’s own homeland.",
+      "message": "Jehovah is the true God, not Baal. The test on Mount Carmel settled it in front of the nation.",
+      "sources": "it “Elijah” No. 1 (1Ki 16:30-33; 17:1; 18:4, 13)", "slug": "Elijah"
+    },
+    {
+      "id": "elisha", "name": "Elisha", "year": -917, "period": "c. 917 until after c. 859 B.C.E.", "sentTo": "Israel", "kings": "Jehoram, Jehu, Jehoahaz and Jehoash of Israel",
+      "situation": "Elisha was ploughing with twelve pairs of bulls when Elijah threw his garment over him. He slaughtered the bulls, said goodbye to his parents and left a secure farm to become Elijah’s attendant. When Elijah was taken away, Ahab was dead but Jezebel was still alive, her son was king, the calves still stood, and Moab and Syria were both pressing on Israel. Elisha now had to carry on alone.",
+      "start": "He struck the Jordan with Elijah’s garment and it parted. His first days included healing Jericho’s bad water and being jeered at by a crowd of boys at Bethel, a centre of calf worship.",
+      "message": "Jehovah cares for those who serve him and has power over sickness, hunger, armies and death. Through Elisha, Jehu was anointed to end Ahab’s house and Baal worship.",
+      "sources": "it “Elisha” (1Ki 19:16-21; 2Ki 2:1-25)", "slug": "Elisha"
+    },
+    {
+      "id": "jonah", "name": "Jonah", "year": -844, "period": "c. 844 B.C.E.", "sentTo": "Israel, then Nineveh", "kings": "Jeroboam II of Israel",
+      "situation": "Jonah came from Gath-hepher in Zebulun. He had already told Israel that its lost territory would be restored. Then he was sent alone to Nineveh, a huge foreign city and a capital of Assyria, to announce its doom. It was an assignment to a pagan people far from home, with no reason to expect a hearing.",
+      "start": "He ran the other way and boarded a ship at Joppa for Tarshish. After the storm and three days inside the great fish he was given the same assignment a second time, and went.",
+      "message": "Nineveh would be overthrown in forty days. The city repented and was spared, and Jehovah used a bottle-gourd plant to teach Jonah about mercy.",
+      "sources": "it “Jonah” No. 1; it “Jonah, Book of” (2Ki 14:25; Jon 1:1-3; 3:1-4)", "slug": "Jonah"
+    },
+    {
+      "id": "joel", "name": "Joel", "year": -820, "period": "Possibly c. 820 B.C.E.", "sentTo": "Judah", "kings": "Possibly early in Uzziah’s reign",
+      "situation": "A plague of locusts was stripping the land. Vines, fig trees and grain were gone, so the grain and drink offerings at Jehovah’s house were about to stop. The priests were told to mourn and the people to fast.",
+      "start": "The Bible gives nothing about his call beyond his father’s name, Pethuel. The date is not certain.",
+      "message": "The day of Jehovah is near. Come back to Jehovah with all your hearts, and he will pour out his spirit and save everyone who calls on his name.",
+      "sources": "it “Joel” No. 1; it “Joel, Book of” (Joe 1:1-14; 2:12, 13, 28-32)", "slug": "Joel-Book-of"
+    },
+    {
+      "id": "amos", "name": "Amos", "year": -810, "period": "Between 829 and c. 804 B.C.E.", "sentTo": "Israel", "kings": "Uzziah of Judah; Jeroboam II of Israel",
+      "situation": "Amos was a sheep raiser and a seasonal worker on sycamore fig trees at Tekoa in Judah. He was not a prophet’s son and had no training. Jehovah took him from following the flock and sent him north into Israel at the height of its prosperity, when the rich were crushing the poor and the state religion was centred on the calf at Bethel.",
+      "start": "He delivered his message two years before a great earthquake. Amaziah, the priest of Bethel, accused him to the king of conspiracy and told him to go home to Judah.",
+      "message": "Israel had been favoured more than any nation, so it was more accountable. “Search for me, and keep living.”",
+      "sources": "it “Amos” No. 1; it “Amos, Book of” (Am 1:1; 5:4; 7:10-15)", "slug": "Amos"
+    },
+    {
+      "id": "hosea", "name": "Hosea", "year": -805, "period": "Before 804 until after 745 B.C.E.", "sentTo": "Israel", "kings": "Uzziah, Jotham, Ahaz and Hezekiah of Judah; Jeroboam II of Israel",
+      "situation": "Israel was rich and looked secure under Jeroboam II. Underneath there was bloodshed, stealing, adultery, Baal worship and the calves, and the people had rejected the knowledge of God. Hosea went on serving for at least fifty-nine years, through the years when one king after another was assassinated.",
+      "start": "At the start Jehovah told him to marry a woman who would prove unfaithful. His own home became a picture of Israel’s unfaithfulness to Jehovah, and his children’s names carried messages of judgment.",
+      "message": "Israel had been unfaithful and judgment was coming, yet Jehovah’s loyal love kept calling them to return.",
+      "sources": "it “Hosea”; it “Hosea, Book of” (Ho 1:1-9; 4:1, 2; 14:1-4)", "slug": "Hosea"
+    },
+    {
+      "id": "isaiah", "name": "Isaiah", "year": -778, "period": "c. 778 until after 732 B.C.E.", "sentTo": "Judah and Jerusalem", "kings": "Uzziah, Jotham, Ahaz and Hezekiah",
+      "situation": "King Uzziah had just died, a leper shut out of the temple after fifty-two years on the throne. Judah was prosperous but morally sick. Its rulers are addressed as “dictators of Sodom.” To the north, Israel had only about forty years left.",
+      "start": "In the year Uzziah died, Isaiah saw Jehovah on a lofty throne with seraphs calling out “Holy, holy, holy.” When Jehovah asked whom he should send, Isaiah answered, “Here I am! Send me!” He was told from the outset that most people would not listen.",
+      "message": "Trust Jehovah, not Assyria or Egypt. Jerusalem would be saved from Assyria, later fall to Babylon, and afterward be restored. Many prophecies about the Messiah.",
+      "sources": "it “Isaiah” (Isa 1:1, 10; 6:1-13)", "slug": "Isaiah"
+    },
+    {
+      "id": "micah", "name": "Micah", "year": -777, "period": "777–717 B.C.E.", "sentTo": "Judah and Israel", "kings": "Jotham, Ahaz and Hezekiah",
+      "situation": "Micah came from the country town of Moresheth. Both kingdoms were corrupt: leaders took bribes, priests taught for a price, prophets told fortunes for money and the poor were robbed of their fields. Samaria’s fall was only decades away.",
+      "start": "Nothing is recorded about his call. His first message was that Samaria would become a heap of ruins.",
+      "message": "Samaria and Jerusalem would both be laid waste. What Jehovah asks is to exercise justice, cherish loyalty and walk in modesty with God. A ruler would come out of Bethlehem.",
+      "sources": "it “Micah” No. 7; it “Micah, Book of” (Mic 1:1, 6; 3:9-12; 5:2; 6:8)", "slug": "Micah"
+    },
+    {
+      "id": "zephaniah", "name": "Zephaniah", "year": -655, "period": "Before 648 B.C.E.", "sentTo": "Judah", "kings": "Early in Josiah’s reign",
+      "situation": "Judah was coming out of the long reigns of Manasseh and Amon. Priests of foreign gods were active, people bowed to the stars on their rooftops and swore by Jehovah and by another god in the same breath. Many said Jehovah would do neither good nor bad. The king was still a boy and his reforms had not begun.",
+      "start": "Nothing is recorded about his call. He may have been a great-great-grandson of King Hezekiah.",
+      "message": "The great day of Jehovah is near. “Seek Jehovah, all you meek ones of the earth.” A humble remnant would be restored.",
+      "sources": "it “Zephaniah” No. 2; it “Zephaniah, Book of” (Zep 1:1-6, 12; 2:3)", "slug": "Zephaniah-Book-of"
+    },
+    {
+      "id": "jeremiah", "name": "Jeremiah", "year": -647, "period": "647 until after 607 B.C.E.", "sentTo": "Judah and the nations", "kings": "Josiah, Jehoahaz, Jehoiakim, Jehoiachin and Zedekiah",
+      "situation": "Jeremiah was a young man from the priestly town of Anathoth. It was the thirteenth year of Josiah, and the king’s reform was under way, but the people’s return was not wholehearted. He was told at the start that kings, princes, priests and people would all fight against him.",
+      "start": "When Jehovah commissioned him, he replied that he did not know how to speak because he was only a boy. Jehovah answered that he would be with him and put his words in his mouth.",
+      "message": "For more than forty years: Jerusalem will fall to Babylon unless you return to Jehovah. After seventy years there will be a restoration and a new covenant.",
+      "sources": "it “Jeremiah” No. 6 (Jer 1:1-10, 17-19; 3:10)", "slug": "Jeremiah"
+    },
+    {
+      "id": "nahum", "name": "Nahum", "year": -640, "period": "Before 632 B.C.E.", "sentTo": "Judah, about Nineveh", "kings": "Not stated; written before Nineveh fell in 632 B.C.E.",
+      "situation": "Judah had lived under Assyria’s shadow for about a century, since Ahaz first asked for its help. Assyria had destroyed Israel, overrun Judah’s cities and taken Manasseh away in fetters. Nineveh, the “city of bloodshed,” still looked unbeatable.",
+      "start": "Nothing is recorded about his call. He was from Elkosh, possibly a town in Judah.",
+      "message": "Nineveh would be destroyed and would not rise again. Jehovah is slow to anger, but he does not hold back punishment, and he is a stronghold for those who take refuge in him.",
+      "sources": "it “Nahum” No. 1; it “Nahum, Book of” (Na 1:1-7, 15; 3:1)", "slug": "Nahum-Book-of"
+    },
+    {
+      "id": "habakkuk", "name": "Habakkuk", "year": -628, "period": "c. 628 B.C.E.", "sentTo": "Judah", "kings": "Early in Jehoiakim’s reign",
+      "situation": "Good King Josiah was dead and Jehoiakim ruled as Egypt’s man. Habakkuk looked around Judah and saw violence, quarrelling and injustice, with the law paralysed and the wicked surrounding the righteous. Babylon was rising but had not yet reached Judah.",
+      "start": "His book opens with his own question to Jehovah: “How long, O Jehovah, must I cry for help, but you do not hear?”",
+      "message": "Jehovah would raise up the Chaldeans against Judah, and then judge them too. The vision will not be late. “The righteous one will live by his faithfulness.”",
+      "sources": "it “Habakkuk”; it “Habakkuk, Book of” (Hab 1:1-6; 2:2-4)", "slug": "Habakkuk-Book-of"
+    },
+    {
+      "id": "daniel", "name": "Daniel", "year": -617, "period": "617 – c. 536 B.C.E.", "sentTo": "The exiles; the courts of Babylon and Persia", "kings": "Nebuchadnezzar, Belshazzar, Darius the Mede and Cyrus",
+      "situation": "Daniel was taken from Jerusalem to Babylon as a youth of the royal or noble class, probably a teenager. He was given a Babylonian name, put through three years of court training and assigned food from the king’s table, in a city full of idols and with his homeland under Babylon’s control.",
+      "start": "His first recorded stand was a respectful request not to eat the king’s delicacies. Soon after, when the king ordered all the wise men killed, Jehovah revealed Nebuchadnezzar’s dream to Daniel.",
+      "message": "The Most High rules over the kingdoms of mankind. Visions of the world powers to come, the timing of the Messiah, and God’s Kingdom that will never be destroyed.",
+      "sources": "it “Daniel” No. 2 (Da 1:1-8, 17; 2:1-49)", "slug": "Daniel"
+    },
+    {
+      "id": "ezekiel", "name": "Ezekiel", "year": -613, "period": "613 – c. 591 B.C.E.", "sentTo": "The Jewish exiles in Babylonia", "kings": "During the exile of Jehoiachin; Zedekiah ruling in Jerusalem",
+      "situation": "Ezekiel was a priest who had been carried to Babylonia in 617 B.C.E. with King Jehoiachin. He lived among the exiles at Tel-abib by the river Chebar. Many of them were sure the exile would be short and that Jerusalem could not fall, and false prophets were telling them so.",
+      "start": "In the fifth year of the exile he saw a vision of Jehovah’s heavenly chariot. He was made a watchman to the house of Israel and warned that he was being sent to a stubborn people, like living among scorpions, and must speak whether they listened or not.",
+      "message": "Before 607: Jerusalem will certainly be destroyed. After it: Jehovah will regather and revive his people, and pure worship will be restored. “They will have to know that I am Jehovah.”",
+      "sources": "it “Ezekiel” (Eze 1:1-3; 2:3-7; 3:15-21)", "slug": "Ezekiel"
+    },
+    {
+      "id": "obadiah", "name": "Obadiah", "year": -607, "period": "c. 607 B.C.E.", "sentTo": "Judah, about Edom", "kings": "At the fall of Jerusalem",
+      "situation": "Jerusalem had just been destroyed. The Edomites, descendants of Jacob’s brother Esau, had stood by and gloated, joined in the looting and handed fleeing survivors over to the enemy.",
+      "start": "Nothing personal is known about him. He is known only by his name and his short book.",
+      "message": "Edom would be brought down from its heights and cut off for good, while Jacob’s house would return to its land. “The kingship will become Jehovah’s.”",
+      "sources": "it “Obadiah” No. 4; it “Obadiah, Book of” (Ob 1-4, 10-14, 21)", "slug": "Obadiah-Book-of"
+    }
+  ],
+  "references": [
+    { "label": "Chart A6: Prophets and Kings of Judah and of Israel (New World Translation, Appendix A)", "note": "All dates on this page" },
+    { "label": "Insight on the Scriptures (it), article for each king and prophet", "url": "https://www.jw.org/en/library/books/Insight-on-the-Scriptures/" },
+    { "label": "“Serve Jehovah With a Complete Heart!” and “Will You Apply Your Heart to the Things Written?” The Watchtower, March 2017, pp. 18-27", "url": "https://www.jw.org/en/library/magazines/watchtower-study-march-2017/serve-jehovah-god-with-a-complete-heart/" },
+    { "label": "“Important Lessons From the Kings of Israel,” The Watchtower, July 2024, pp. 20-25", "url": "https://www.jw.org/en/library/magazines/watchtower-study-july-2024/Important-Lessons-From-the-Kings-of-Israel/" },
+    { "label": "“He Could Have Had God’s Favor—Rehoboam,” The Watchtower, June 2018, pp. 30-32", "url": "https://www.jw.org/en/library/magazines/watchtower-simplified-june-2018/he-could-had-gods-favor-rehoboam/" },
+    { "label": "“He Softened the Face of Jehovah,” The Watchtower, January 1, 2011, p. 18", "url": "https://wol.jw.org/en/wol/d/r1/lp-e/2011007" }
+  ]
+}

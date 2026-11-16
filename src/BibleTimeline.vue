@@ -11,6 +11,7 @@
         <button id="zoom-out" type="button" class="btn" :disabled="scale <= minScale * 1.001" aria-label="Zoom out" @click="zoomBy(1 / 1.8)">−</button>
         <button id="zoom-in" type="button" class="btn" :disabled="scale >= maxScale * 0.999" aria-label="Zoom in" @click="zoomBy(1.8)">+</button>
         <button id="zoom-fit" type="button" class="btn wide" @click="fit(true)">Show all</button>
+        <a id="nav-kings" class="btn wide nav" href="#/kings">Kings and prophets</a>
       </div>
     </header>
   
@@ -107,7 +108,7 @@ const MAX_ROWS = { chip: 3, label: 3, card: 3 }; // rows of labels on each side 
 const RULER = 26;    // year ruler at the bottom of the view
 const STEPS = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000];
 
-function setup() {
+function setup(props) {
   const view = ref(null);
   const mini = ref(null);
   const W = ref(1000);
@@ -359,6 +360,14 @@ function setup() {
   }
   onMounted(() => {
     measure(true);
+    // Opened from the Kings and Prophets page with a year: go to the nearest date and select it.
+    if (props.focusYear !== null && props.focusYear !== undefined) {
+      const target = cont(props.focusYear);
+      const it = items.reduce((best, d) => (Math.abs(d.c - target) < Math.abs(best.c - target) ? d : best), items[0]);
+      const s = clampScale(3);
+      selId.value = it.id;
+      set(s, it.c - W.value / 2 / s);
+    }
     view.value.addEventListener('wheel', onWheel, { passive: false });
     if (window.ResizeObserver) { ro = new ResizeObserver(() => measure(false)); ro.observe(view.value); }
     else window.addEventListener('resize', () => measure(false));
@@ -372,7 +381,7 @@ function setup() {
   };
 }
 
-export default { setup };
+export default { props: { focusYear: { type: Number, default: null } }, setup };
 </script>
 
 <style>
@@ -411,6 +420,7 @@ h1 { font-family: var(--font-head); font-size: 20px; font-weight: 600; letter-sp
 .lvl { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); padding: 4px 9px; border-radius: 999px; margin-right: 4px; white-space: nowrap; }
 .btn { min-width: 34px; height: 34px; padding: 0 8px; border: 1px solid var(--line); background: var(--surface); border-radius: 8px; font-size: 17px; line-height: 1; cursor: pointer; }
 .btn.wide { font-size: 13px; padding: 0 12px; font-weight: 500; }
+.btn.nav { display: inline-flex; align-items: center; box-sizing: border-box; color: inherit; text-decoration: none; white-space: nowrap; }
 .btn:hover:not(:disabled) { border-color: var(--accent); }
 .btn:disabled { opacity: .4; cursor: default; }
 .btn:focus-visible, .card:focus-visible, .view:focus-visible, .dot:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }

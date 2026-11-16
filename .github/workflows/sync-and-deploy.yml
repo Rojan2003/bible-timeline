@@ -1,0 +1,85 @@
+name: Sync from Google Doc and deploy
+
+# Rebuilds the timeline from the Google Doc and publishes the site.
+#   every hour ............ publishes only if the Doc changed since the last run
+#   push to main .......... always publishes
+#   "Run workflow" button . always publishes (this is how to force an update)
+on:
+  schedule:
+    - cron: '17 * * * *'   # hourly at 17 past; GitHub is busiest on the hour and starts those runs late
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write    # to commit the regenerated timeline.json and pictures
+  pages: write
+  id-token: write
+
+# One run at a time: a second run waits for the first, so two runs never commit or publish over each other.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      publish: ${{ steps.commit.outputs.publish }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main   # the newest main, not the commit that started the run: an earlier run may have committed since
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      # Stops with an error, changing nothing, if the Doc cannot be downloaded or comes back with too few dates.
+      - name: Rebuild timeline.json and the pictures from the Google Doc
+        run: npm run sync
+
+      # A commit made here does not start this workflow again: GitHub ignores pushes made with the workflow's own token.
+      - name: Commit the result if the Doc changed
+        id: commit
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          git add src/timeline.json public/img
+          if git diff --cached --quiet; then
+            echo "The Doc has not changed: nothing to commit."
+            changed=false
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Sync timeline from Google Doc"
+            # If someone pushed in the last minute, put this commit on top of theirs and try once more.
+            git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
+            changed=true
+          fi
+          if [ "$changed" = true ] || [ "$EVENT" != schedule ]; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.commit.outputs.publish == 'true'
+        run: npm run build
+      - if: steps.commit.outputs.publish == 'true'
+        uses: actions/configure-pages@v6
+      - if: steps.commit.outputs.publish == 'true'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

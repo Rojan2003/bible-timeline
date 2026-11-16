@@ -1,4 +1,4 @@
 import { createApp } from 'vue';
-import BibleTimeline from './BibleTimeline.vue';
+import App from './App.vue';
 
-createApp(BibleTimeline).mount('#app');
+createApp(App).mount('#app');
