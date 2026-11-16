@@ -116,6 +116,18 @@ If the hourly checks stop appearing: GitHub pauses them when a repository has ha
 60 days, and emails the owner. Open the page above, click **Sync from Google Doc and deploy**, and
 press **Enable workflow**.
 
+## Install it as an app
+
+The site is a PWA: it can be installed and it opens without a connection.
+
+- **Android (Chrome):** open the site, tap the ⋮ menu, then **Add to Home screen** or **Install app**.
+- **iPhone / iPad (Safari):** tap the Share button, then **Add to Home Screen**.
+- **Computer (Chrome or Edge):** click the install icon at the right end of the address bar.
+
+After the first visit the timeline, the Kings and Prophets page and all the pictures are saved on
+the device. When there is a connection the app picks up the newest version by itself; a change may
+need the app to be opened twice before it shows.
+
 ## Choices made by hand: `src/overrides.json`
 
 Two things can be set by hand in this file, and a sync never undoes them: how important a date
@@ -163,6 +175,8 @@ npm run sync -- --dry-run    # only show what would change
 | `src/KingsTimeline.vue` | The zoomable view on that page: Judah's kings, the prophets and Israel's kings as bars |
 | `src/kings-prophets.json` | Hand-written. The text for that page: the kings in story order, and the prophets |
 | `src/App.vue` | Switches between the two pages (`#/` timeline, `#/kings` kings and prophets) |
+| `public/manifest.webmanifest`, `public/icons/` | The app's name, colours and icons for installing it |
+| `public/sw.js` | Service worker: saves the site for offline use. Only runs in the built site, not in `npm run dev` |
 | `.github/workflows/sync-and-deploy.yml` | Runs the sync and publishes the site |
 
 Do not edit `src/timeline.json` or `public/img/` by hand: the next sync overwrites them.
