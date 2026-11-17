@@ -1,0 +1,630 @@
+{
+ "id": "north-south",
+ "title": "The king of the north and the king of the south",
+ "short": "North and South",
+ "span": "Daniel chapter 11 · 336 B.C.E. – today",
+ "min": {
+  "y": -350,
+  "f": 0
+ },
+ "max": {
+  "y": 2034,
+  "f": 0
+ },
+ "maxScale": 140,
+ "intro": "Who has filled the two roles in Daniel chapter 11, from Alexander’s generals to today. Where The Watchtower of May 2020 updates the 1999 Daniel book, this follows the newer explanation.",
+ "note": "Daniel 11 does not name the kings in advance. The conflict comes in episodes, so some stretches show no king. Zoom in on 1870 to today.",
+ "lanes": [
+  {
+   "id": "north",
+   "label": "King of the north",
+   "rows": 4,
+   "tone": "accent"
+  },
+  {
+   "id": "south",
+   "label": "King of the south",
+   "rows": 3,
+   "tone": "israel"
+  },
+  {
+   "id": "org",
+   "label": "League and UN",
+   "rows": 1,
+   "tone": "key"
+  },
+  {
+   "id": "events",
+   "label": "Events",
+   "rows": 4,
+   "tone": "key"
+  }
+ ],
+ "items": [
+  {
+   "id": "seleucid",
+   "lane": "north",
+   "y": -301,
+   "f": 0,
+   "name": "Seleucid Syria",
+   "when": "301 – 64 B.C.E.",
+   "rank": 3,
+   "y2": -64,
+   "f2": 0,
+   "text": "After Alexander’s empire was divided among four generals, Seleucus I Nicator ruled Mesopotamia and Syria. His line took the role of the king of the north. Syria became a Roman province in 64 B.C.E.",
+   "refs": "Da 11:4, 5",
+   "sources": "dp chap. 13; dp chap. 14"
+  },
+  {
+   "id": "rome",
+   "lane": "north",
+   "y": -30,
+   "f": 0,
+   "name": "Rome",
+   "when": "30 B.C.E. – first century C.E.",
+   "rank": 3,
+   "y2": 37,
+   "f2": 0.2,
+   "text": "Once Egypt also became a Roman province, in 30 B.C.E., Rome held both Syria and Egypt and took the position of the king of the north. Daniel 11:20-24 is applied to the emperors Augustus and Tiberius.",
+   "refs": "Da 11:20-24",
+   "sources": "dp chap. 14"
+  },
+  {
+   "id": "german-empire",
+   "lane": "north",
+   "y": 1871,
+   "f": 0.05,
+   "name": "German Empire",
+   "when": "1871 – 1918",
+   "rank": 3,
+   "y2": 1918,
+   "f2": 0.87,
+   "text": "The German Empire was formed on January 18, 1871. It built a large army and navy, grew rich and challenged Britain. It was defeated in World War I, and its own officials helped bring down the monarchy.",
+   "refs": "Da 11:25-30a",
+   "sources": "w20.05 pp. 2-7; dp chap. 15"
+  },
+  {
+   "id": "third-reich",
+   "lane": "north",
+   "y": 1933,
+   "f": 0.05,
+   "name": "Nazi Germany",
+   "when": "1933 – 1945",
+   "rank": 3,
+   "y2": 1945,
+   "f2": 0.35,
+   "text": "Hitler became chancellor in January 1933. The Nazis banned the work of Jehovah’s people, killed hundreds and sent thousands to concentration camps. Germany surrendered on May 7, 1945.",
+   "refs": "Da 11:30b, 31a",
+   "sources": "w20.05 pp. 2-7; dp chap. 15"
+  },
+  {
+   "id": "soviet",
+   "lane": "north",
+   "y": 1945,
+   "f": 0.4,
+   "name": "Soviet Union and its allies",
+   "when": "1945 – 1991",
+   "rank": 3,
+   "y2": 1991,
+   "f2": 0.95,
+   "text": "After World War II the Soviet Union and its allies gained influence in Europe. They banned the preaching work and exiled thousands, promoted atheism and spent heavily on their army and nuclear weapons. The Soviet Union disbanded in December 1991.",
+   "refs": "Da 11:36-39; Re 12:15-17",
+   "sources": "w20.05 pp. 2-7; dp chap. 16"
+  },
+  {
+   "id": "russia",
+   "lane": "north",
+   "y": 1991,
+   "f": 0.95,
+   "name": "Russia and its allies",
+   "when": "After 1991 – today",
+   "rank": 3,
+   "y2": 2026,
+   "f2": 0.9,
+   "text": "After the Soviet Union collapsed, Russia and its allies came to fill the role. They meet three tests: they deal directly with God’s people, they act as enemies of Jehovah and his people, and they compete with the king of the south. In 2017 Russia banned the work of Jehovah’s Witnesses. Daniel 11:44, 45 has not yet been fulfilled: it may describe a final attack on God’s people, after which the king of the north comes to his end with no helper.",
+   "refs": "Da 11:40-45; 12:1",
+   "sources": "w20.05 pp. 12-16; w20.05 chart “Rival Kings in the Time of the End”",
+   "approx": "The 1999 Daniel book said the king of the north for Daniel 11:44, 45 was “yet to rise.” The Watchtower of May 2020 identifies Russia and its allies."
+  },
+  {
+   "id": "ptolemaic",
+   "lane": "south",
+   "y": -305,
+   "f": 0,
+   "name": "Ptolemaic Egypt",
+   "when": "305 – 30 B.C.E.",
+   "rank": 3,
+   "y2": -30,
+   "f2": 0,
+   "text": "Ptolemy I, another of Alexander’s generals, ruled Egypt and Palestine and took the title of king in 305 B.C.E. His line took the role of the king of the south. Judah stayed under Egypt until 198 B.C.E. Egypt became a Roman province in 30 B.C.E.",
+   "refs": "Da 11:5",
+   "sources": "dp chap. 13; dp chap. 14"
+  },
+  {
+   "id": "britain",
+   "lane": "south",
+   "y": 1871,
+   "f": 0.05,
+   "name": "Britain",
+   "when": "1870s – World War I",
+   "rank": 3,
+   "y2": 1917,
+   "f2": 0.26,
+   "text": "At the end of the 19th century Britain was the king of the south, the rival of the German Empire.",
+   "refs": "Da 11:25-30a",
+   "sources": "w20.05 pp. 2-7; dp chap. 15"
+  },
+  {
+   "id": "anglo-american",
+   "lane": "south",
+   "y": 1917,
+   "f": 0.26,
+   "name": "Anglo-American World Power",
+   "when": "World War I – today",
+   "rank": 3,
+   "y2": 2026,
+   "f2": 0.9,
+   "text": "The United States declared war on Germany on April 6, 1917, and from World War I onward Britain and the United States together fill the role. This power is still the king of the south today, and the prophecy shows it will still exist at Armageddon.",
+   "refs": "Da 11:40; 2:43-45; Re 19:20",
+   "sources": "w20.05 pp. 2-7; w20.05 pp. 12-16; dp chap. 15"
+  },
+  {
+   "id": "league",
+   "lane": "org",
+   "y": 1920,
+   "f": 0,
+   "name": "League of Nations",
+   "when": "1920 – 1939",
+   "rank": 3,
+   "y2": 1939,
+   "f2": 0.67,
+   "text": "The Anglo-American World Power took the lead in creating the League of Nations, which was brought to life in 1920. Germany was a member from 1926 to 1933. It stopped working as a peace organization when World War II broke out in 1939. In Revelation it is the image of the wild beast, and the scarlet beast that “was, but is not.”",
+   "refs": "Re 13:11, 14, 15; 17:8; Da 12:11",
+   "sources": "w20.05 chart “Rival Kings in the Time of the End”; re chap. 33; dp chap. 15"
+  },
+  {
+   "id": "un",
+   "lane": "org",
+   "y": 1945,
+   "f": 0.81,
+   "name": "United Nations",
+   "when": "1945 – today",
+   "rank": 3,
+   "y2": 2026,
+   "f2": 0.9,
+   "text": "The United Nations was established on October 24, 1945, with 50 member nations. The two kings, though rivals, cooperated in it. It is identified as “the disgusting thing that causes desolation” and as the scarlet beast come up out of the abyss. The prophecy shows that it will yet turn against false religion.",
+   "refs": "Da 11:31; Re 17:3, 7-11, 16",
+   "sources": "w20.05 chart “Rival Kings in the Time of the End”; w20.05 pp. 2-7; dp chap. 15"
+  },
+  {
+   "id": "seleucus-i",
+   "lane": "north",
+   "y": -301,
+   "f": 0,
+   "name": "Seleucus I Nicator",
+   "when": "Ruling by 301 B.C.E.; killed 281 B.C.E.",
+   "rank": 2,
+   "text": "The first king of the north.",
+   "refs": "Da 11:5",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "antiochus-ii",
+   "lane": "north",
+   "y": -250,
+   "f": 0,
+   "name": "Antiochus II",
+   "when": "250 B.C.E.",
+   "rank": 1,
+   "text": "To seal an alliance he divorced his wife Laodice and married Berenice, daughter of Ptolemy II. After Ptolemy II died in 246 B.C.E., Laodice had Berenice and her son murdered and poisoned Antiochus.",
+   "refs": "Da 11:6",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "seleucus-ii",
+   "lane": "north",
+   "y": -242,
+   "f": 0,
+   "name": "Seleucus II",
+   "when": "c. 242 B.C.E.",
+   "rank": 1,
+   "text": "He moved against Egypt, was defeated and retreated to Antioch.",
+   "refs": "Da 11:7-9",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "antiochus-iii-raphia",
+   "lane": "north",
+   "y": -217,
+   "f": 0,
+   "name": "Antiochus III defeated at Raphia",
+   "when": "217 B.C.E.",
+   "rank": 2,
+   "text": "Antiochus III won back territory but lost the battle of Raphia to Ptolemy IV.",
+   "refs": "Da 11:10-12",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "antiochus-iii-jerusalem",
+   "lane": "north",
+   "y": -198,
+   "f": 0,
+   "name": "Antiochus III takes Jerusalem",
+   "when": "198 B.C.E.",
+   "rank": 2,
+   "text": "Returning with a larger army, he captured Sidon and Jerusalem. Judah passed from Egypt’s control to Syria’s.",
+   "refs": "Da 11:13-16",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "antiochus-iii-magnesia",
+   "lane": "north",
+   "y": -190,
+   "f": 0,
+   "name": "Rome defeats Antiochus III",
+   "when": "190 B.C.E.",
+   "rank": 1,
+   "text": "Rome drove him out of Greece and Asia Minor, defeating him at Magnesia. He died in 187 B.C.E. and Seleucus IV succeeded him.",
+   "refs": "Da 11:18, 19",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "antiochus-iv",
+   "lane": "north",
+   "y": -168,
+   "f": 0,
+   "name": "Antiochus IV forced out of Egypt",
+   "when": "168 B.C.E.",
+   "rank": 1,
+   "text": "Rome made him leave Egypt and he returned to Syria. He died in 163 B.C.E.",
+   "sources": "dp chap. 14"
+  },
+  {
+   "id": "augustus",
+   "lane": "north",
+   "y": -27,
+   "f": 0,
+   "name": "Augustus",
+   "when": "27 B.C.E. – 14 C.E.",
+   "rank": 2,
+   "y2": 14,
+   "f2": 0.6,
+   "text": "Octavian was given the title Augustus in 27 B.C.E. In 2 B.C.E. he ordered the registration that brought Joseph and Mary to Bethlehem, where Jesus was born. He died in 14 C.E.",
+   "refs": "Da 11:20; Lu 2:1-7",
+   "sources": "dp chap. 14"
+  },
+  {
+   "id": "tiberius",
+   "lane": "north",
+   "y": 14,
+   "f": 0.65,
+   "name": "Tiberius",
+   "when": "14 – 37 C.E.",
+   "rank": 2,
+   "y2": 37,
+   "f2": 0.2,
+   "text": "Adopted by Augustus in 4 C.E., he became emperor at 54 and ruled until March 37 C.E. Jesus was put to death during his reign, on Nisan 14, 33 C.E.",
+   "refs": "Da 11:21-24",
+   "sources": "dp chap. 14"
+  },
+  {
+   "id": "ptolemy-i",
+   "lane": "south",
+   "y": -305,
+   "f": 0,
+   "name": "Ptolemy I",
+   "when": "King from 305 B.C.E.",
+   "rank": 2,
+   "text": "The first king of the south.",
+   "refs": "Da 11:5",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "ptolemy-ii",
+   "lane": "south",
+   "y": -250,
+   "f": 0,
+   "name": "Ptolemy II",
+   "when": "250 B.C.E.; died 246 B.C.E.",
+   "rank": 1,
+   "text": "He gave his daughter Berenice in marriage to Antiochus II to form an alliance.",
+   "refs": "Da 11:6",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "ptolemy-iii",
+   "lane": "south",
+   "y": -246,
+   "f": 0.5,
+   "name": "Ptolemy III",
+   "when": "After 246 B.C.E.",
+   "rank": 1,
+   "text": "He avenged his sister Berenice, took the fortified part of Antioch and carried gods, silver and gold back to Egypt.",
+   "refs": "Da 11:7-9",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "ptolemy-iv",
+   "lane": "south",
+   "y": -217,
+   "f": 0.3,
+   "name": "Ptolemy IV wins at Raphia",
+   "when": "217 B.C.E.",
+   "rank": 1,
+   "text": "He defeated Antiochus III at Raphia but did not use his strong position.",
+   "refs": "Da 11:10-12",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "ptolemy-v",
+   "lane": "south",
+   "y": -193,
+   "f": 0,
+   "name": "Ptolemy V marries Cleopatra I",
+   "when": "193 B.C.E.",
+   "rank": 1,
+   "text": "Antiochus III gave him his daughter Cleopatra I, with Judah as her dowry, hoping to control Egypt. She sided with her husband. Ptolemy V was later poisoned and Ptolemy VI succeeded him.",
+   "refs": "Da 11:13-19",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "alexander",
+   "lane": "events",
+   "y": -336,
+   "f": 0,
+   "name": "Alexander becomes king",
+   "when": "336 B.C.E.",
+   "rank": 2,
+   "text": "Alexander the Great becomes king of Macedonia and goes on to conquer the Persian Empire.",
+   "refs": "Da 11:3",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "alexander-dies",
+   "lane": "events",
+   "y": -323,
+   "f": 0,
+   "name": "Alexander dies in Babylon",
+   "when": "323 B.C.E.",
+   "rank": 1,
+   "text": "His empire does not pass to his descendants.",
+   "refs": "Da 11:4",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "four-generals",
+   "lane": "events",
+   "y": -301,
+   "f": 0.4,
+   "name": "Empire divided among four generals",
+   "when": "By 301 B.C.E.",
+   "rank": 2,
+   "text": "Cassander, Lysimachus, Seleucus I Nicator and Ptolemy I rule the four parts.",
+   "refs": "Da 11:4",
+   "sources": "dp chap. 13"
+  },
+  {
+   "id": "syria-province",
+   "lane": "events",
+   "y": -64,
+   "f": 0,
+   "name": "Syria becomes a Roman province",
+   "when": "64 B.C.E.",
+   "rank": 1,
+   "sources": "dp chap. 14"
+  },
+  {
+   "id": "egypt-province",
+   "lane": "events",
+   "y": -30,
+   "f": 0.4,
+   "name": "Egypt becomes a Roman province",
+   "when": "30 B.C.E.",
+   "rank": 1,
+   "text": "After Octavian defeated Antony and Cleopatra at Actium in 31 B.C.E.",
+   "sources": "dp chap. 14"
+  },
+  {
+   "id": "jesus-born",
+   "lane": "events",
+   "y": -2,
+   "f": 0.75,
+   "name": "Jesus is born",
+   "when": "2 B.C.E.",
+   "rank": 1,
+   "text": "Born in Bethlehem during the registration ordered by Augustus.",
+   "refs": "Lu 2:1-7",
+   "sources": "dp chap. 14"
+  },
+  {
+   "id": "jesus-dies",
+   "lane": "events",
+   "y": 33,
+   "f": 0.25,
+   "name": "Jesus is put to death",
+   "when": "Nisan 14, 33 C.E.",
+   "rank": 2,
+   "text": "In the reign of Tiberius, under the governor Pontius Pilate.",
+   "refs": "Da 11:22",
+   "sources": "dp chap. 14"
+  },
+  {
+   "id": "ww1",
+   "lane": "events",
+   "y": 1914,
+   "f": 0.57,
+   "name": "World War I begins; God’s Kingdom is established",
+   "when": "1914",
+   "rank": 3,
+   "text": "Austria-Hungary declared war on Serbia on July 28, 1914. That same year Christ’s Kingdom was established in the heavens.",
+   "refs": "Da 11:29; 12:1",
+   "sources": "dp chap. 15; w20.05 pp. 12-16"
+  },
+  {
+   "id": "us-enters",
+   "lane": "events",
+   "y": 1917,
+   "f": 0.26,
+   "name": "United States enters the war",
+   "when": "April 6, 1917",
+   "rank": 1,
+   "text": "The United States declares war on Germany.",
+   "sources": "dp chap. 15"
+  },
+  {
+   "id": "germany-defeated",
+   "lane": "events",
+   "y": 1918,
+   "f": 0.87,
+   "name": "Germany is defeated",
+   "when": "November 1918",
+   "rank": 2,
+   "text": "Germany concedes defeat, the kaiser flees and Germany becomes a republic.",
+   "refs": "Da 11:30a",
+   "sources": "dp chap. 15; w20.05 pp. 2-7"
+  },
+  {
+   "id": "faithful-slave",
+   "lane": "events",
+   "y": 1919,
+   "f": 0.5,
+   "name": "Faithful slave appointed",
+   "when": "1919",
+   "rank": 1,
+   "refs": "Mt 24:45",
+   "sources": "w20.05 chart “Rival Kings in the Time of the End”"
+  },
+  {
+   "id": "hitler",
+   "lane": "events",
+   "y": 1933,
+   "f": 0.05,
+   "name": "Hitler becomes chancellor",
+   "when": "January 1933",
+   "rank": 1,
+   "refs": "Da 11:30b",
+   "sources": "dp chap. 15"
+  },
+  {
+   "id": "ww2",
+   "lane": "events",
+   "y": 1939,
+   "f": 0.67,
+   "name": "World War II begins",
+   "when": "September 1, 1939",
+   "rank": 3,
+   "text": "Nazi forces invade Poland. Britain and France declare war two days later.",
+   "refs": "Da 11:31a",
+   "sources": "dp chap. 15"
+  },
+  {
+   "id": "germany-surrenders",
+   "lane": "events",
+   "y": 1945,
+   "f": 0.35,
+   "name": "Germany surrenders",
+   "when": "May 7, 1945",
+   "rank": 1,
+   "sources": "dp chap. 15"
+  },
+  {
+   "id": "cold-war",
+   "lane": "events",
+   "y": 1948,
+   "f": 0,
+   "name": "Cold War",
+   "when": "1948 – 1989",
+   "rank": 2,
+   "y2": 1989,
+   "f2": 0.9,
+   "text": "The two kings “push” at each other through an arms race, proxy wars and spying. NATO is formed after World War II.",
+   "refs": "Da 11:40",
+   "sources": "dp chap. 16; w20.05 pp. 12-16"
+  },
+  {
+   "id": "soviet-ends",
+   "lane": "events",
+   "y": 1991,
+   "f": 0.95,
+   "name": "Soviet Union disbands",
+   "when": "December 1991",
+   "rank": 3,
+   "text": "God’s people in the region have a period of freedom, and the number of publishers there rises into the hundreds of thousands.",
+   "refs": "Da 11:34",
+   "sources": "dp chap. 16; w20.05 pp. 2-7; w20.05 pp. 12-16"
+  },
+  {
+   "id": "russia-ban",
+   "lane": "events",
+   "y": 2017,
+   "f": 0.3,
+   "name": "Russia bans Jehovah’s Witnesses",
+   "when": "2017",
+   "rank": 2,
+   "text": "Russia bans the work, imprisons some Witnesses, bans publications including the New World Translation, and confiscates the branch office and Kingdom Halls.",
+   "refs": "Da 11:41",
+   "sources": "w20.05 pp. 12-16"
+  },
+  {
+   "id": "identified",
+   "lane": "events",
+   "y": 2018,
+   "f": 0.5,
+   "name": "Russia and its allies identified",
+   "when": "2018",
+   "rank": 1,
+   "text": "The Governing Body identifies Russia and its allies as the king of the north.",
+   "sources": "w20.05 pp. 12-16"
+  },
+  {
+   "id": "ukraine",
+   "lane": "events",
+   "y": 2022,
+   "f": 0.15,
+   "name": "Russia invades Ukraine",
+   "when": "February 24, 2022",
+   "rank": 1,
+   "text": "A jw.org article on the invasion points to Daniel 11:25-45 and to Russia and its allies as the king of the north.",
+   "refs": "Da 11:25-45; Mt 24:7",
+   "sources": "jw.org article “Russia Invades Ukraine”"
+  }
+ ],
+ "references": [
+  {
+   "label": "“‘The King of the North’ in the Time of the End,” The Watchtower, May 2020, pp. 2-7",
+   "url": "https://www.jw.org/en/library/magazines/watchtower-study-may-2020/The-King-of-the-North-in-the-Time-of-the-End/"
+  },
+  {
+   "label": "“Who Is ‘the King of the North’ Today?” The Watchtower, May 2020, pp. 12-16",
+   "url": "https://wol.jw.org/en/wol/d/r1/lp-e/2020401"
+  },
+  {
+   "label": "Chart: “Rival Kings in the Time of the End,” The Watchtower, May 2020",
+   "url": "https://wol.jw.org/en/wol/pc/r1/lp-e/1200273282/1/0"
+  },
+  {
+   "label": "Pay Attention to Daniel’s Prophecy! chap. 13, “Two Kings in Conflict”",
+   "url": "https://www.jw.org/en/library/books/Pay-Attention-to-Daniels-Prophecy/Two-Kings-in-Conflict/"
+  },
+  {
+   "label": "Pay Attention to Daniel’s Prophecy! chap. 14, “The Two Kings Change Identities”",
+   "url": "https://www.jw.org/en/library/books/Pay-Attention-to-Daniels-Prophecy/The-Two-Kings-Change-Identities/"
+  },
+  {
+   "label": "Pay Attention to Daniel’s Prophecy! chap. 15, “The Rival Kings Enter the 20th Century”",
+   "url": "https://www.jw.org/en/library/books/Pay-Attention-to-Daniels-Prophecy/The-Rival-Kings-Enter-the-20th-Century/"
+  },
+  {
+   "label": "Pay Attention to Daniel’s Prophecy! chap. 16, “The Contending Kings Near Their End”",
+   "url": "https://www.jw.org/en/library/books/Pay-Attention-to-Daniels-Prophecy/The-Contending-Kings-Near-Their-End/"
+  },
+  {
+   "label": "Revelation—Its Grand Climax At Hand! chap. 33",
+   "url": "https://wol.jw.org/en/wol/d/r1/lp-e/1101988033"
+  },
+  {
+   "label": "“Russia Invades Ukraine—Is Bible Prophecy Being Fulfilled?”",
+   "url": "https://www.jw.org/en/library/series/more-topics/russia-invades-ukraine-bible-meaning-hope/"
+  }
+ ]
+}

@@ -177,7 +177,7 @@ npm run sync -- --dry-run    # only show what would change
 | `src/kings-prophets.json` | Hand-written. The text for that page: the kings in story order, and the prophets |
 | `src/App.vue` | The strip of links at the top, and switching between the pages (`#/`, `#/kings`, `#/t/<topic>`) |
 | `src/TopicTimeline.vue` | One zoomable timeline for a topic. The same component draws all six |
-| `src/topics/*.json` | Hand-written. One file per topic: `patriarchs`, `judges`, `powers`, `books`, `jesus`, `paul` |
+| `src/topics/*.json` | Hand-written. One file per topic: `patriarchs`, `judges`, `powers`, `north-south` (Daniel 11), `books`, `jesus`, `paul` |
 | `src/topics/index.js` | The shared index of everything that has a place in time. It works out the "At the same time" links |
 | `src/Related.vue` | The "At the same time" box shown in every details panel |
 | `public/manifest.webmanifest`, `public/icons/` | The app's name, colours and icons for installing it |
@@ -244,8 +244,10 @@ Translation, so a few differ by a year from the timeline.
 
 ### The topic timelines and how they connect
 
-Six more timelines sit beside the main one and Kings and Prophets: lifespans from Adam to Joseph,
-the Judges, world powers, when the Bible books were written, the life of Jesus, and Paul. Each is
+Seven more timelines sit beside the main one and Kings and Prophets: lifespans from Adam to Joseph,
+the Judges, world powers, the king of the north and the king of the south (Daniel 11, with the
+League of Nations and the United Nations), when the Bible books were written, the life of Jesus,
+and Paul. Each is
 one file in `src/topics/`, and none of them is touched by the Google Doc sync.
 
 In a topic file:

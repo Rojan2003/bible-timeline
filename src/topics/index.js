@@ -6,6 +6,7 @@ import books from './books.json';
 import powers from './powers.json';
 import patriarchs from './patriarchs.json';
 import judges from './judges.json';
+import northSouth from './north-south.json';
 import KP from '../kings-prophets.json';
 import PERIODS from '../periods.json';
 
@@ -22,7 +23,7 @@ function prepare(t) {
   });
   return { ...t, c0: cont(t.min.y, t.min.f), c1: cont(t.max.y, t.max.f), items };
 }
-export const topics = [patriarchs, judges, powers, books, jesus, paul].map(prepare);
+export const topics = [patriarchs, judges, powers, northSouth, books, jesus, paul].map(prepare);
 export const topicById = Object.fromEntries(topics.map((t) => [t.id, t]));
 
 // The pages, in the order shown in the navigation.
@@ -40,13 +41,13 @@ for (const t of topics) {
   for (const d of t.items) {
     if (d.noCross) continue;
     const group = t.id === 'books' ? 'Bible books completed' : t.id === 'powers' && d.lane === 'power' ? 'World power'
-      : t.id === 'paul' && d.lane === 'letters' ? 'Paul’s letters' : t.id === 'patriarchs' && d.lane === 'lives' ? 'Alive at the time' : t.id === 'powers' ? 'World events' : t.id === 'jesus' ? 'In the life of Jesus' : t.id === 'paul' ? 'Paul and the congregation' : t.title;
+      : t.id === 'paul' && d.lane === 'letters' ? 'Paul’s letters' : t.id === 'patriarchs' && d.lane === 'lives' ? 'Alive at the time' : t.id === 'north-south' ? (d.lane === 'north' ? 'King of the north' : d.lane === 'south' ? 'King of the south' : d.lane === 'org' ? 'World organization' : 'Daniel 11 events') : t.id === 'powers' ? 'World events' : t.id === 'jesus' ? 'In the life of Jesus' : t.id === 'paul' ? 'Paul and the congregation' : t.title;
     all.push({ key: t.id + ':' + d.id, group, name: d.name, c0: d.c0, c1: d.c1, bar: d.bar, rank: d.rank || 1, href: '#/t/' + t.id + '?sel=' + d.id });
   }
 }
 const periods = PERIODS.map((p) => ({ key: 'period:' + p.id, group: 'Period on the main timeline', name: p.title, c0: cont(p.from), c1: cont(p.to), bar: true, href: '#/timeline?y=' + p.from + '&info=1' }));
 
-const ORDER = ['Period on the main timeline', 'World power', 'Kings of Judah', 'Kings of Israel', 'Prophets', 'Alive at the time', 'Bible books completed', 'Paul’s letters'];
+const ORDER = ['Period on the main timeline', 'World power', 'King of the north', 'King of the south', 'World organization', 'Kings of Judah', 'Kings of Israel', 'Prophets', 'Alive at the time', 'Bible books completed', 'Paul’s letters'];
 const MAX = 7;
 
 // What overlaps the years c0..c1 (number-line years), grouped, leaving out `selfKey` and anything
